@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ryan.queensutour" >
 
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -23,11 +27,44 @@
             android:theme="@style/FullscreenTheme" >
             <meta-data
                 android:name="com.google.android.maps.v2.API_KEY"
-                android:value="AIzaSyDKp6WTNcxIOShZm2KTqtb5PQUCA7guVm4"/>
+                android:value="AIzaSyDKp6WTNcxIOShZm2KTqtb5PQUCA7guVm4" />
         </activity>
-
+        <activity
+            android:name=".CampusMap"
+            android:label="@string/title_activity_campus_map"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ryan.queensutour.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Gallery"
+            android:label="@string/title_activity_gallery"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ryan.queensutour.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FunFacts"
+            android:label="@string/title_activity_fun_facts"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ryan.queensutour.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FAQ"
+            android:label="@string/title_activity_faq"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ryan.queensutour.MainActivity" />
+        </activity>
+        <activity
+            android:name=".LinksAndContacts"
+            android:label="@string/title_activity_links_and_contacts" >
+        </activity>
     </application>
-    <uses-feature
-        android:glEsVersion="0x00020000"
-        android:required="true"/>
+
 </manifest>
