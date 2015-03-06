@@ -10,8 +10,12 @@
     <string name="button4">Fun Facts</string>
     <string name="button5">F.A.Q.</string>
     <string name="button6">Links and Contacts</string>
-    <string name="title_activity_guided_tour">GuidedTour</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_guided_tour">Take the Tour</string>
+    <string name="title_activity_campus_map">Map of Campus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_fun_facts">Fun Facts</string>
+    <string name="title_activity_faq">Frequently Asked Questions</string>
+    <string name="title_activity_links_and_contacts">Links and Contacts</string>
 
 </resources>
