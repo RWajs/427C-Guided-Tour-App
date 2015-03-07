@@ -17,5 +17,6 @@
     <string name="title_activity_fun_facts">Fun Facts</string>
     <string name="title_activity_faq">Frequently Asked Questions</string>
     <string name="title_activity_links_and_contacts">Links and Contacts</string>
+    <string name="title_activity_google_map_of_campus">Map</string>
 
 </resources>

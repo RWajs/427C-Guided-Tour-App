@@ -8,8 +8,35 @@
     android:background="@drawable/background">
 
 
+
     <TextView android:text="This is the campus map page" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView" />
+        android:id="@+id/textCampusMap"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google Maps View"
+        android:id="@+id/buttonGoogleMapsView"
+        android:background="@drawable/button_back"
+        android:layout_above="@+id/buttonPictureView"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Picture View (Offline)"
+        android:id="@+id/buttonPictureView"
+        android:background="@drawable/button_back"
+    android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp" />
+
+
+
 
 </RelativeLayout>
