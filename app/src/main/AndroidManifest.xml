@@ -49,14 +49,6 @@
                 android:value="com.example.ryan.queensutour.MainActivity" />
         </activity>
         <activity
-            android:name=".Gallery"
-            android:label="@string/title_activity_gallery"
-            android:parentActivityName=".MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.ryan.queensutour.MainActivity" />
-        </activity>
-        <activity
             android:name=".FunFacts"
             android:label="@string/title_activity_fun_facts"
             android:parentActivityName=".MainActivity" >
@@ -87,6 +79,10 @@
         <activity
             android:name=".GoogleMapOfCampus"
             android:label="@string/title_activity_google_map_of_campus" >
+        </activity>
+        <activity
+            android:name=".ListOfGallery"
+            android:label="@string/title_activity_list_of_gallery" >
         </activity>
     </application>
 
