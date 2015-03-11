@@ -1,13 +1,125 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.ryan.queensutour.FAQ"
-    android:background="@drawable/background">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#7f00ff"
+    android:layout_height="650dp"
+    android:fillViewport="false"
+    android:id="@+id/ScrollView">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout1"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal">
 
-    <TextView android:text="This is the F.A.Q page" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"/>
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TitleFAQPage"
+            android:id="@+id/TitleFAQ"
+            android:layout_gravity="center_horizontal"
+            style="@style/TitleFAQPage"/>
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Question1FAQPage"
+            android:id="@+id/Question1"
+            style="@style/QuestionFAQPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Answer1FAQPage"
+            android:id="@+id/Answer1FAQPage"
+            style="@style/AnswerFAQPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q2FAQPage"
+            android:id="@+id/Q2"
+            style="@style/QuestionFAQPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/A2FAQPage"
+            android:id="@+id/A2"
+            style="@style/AnswerFAQPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q3FAQPage"
+            android:id="@+id/Q3"
+            style="@style/QuestionFAQPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/A3FAQPage"
+            android:id="@+id/A3"
+            style="@style/AnswerFAQPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q4FAQPage"
+            android:id="@+id/Q4"
+            style="@style/QuestionFAQPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/A4FAQPage"
+            android:id="@+id/A4"
+            style="@style/AnswerFAQPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q5FAQPage"
+            android:id="@+id/Q5"
+            style="@style/QuestionFAQPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/A5FAQPage"
+            android:id="@+id/A5"
+            style="@style/AnswerFAQPage" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

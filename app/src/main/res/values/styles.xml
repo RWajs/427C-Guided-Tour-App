@@ -23,6 +23,8 @@
 
     <style name="ButtonBarButton" />
 
+    //Styles for Large Menu with each building button
+
     <style name="Title">
         <item name="android:textSize">28sp</item>
         <item name="android:textStyle">bold</item>
@@ -64,6 +66,49 @@
         <item name="android:background">#7f00ff</item>
     </style>
 
+//links and contacts style
+
+    <style name="TitleContactsPage">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name= "android:textColor">#f2edf6</item>
+    </style>
+
+    <style name="SubTitleContactsPage">
+        <item name="android:textSize">21sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name= "android:textColor">#f2edf6</item>
+    </style>
+
+    <style name="PersonContactsPage">
+        <item name="android:textSize">20sp</item>
+        <item name= "android:textColor">#f2edf6</item>
+    </style>
+
+    <style name="InformationContactsPage">
+        <item name="android:textSize">18sp</item>
+        <item name= "android:textColor">#f2edf6</item>
+    </style>
+
+    //FAQ Style
+
+
+    <style name="TitleFAQPage">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name= "android:textColor">#f2edf6</item>
+    </style>
+
+    <style name="QuestionFAQPage">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name= "android:textColor">#f2edf6</item>
+    </style>
+
+    <style name="AnswerFAQPage">
+        <item name="android:textSize">18sp</item>
+        <item name= "android:textColor">#f2edf6</item>
+    </style>
 
 
 </resources>

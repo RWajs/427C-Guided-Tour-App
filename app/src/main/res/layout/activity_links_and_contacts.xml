@@ -1,13 +1,109 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.ryan.queensutour.LinksAndContacts"
-    android:background="@drawable/background">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#7f00ff"
+    android:layout_height="650dp"
+    android:fillViewport="false"
+    android:id="@+id/ScrollView">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout1"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal">
 
-    <TextView android:text="This is the Links and Contacts page" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"/>
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TitleContactsPage"
+            android:id="@+id/TitleContact"
+            android:layout_gravity="center_horizontal"
+            style="@style/TitleContactsPage"/>
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/GenInfo"
+            android:id="@+id/GenInfo"
+            style="@style/SubTitleContactsPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/C1"
+            android:id="@+id/C1"
+            style="@style/PersonContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Info1"
+            android:id="@+id/Info1"
+            style="@style/InformationContactsPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/C2"
+            android:id="@+id/C2"
+            style="@style/PersonContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Info2"
+            android:id="@+id/Info2"
+            style="@style/InformationContactsPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FirstYO"
+            android:id="@+id/FirstYO"
+            style="@style/SubTitleContactsPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/C3"
+            android:id="@+id/C3"
+            style="@style/PersonContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Info3"
+            android:id="@+id/Info3"
+            style="@style/InformationContactsPage" />
+
+    </LinearLayout>
+
+</ScrollView>

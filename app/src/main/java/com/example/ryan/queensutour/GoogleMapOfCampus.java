@@ -74,7 +74,7 @@ public class GoogleMapOfCampus extends FragmentActivity {
 
 
 
-        mMap.addMarker(new MarkerOptions().position(new LatLng(44.225883, -76.495150)).title("Grant Hall"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(44.225883, -76.495150)).title("Grant Hall/Kingston Hall"));
 
         mMap.addMarker(new MarkerOptions().position(new LatLng(44.228439, -76.494598)).title("John Deutsch University Centre"));
         mMap.addMarker(new MarkerOptions().position(new LatLng(44.229154, -76.494340)).title("Queen's Athletics and Recreational Centre"));
@@ -87,15 +87,13 @@ public class GoogleMapOfCampus extends FragmentActivity {
 
         mMap.addMarker(new MarkerOptions().position(new LatLng(44.227351, -76.492838)).title("Miller Hall"));
         mMap.addMarker(new MarkerOptions().position(new LatLng(44.225960, -76.492500)).title("Summerhill"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(44.228139, -76.492774)).title("Integrated Learning Centre"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(44.227950, -76.492399)).title("Goodwin Hall"));
 
-
-
-
-
-
-
-
-
+        mMap.addMarker(new MarkerOptions().position(new LatLng(44.226693, -76.493850)).title("Clark Hall"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(44.227359, -76.495118)).title("Douglas Library"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(44.226679, -76.498171)).title("Tindall Field"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(44.224907, -76.494683)).title("Nixon Field"));
 
 
     }

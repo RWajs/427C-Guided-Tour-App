@@ -21,4 +21,35 @@
     <string name="title_activity_list_of_gallery">ListOfGallery</string>
     <string name="EngTitle">Eng</string>
 
+
+    //Strings for Links and Contacts Page
+
+    <string name="TitleContactsPage">Links and Contacts</string>
+    <string name="GenInfo">General Information</string>
+    <string name="C1"> Stacy Shane</string>
+    <string name="Info1">mgrss@appsci.queensu.ca</string>
+    <string name="C2"> Main Reception</string>
+    <string name="Info2">reception@appsci.queensu.ca</string>
+    <string name="FirstYO">First Year Engineers</string>
+    <string name="C3"> Aphra Rogers</string>
+    <string name="Info3">firstyr@appsci.queensu.ca</string>
+
+
+    //FAQ Strings
+
+    <string name="TitleFAQPage">Frequently Asked Questions</string>
+    <string name="Question1FAQPage">Q) What are all these extra charges I see?</string>
+    <string name="Answer1FAQPage"> LALALALALA </string>
+
+    //A) University is expensive. However, some of the costs are actually optional. For example, student fees include a health and dental plan, bus passes, and gym membership. If you'd like, you can opt out of those fees. Details here: "http://myams.org/society/about-your-ams/student-activity-fees"
+
+    <string name="Q2FAQPage">hi</string>
+    <string name="A2FAQPage">hi</string>
+    <string name="Q3FAQPage">hi</string>
+    <string name="A3FAQPage">hi</string>
+    <string name="Q4FAQPage">hi</string>
+    <string name="A4FAQPage">hi</string>
+    <string name="Q5FAQPage">hi</string>
+    <string name="A5FAQPage">hi</string>
+
 </resources>
