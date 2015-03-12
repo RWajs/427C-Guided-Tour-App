@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#a460ec"
+    android:layout_height="fill_parent"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentTop="true">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="50"
+        android:columnCount="6">
+
+
+            <TextView android:layout_row="9"
+                android:layout_column="1"
+                android:text="Non-Eng"
+                android:id="@+id/MiscTitle"
+                style="@style/Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+            <Button
+                android:layout_width="113dp"
+                android:layout_height="90dp"
+                android:text="Athletic\nRec Centre"
+                style="@style/Type2B"
+                android:id="@+id/Arc"
+                android:layout_row="11"
+                android:layout_column="1"
+                android:layout_margin="3dp"
+                android:layout_marginLeft="4dp" />
+
+            <Button
+                android:layout_width="113dp"
+                android:layout_height="90dp"
+                android:text="Douglas\nHall"
+                android:id="@+id/Douglas"
+                style="@style/Type1"
+                android:layout_row="11"
+                android:layout_column="3"
+                android:layout_margin="3dp" />
+
+            <Button
+                android:layout_width="113dp"
+                android:layout_height="90dp"
+                android:text="Gordon\n Hall"
+                android:id="@+id/Gordon"
+                style="@style/Type2"
+                android:layout_row="11"
+                android:layout_column="5"
+                android:layout_margin="3dp"
+                android:layout_marginRight="4dp" />
+
+
+            <Button
+                android:layout_width="113dp"
+                android:layout_height="90dp"
+                android:text="John Deutsch\nUni. Centre"
+                style="@style/Type1C"
+                android:id="@+id/JDUC"
+                android:layout_row="13"
+                android:layout_column="1"
+                android:layout_margin="3dp"
+                android:layout_marginLeft="4dp" />
+
+            <Button
+                android:layout_width="113dp"
+                android:layout_height="90dp"
+                android:text="Mac/Corry\nHall"
+                android:id="@+id/MCor"
+                style="@style/Type2B"
+                android:layout_row="13"
+                android:layout_column="3"
+                android:layout_margin="3dp" />
+
+            <Button
+                android:layout_width="113dp"
+                android:layout_height="90dp"
+                android:text="Nixon\nField"
+                android:id="@+id/Nixon"
+                style="@style/Type1"
+                android:layout_row="13"
+                android:layout_column="5"
+                android:layout_marginRight="4dp"
+                android:layout_margin="3dp" />
+
+
+            <Button
+                android:layout_width="113dp"
+                android:layout_height="90dp"
+                android:text="Stauffer\nLibrary"
+                style="@style/Type2"
+                android:id="@+id/Stauff"
+                android:layout_row="15"
+                android:layout_column="1"
+                android:layout_margin="3dp"
+                android:layout_marginLeft="4dp" />
+
+            <Button
+                android:layout_width="113dp"
+                android:layout_height="90dp"
+                android:text="Tindall\nField"
+                android:id="@+id/Tindall"
+                style="@style/Type2"
+                android:layout_row="15"
+                android:layout_column="5"
+                android:layout_marginRight="4dp"
+                android:layout_margin="3dp" />
+
+
+
+</GridLayout>
+
+</ScrollView>

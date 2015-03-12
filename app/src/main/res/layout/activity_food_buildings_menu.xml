@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#a460ec"
+    android:layout_height="fill_parent">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="50"
+        android:columnCount="6"
+        android:orientation="horizontal"
+        >
+
+        <TextView android:layout_row="17"
+            android:layout_column="1"
+            android:text="Cafeterias"
+            android:id="@+id/FoodTitle"
+            style="@style/TitleB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="113dp"
+            android:layout_height="90dp"
+            android:text="Ban-Righ\nCafeteria"
+            style="@style/Type1B"
+            android:id="@+id/Ban"
+            android:layout_row="19"
+            android:layout_column="1"
+            android:layout_margin="3dp"
+            android:layout_marginLeft="4dp" />
+
+        <Button
+            android:layout_width="113dp"
+            android:layout_height="90dp"
+            android:text="The Lazy\nScholar"
+            android:id="@+id/Lazy"
+            style="@style/Type2"
+            android:layout_row="19"
+            android:layout_column="3"
+            android:layout_margin="3dp" />
+
+        <Button
+            android:layout_width="113dp"
+            android:layout_height="90dp"
+            android:text="Leonard\nCafeteria"
+            android:id="@+id/Lenny"
+            style="@style/Type1"
+            android:layout_row="19"
+            android:layout_column="5"
+            android:layout_margin="3dp"
+            android:layout_marginRight="4dp" />
+
+        </GridLayout>
+    </ScrollView>

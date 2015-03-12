@@ -1,10 +1,13 @@
 package com.example.ryan.queensutour;
 
+import android.content.pm.ActivityInfo;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.example.ryan.queensutour.R;
 
 
 public class ListOfGallery extends ActionBarActivity {
@@ -15,9 +18,7 @@ public class ListOfGallery extends ActionBarActivity {
         setContentView(R.layout.activity_list_of_gallery);
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
-
-
-
+        setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
     }
 

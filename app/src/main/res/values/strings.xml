@@ -51,5 +51,11 @@
     <string name="A4FAQPage">hi</string>
     <string name="Q5FAQPage">hi</string>
     <string name="A5FAQPage">hi</string>
+    <string name="title_activity_google_guided_tour">Map</string>
+    <string name="title_activity_engineering_buildings_menu">EngineeringBuildingsMenu</string>
+    <string name="title_activity_non_engineering_buildings_menu">NonEngineeringBuildingsMenu
+    </string>
+    <string name="title_activity_food_buildings_menu">FoodBuildingsMenu</string>
+    <string name="title_activity_historical_buildings_menu">HistoricalBuildingsMenu</string>
 
 </resources>

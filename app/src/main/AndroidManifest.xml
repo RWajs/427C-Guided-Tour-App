@@ -32,15 +32,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".GuidedTour"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_guided_tour"
-            android:theme="@style/FullscreenTheme" >
-            <meta-data
-                android:name="com.google.android.maps.v2.API_KEY"
-                android:value="AIzaSyDKp6WTNcxIOShZm2KTqtb5PQUCA7guVm4" />
-        </activity>
-        <activity
             android:name=".CampusMap"
             android:label="@string/title_activity_campus_map"
             android:parentActivityName=".MainActivity" >
@@ -83,6 +74,26 @@
         <activity
             android:name=".ListOfGallery"
             android:label="@string/title_activity_list_of_gallery" >
+        </activity>
+        <activity
+            android:name=".GoogleGuidedTour"
+            android:label="@string/title_activity_google_guided_tour" >
+        </activity>
+        <activity
+            android:name=".EngineeringBuildingsMenu"
+            android:label="@string/title_activity_engineering_buildings_menu" >
+        </activity>
+        <activity
+            android:name=".NonEngineeringBuildingsMenu"
+            android:label="@string/title_activity_non_engineering_buildings_menu" >
+        </activity>
+        <activity
+            android:name=".FoodBuildingsMenu"
+            android:label="@string/title_activity_food_buildings_menu" >
+        </activity>
+        <activity
+            android:name=".HistoricalBuildingsMenu"
+            android:label="@string/title_activity_historical_buildings_menu" >
         </activity>
     </application>
 

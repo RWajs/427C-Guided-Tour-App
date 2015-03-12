@@ -1,375 +1,54 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:background="#a460ec"
-    android:layout_height="fill_parent">
-    <GridLayout
-        android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+    <Button
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:rowCount="50"
-        android:columnCount="6"
-        android:orientation="horizontal"
-        >
+        android:text="Engineering Buildings"
+        android:id="@+id/buttonEngBuildings"
+        android:background="@drawable/button_back"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonFoodBuildings"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp" />
 
-        <TextView android:layout_row="0"
-            android:layout_column="1"
-            android:text="@string/EngTitle"
-            android:id="@+id/EngTitle"
-            style="@style/Title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Non-Engineering Buildings"
+        android:id="@+id/buttonNonEngBuildings"
+        android:background="@drawable/button_back"
+        android:layout_marginTop="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp" />
 
-        <Space android:layout_row="1"
-            android:layout_column="0"
-            android:layout_width="8dp"
-            android:layout_height="30dp"/>
-        <Space android:layout_row="1"
-            android:layout_column="2"
-            android:layout_width="14dp"
-            android:layout_height="30dp"/>
-        <Space android:layout_row="1"
-            android:layout_column="4"
-            android:layout_width="14dp"
-            android:layout_height="30dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Buildings"
+        android:id="@+id/buttonFoodBuildings"
+        android:background="@drawable/button_back"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonNonEngBuildings"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp" />
 
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Chernoff\nHall"
-            android:id="@+id/Chernoff"
-            style="@style/Type1"
-            android:layout_row="1"
-            android:layout_column="1" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Historical Buildings"
+        android:id="@+id/buttonHistoricalBuildings"
+        android:background="@drawable/button_back"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonEngBuildings"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp" />
 
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Clark \nHall"
-            android:id="@+id/Clark"
-            style="@style/Type2"
-            android:layout_row="1"
-            android:layout_column="3" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Dupuis\nHall"
-            android:id="@+id/Dupuis"
-            style="@style/Type1"
-            android:layout_row="1"
-            android:layout_column="5" />
-
-        <Space android:layout_row="2"
-            android:layout_column="4"
-            android:layout_width="14dp"
-            android:layout_height="10dp"/>
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Ellis\nHall"
-            style="@style/Type2"
-            android:id="@+id/Ellis"
-            android:layout_row="3"
-            android:layout_column="1" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Goodwin \nHall"
-            style="@style/Type1"
-            android:id="@+id/Goodwin"
-            android:layout_row="3"
-            android:layout_column="3" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="ILC\n"
-            style="@style/Type2"
-            android:id="@+id/ILC"
-            android:layout_row="3"
-            android:layout_column="5" />
-
-
-        <Space android:layout_row="4"
-            android:layout_column="4"
-            android:layout_width="14dp"
-            android:layout_height="10dp"/>
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Innovation\nCommons"
-            style="@style/Type1B"
-            android:id="@+id/IC"
-            android:layout_row="5"
-            android:layout_column="1" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Mclaughlin\nHall"
-            android:id="@+id/Maclaughlin"
-            style="@style/Type2B"
-            android:layout_row="5"
-            android:layout_column="3" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Miller\nHall"
-            style="@style/Type1"
-            android:id="@+id/Miller"
-            android:layout_row="5"
-            android:layout_column="5" />
-
-
-        <Space android:layout_row="6"
-            android:layout_column="4"
-            android:layout_width="14dp"
-            android:layout_height="10dp"/>
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Stirling\nHall"
-            style="@style/Type2"
-            android:id="@+id/Stirling"
-            android:layout_row="7"
-            android:layout_column="1" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Walter\nLight"
-            android:id="@+id/Walter"
-            style="@style/Type2"
-            android:layout_row="7"
-            android:layout_column="5" />
-
-        <Space android:layout_row="8"
-            android:layout_column="4"
-            android:layout_width="14dp"
-            android:layout_height="10dp"/>
-
-        <!--Non Eng-->
-        <TextView android:layout_row="9"
-            android:layout_column="1"
-            android:text="Non-Eng"
-            android:id="@+id/MiscTitle"
-            style="@style/Title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-
-        <Space android:layout_row="10"
-            android:layout_column="4"
-            android:layout_width="14dp"
-            android:layout_height="10dp"/>
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Athletic\nRec Centre"
-            style="@style/Type2B"
-            android:id="@+id/Arc"
-            android:layout_row="11"
-            android:layout_column="1" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Douglas\nHall"
-            android:id="@+id/Douglas"
-            style="@style/Type1"
-            android:layout_row="11"
-            android:layout_column="3" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Gordon\n Hall"
-            android:id="@+id/Gordon"
-            style="@style/Type2"
-            android:layout_row="11"
-            android:layout_column="5" />
-
-        <Space android:layout_row="12"
-            android:layout_column="4"
-            android:layout_width="14dp"
-            android:layout_height="10dp"/>
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="John Deutsch\nUni. Centre"
-            style="@style/Type1C"
-            android:id="@+id/JDUC"
-            android:layout_row="13"
-            android:layout_column="1" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Mac/Corry\nHall"
-            android:id="@+id/MCor"
-            style="@style/Type2B"
-            android:layout_row="13"
-            android:layout_column="3" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Nixon\nField"
-            android:id="@+id/Nixon"
-            style="@style/Type1"
-            android:layout_row="13"
-            android:layout_column="5" />
-
-        <Space android:layout_row="14"
-            android:layout_column="4"
-            android:layout_width="14dp"
-            android:layout_height="10dp"/>
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Stauffer\nLibrary"
-            style="@style/Type2"
-            android:id="@+id/Stauff"
-            android:layout_row="15"
-            android:layout_column="1" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Tindall\nField"
-            android:id="@+id/Tindall"
-            style="@style/Type2"
-            android:layout_row="15"
-            android:layout_column="5" />
-
-        <Space android:layout_row="16"
-            android:layout_column="4"
-            android:layout_width="14dp"
-            android:layout_height="10dp"/>
-
-
-        <!--Food-->
-        <TextView android:layout_row="17"
-            android:layout_column="1"
-            android:text="Cafeterias"
-            android:id="@+id/FoodTitle"
-            style="@style/TitleB"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-        <Space android:layout_row="18"
-            android:layout_column="4"
-            android:layout_width="14dp"
-            android:layout_height="10dp"/>
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Ban-Righ\nCafeteria"
-            style="@style/Type1B"
-            android:id="@+id/Ban"
-            android:layout_row="19"
-            android:layout_column="1" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="The Lazy\nScholar"
-            android:id="@+id/Lazy"
-            style="@style/Type2"
-            android:layout_row="19"
-            android:layout_column="3" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Leonard\nCafeteria"
-            android:id="@+id/Lenny"
-            style="@style/Type1"
-            android:layout_row="19"
-            android:layout_column="5" />
-
-        <Space android:layout_row="20"
-            android:layout_column="4"
-            android:layout_width="14dp"
-            android:layout_height="10dp"/>
-
-        <!--Historical-->
-        <TextView android:layout_row="21"
-            android:layout_column="1"
-            android:text="Historical"
-            android:id="@+id/HistTitle"
-            style="@style/TitleB"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-
-        <Space android:layout_row="22"
-            android:layout_column="4"
-            android:layout_width="14dp"
-            android:layout_height="10dp"/>
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Bendickson\nField"
-            style="@style/Type2C"
-            android:id="@+id/Benny"
-            android:layout_row="23"
-            android:layout_column="1" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Grant\nHall"
-            android:id="@+id/Grant"
-            style="@style/Type1"
-            android:layout_row="23"
-            android:layout_column="3" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Kingston\nHall"
-            android:id="@+id/Kingston"
-            style="@style/Type2"
-            android:layout_row="23"
-            android:layout_column="5" />
-
-        <Space android:layout_row="24"
-            android:layout_column="4"
-            android:layout_width="14dp"
-            android:layout_height="10dp"/>
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Nicol\nHall"
-            android:id="@+id/Nicol"
-            style="@style/Type1"
-            android:layout_row="25"
-            android:layout_column="1" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Summerhill\n"
-            android:id="@+id/Shill"
-            style="@style/Type2B"
-            android:layout_row="25"
-            android:layout_column="3" />
-
-        <Button
-            android:layout_width="113dp"
-            android:layout_height="90dp"
-            android:text="Theological\nHall"
-            android:id="@+id/Theo"
-            style="@style/Type2C"
-            android:layout_row="25"
-            android:layout_column="5" />
-        <Space
-            android:layout_row="26"
-            android:layout_column="4"
-            android:layout_width="14dp"
-            android:layout_height="10dp"/>
-
-
-    </GridLayout>
-</ScrollView>
+</RelativeLayout>
