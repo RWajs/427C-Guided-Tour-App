@@ -22,7 +22,7 @@ public class EngineeringBuildingsMenu extends ActionBarActivity {
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         Button button4 = (Button) findViewById(R.id.button4);
-        button.setOnClickListener(new View.OnClickListener() {
+        button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(),EllisHallBuilding.class);
