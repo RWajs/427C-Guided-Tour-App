@@ -111,14 +111,20 @@
     </style>
 
     //Style for Building Information
-    <style name="Information">
+    <style name="BuildingInformation">
         <item name="android:textSize">20sp</item>
         <item name= "android:textColor">#f2edf6</item>
     </style>
-    <style name="SubTitle">
+    <style name="SubTitleBuilding">
         <item name="android:textSize">25sp</item>
         <item name="android:textStyle">bold</item>
         <item name= "android:textColor">#f2edf6</item>
     </style>
+    <style name="BuildingPageTitle">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name= "android:textColor">#f2edf6</item>
+    </style>
+
 
 </resources>

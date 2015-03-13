@@ -16,7 +16,7 @@
         android:text="@string/EllisTitle"
         android:id="@+id/TitleTips"
         android:layout_gravity="center_horizontal"
-        style="@style/Title"/>
+        style="@style/BuildingPageTitle"/>
     <Space
         android:layout_width="15dp"
         android:layout_height="10dp"
@@ -37,7 +37,7 @@
         android:text="@string/LocHour"
         android:id="@+id/TitleLocHour"
         android:layout_gravity="center_horizontal"
-        style="@style/Information"/>
+        style="@style/BuildingInformation"/>
     <Space
         android:layout_width="15dp"
         android:layout_height="10dp"
@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:text="@string/EllisInfoTitle"
         android:id="@+id/InfoTitle"
-        style="@style/SubTitle"/>
+        style="@style/SubTitleBuilding"/>
     <Space
         android:layout_width="15dp"
         android:layout_height="10dp"
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:text="@string/EllisInfo"
             android:id="@+id/BuildInfo"
-            style="@style/Information"/>
+            style="@style/BuildingInformation"/>
     </ScrollView>
     <Space
         android:layout_width="15dp"
@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:text="@string/EllisFactTitle"
         android:id="@+id/EllisFactTitle"
-        style="@style/SubTitle"/>
+        style="@style/SubTitleBuilding"/>
     <Space
         android:layout_width="15dp"
         android:layout_height="10dp"
@@ -88,7 +88,7 @@
             android:layout_height="wrap_content"
             android:text="@string/EllisFact"
             android:id="@+id/EllisFact"
-            style="@style/Information"/>
+            style="@style/BuildingInformation"/>
     </ScrollView>
 
 
