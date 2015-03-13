@@ -38,50 +38,61 @@
         android:id="@+id/TitleLocation"
         android:layout_gravity="center_horizontal"
         style="@style/BuildingInformation"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/EllisInfoTitle"
-        android:id="@+id/InfoTitle"
-        style="@style/SubTitleBuilding"/>
+
     <Space
         android:layout_width="15dp"
         android:layout_height="10dp"
         android:layout_gravity="center_vertical|center_horizontal"/>
     <ScrollView
-        android:layout_width="375dp"
-        android:layout_height="150dp">
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
         <LinearLayout
-            android:layout_width="375dp"
-            android:layout_height="150dp">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EllisInfoTitle"
+                android:id="@+id/InfoTitle"
+                style="@style/SubTitleBuilding"
+                android:layout_alignParentTop="true"/>
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/EllisInfo"
             android:id="@+id/BuildInfo"
-            style="@style/BuildingInformation"/>
+            style="@style/BuildingInformation"
+            android:layout_below="@+id/InfoTitle"/>
+
     <Space
         android:layout_width="15dp"
-        android:layout_height="10dp"/>
+        android:layout_height="10dp"
+        android:id="@+id/space1"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/EllisFactTitle"
         android:id="@+id/EllisFactTitle"
-        style="@style/SubTitleBuilding"/>
+        style="@style/SubTitleBuilding"
+        android:layout_below="@+id/space1"/>
     <Space
         android:layout_width="15dp"
-        android:layout_height="10dp"/>
+        android:layout_height="10dp"
+        android:id="@+id/space2"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/EllisFact"
             android:id="@+id/EllisFact"
-            style="@style/BuildingInformation"/>
-        </LinearLayout>
+            style="@style/BuildingInformation"
+            android:layout_below="@id/space2"/>
+       </LinearLayout>
     </ScrollView>
 
 
