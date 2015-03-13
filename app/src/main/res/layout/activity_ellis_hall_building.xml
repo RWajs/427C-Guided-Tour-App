@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="#7f00ff"
+    android:id="@+id/linearLayout1"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal">
+
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EllisTitle"
+        android:id="@+id/TitleTips"
+        android:layout_gravity="center_horizontal"
+        style="@style/Title"/>
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/EllisHall"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LocHour"
+        android:id="@+id/TitleLocHour"
+        android:layout_gravity="center_horizontal"
+        style="@style/Information"/>
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EllisInfoTitle"
+        android:id="@+id/InfoTitle"
+        style="@style/SubTitle"/>
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="375dp"
+        android:background="#7f00ff"
+        android:layout_height="100dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EllisInfo"
+            android:id="@+id/BuildInfo"
+            style="@style/Information"/>
+    </ScrollView>
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EllisFactTitle"
+        android:id="@+id/EllisFactTitle"
+        style="@style/SubTitle"/>
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="375dp"
+        android:background="#7f00ff"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EllisFact"
+            android:id="@+id/EllisFact"
+            style="@style/Information"/>
+    </ScrollView>
+
+
+</LinearLayout>

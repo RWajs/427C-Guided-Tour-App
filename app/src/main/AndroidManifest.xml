@@ -99,6 +99,10 @@
             android:name=".PictureViewCampusMap"
             android:label="@string/title_activity_picture_view_campus_map" >
         </activity>
+        <activity
+            android:name=".EllisHallBuilding"
+            android:label="@string/title_activity_ellis_hall_building" >
+        </activity>
     </application>
 
 </manifest>

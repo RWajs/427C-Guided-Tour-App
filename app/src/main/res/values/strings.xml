@@ -20,11 +20,7 @@
     <string name="title_activity_google_map_of_campus">Map</string>
     <string name="title_activity_list_of_gallery">ListOfGallery</string>
     <string name="EngTitle">Eng</string>
-
-
-    //Strings for Links and Contacts Page
-
-    <string name="TitleContactsPage">Links and Contacts</string>
+    //Strings for Links and Contacts Page    <string name="TitleContactsPage">Links and Contacts</string>
     <string name="GenInfo">General Information</string>
     <string name="C1"> Stacy Shane</string>
     <string name="Info1">mgrss@appsci.queensu.ca</string>
@@ -33,17 +29,10 @@
     <string name="FirstYO">First Year Engineers</string>
     <string name="C3"> Aphra Rogers</string>
     <string name="Info3">firstyr@appsci.queensu.ca</string>
-
-
-    //FAQ Strings
-
-    <string name="TitleFAQPage">Frequently Asked Questions</string>
+    //FAQ Strings    <string name="TitleFAQPage">Frequently Asked Questions</string>
     <string name="Question1FAQPage">Q) What are all these extra charges I see?</string>
     <string name="Answer1FAQPage"> LALALALALA </string>
-
-    //A) University is expensive. However, some of the costs are actually optional. For example, student fees include a health and dental plan, bus passes, and gym membership. If you'd like, you can opt out of those fees. Details here: "http://myams.org/society/about-your-ams/student-activity-fees"
-
-    <string name="Q2FAQPage">hi</string>
+    //A) University is expensive. However, some of the costs are actually optional. For example, student fees include a health and dental plan, bus passes, and gym membership. If you'd like, you can opt out of those fees. Details here: "http://myams.org/society/about-your-ams/student-activity-fees"    <string name="Q2FAQPage">hi</string>
     <string name="A2FAQPage">hi</string>
     <string name="Q3FAQPage">hi</string>
     <string name="A3FAQPage">hi</string>
@@ -53,14 +42,20 @@
     <string name="A5FAQPage">hi</string>
     <string name="title_activity_google_guided_tour">Map</string>
     <string name="title_activity_engineering_buildings_menu">EngineeringBuildingsMenu</string>
-    <string name="title_activity_non_engineering_buildings_menu">NonEngineeringBuildingsMenu
-    </string>
+    <string name="title_activity_non_engineering_buildings_menu">NonEngineeringBuildingsMenu</string>
     <string name="title_activity_food_buildings_menu">FoodBuildingsMenu</string>
     <string name="title_activity_historical_buildings_menu">HistoricalBuildingsMenu</string>
     <string name="title_activity_picture_view_campus_map">PictureViewCampusMap</string>
-
     <string name="title_activity_picture_view_campus_map2">PictureViewCampusMap2</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_ellis_hall_building">EllisHallBuilding</string>
+    <string name="LocHour">Location:58 University Avenue \nHours of Operation:</string>
+    <string name="EllisTitle">Ellis Hall</string>
+    <string name="EllisInfoTitle">Main Uses</string>
+    <string name="EllisInfo">Ellis Hall, constructed in 1958, is home to the Department of Civil Engineering, the Queen’s Observatory, the GeoEngineering Centre, and the Groundwater and Flows Research Groups. The observatory houses a 16-inch state-of-the-art telescope used to study astrophysics. Ellis Hall is also home to multiple classrooms and an auditorium, where many first year engineering lectures are held. </string>
+    <string name="EllisFactTitle">Interesting Facts</string>
+    <string name="EllisFact">Ellis Hall was one of the first engineering buildings at Queen’s University to be built away from the north-east portion of campus.
+Ellis Hall also houses new and innovative classrooms, with interactive displays and unique seating arrangements, both of which allow for increased group work and participation. These classrooms are used for APSC 100 (Engineering Practice) Module 1, a first year engineering course based on group projects. </string>
 
 </resources>
