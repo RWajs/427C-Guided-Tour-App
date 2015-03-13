@@ -95,6 +95,10 @@
             android:name=".HistoricalBuildingsMenu"
             android:label="@string/title_activity_historical_buildings_menu" >
         </activity>
+        <activity
+            android:name=".PictureViewCampusMap"
+            android:label="@string/title_activity_picture_view_campus_map" >
+        </activity>
     </application>
 
 </manifest>

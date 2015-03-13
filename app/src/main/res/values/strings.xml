@@ -57,5 +57,10 @@
     </string>
     <string name="title_activity_food_buildings_menu">FoodBuildingsMenu</string>
     <string name="title_activity_historical_buildings_menu">HistoricalBuildingsMenu</string>
+    <string name="title_activity_picture_view_campus_map">PictureViewCampusMap</string>
+
+    <string name="title_activity_picture_view_campus_map2">PictureViewCampusMap2</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 
 </resources>

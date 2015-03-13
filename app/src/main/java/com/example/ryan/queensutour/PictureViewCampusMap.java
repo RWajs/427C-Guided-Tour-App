@@ -1,46 +1,24 @@
 package com.example.ryan.queensutour;
 
-import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
+
+import com.example.ryan.queensutour.util.TouchImageView;
 
 
-public class CampusMap extends ActionBarActivity {
+public class PictureViewCampusMap extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_campus_map);
+        setContentView(R.layout.activity_picture_view_campus_map);
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
-
-        Button button = (Button) findViewById(R.id.buttonGoogleMapsView);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),GoogleMapOfCampus.class);
-                startActivityForResult(intent,0);
-            }
-        });
-
-        Button button2 = (Button) findViewById(R.id.buttonPictureView);
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),PictureViewCampusMap.class);
-                startActivityForResult(intent,0);
-            }
-        });
-
-
-
 
 
     }
@@ -49,7 +27,7 @@ public class CampusMap extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_campus_map, menu);
+        getMenuInflater().inflate(R.menu.menu_picture_view_campus_map, menu);
         return true;
     }
 

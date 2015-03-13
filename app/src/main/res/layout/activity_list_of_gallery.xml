@@ -13,9 +13,10 @@
         android:text="Engineering Buildings"
         android:id="@+id/buttonEngBuildings"
         android:background="@drawable/button_back"
+
+        android:layout_marginTop="131dp"
+        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/buttonFoodBuildings"
-        android:layout_alignParentLeft="true"
         android:layout_marginBottom="10dp" />
 
     <Button
@@ -24,9 +25,9 @@
         android:text="Non-Engineering Buildings"
         android:id="@+id/buttonNonEngBuildings"
         android:background="@drawable/button_back"
-        android:layout_marginTop="107dp"
-        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonEngBuildings"
+        android:layout_alignParentLeft="true"
         android:layout_marginBottom="10dp" />
 
     <Button
@@ -47,8 +48,7 @@
         android:id="@+id/buttonHistoricalBuildings"
         android:background="@drawable/button_back"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/buttonEngBuildings"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="10dp" />
+        android:layout_below="@+id/buttonFoodBuildings"
+        android:layout_alignParentLeft="true" />
 
 </RelativeLayout>

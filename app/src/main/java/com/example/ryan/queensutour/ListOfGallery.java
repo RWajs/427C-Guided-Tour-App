@@ -1,11 +1,14 @@
 package com.example.ryan.queensutour;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 import com.example.ryan.queensutour.R;
 
@@ -19,6 +22,47 @@ public class ListOfGallery extends ActionBarActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
+        Button button = (Button) findViewById(R.id.buttonEngBuildings);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),EngineeringBuildingsMenu.class);
+                startActivityForResult(intent,0);
+            }
+        });
+
+        Button button2 = (Button) findViewById(R.id.buttonNonEngBuildings);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),NonEngineeringBuildingsMenu.class);
+                startActivityForResult(intent,0);
+            }
+        });
+
+        Button button3 = (Button) findViewById(R.id.buttonFoodBuildings);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),FoodBuildingsMenu.class);
+                startActivityForResult(intent,0);
+            }
+        });
+
+        Button button4 = (Button) findViewById(R.id.buttonHistoricalBuildings);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),HistoricalBuildingsMenu.class);
+                startActivityForResult(intent,0);
+            }
+        });
+
+
+
+
+
 
     }
 
