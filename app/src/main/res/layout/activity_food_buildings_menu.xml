@@ -1,6 +1,6 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:background="#a460ec"
+    android:background="@drawable/purple_leather"
     android:layout_height="fill_parent">
     <GridLayout
         android:layout_width="match_parent"

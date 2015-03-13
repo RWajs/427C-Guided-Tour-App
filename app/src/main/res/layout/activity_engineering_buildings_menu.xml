@@ -1,11 +1,11 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:background="#a460ec"
     android:layout_height="fill_parent">
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:rowCount="50"
+        android:rowCount="10"
+        android:background="@drawable/purple_leather"
         android:columnCount="6"
         android:orientation="horizontal">
 
