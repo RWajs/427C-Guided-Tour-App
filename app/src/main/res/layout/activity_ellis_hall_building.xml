@@ -34,14 +34,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/EllisHallLocHour"
-        android:id="@+id/TitleLocHour"
+        android:text="@string/EllisHallLocation"
+        android:id="@+id/TitleLocation"
         android:layout_gravity="center_horizontal"
         style="@style/BuildingInformation"/>
-    <Space
-        android:layout_width="15dp"
-        android:layout_height="10dp"
-        android:layout_gravity="center_vertical|center_horizontal"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,9 +48,12 @@
         android:layout_width="15dp"
         android:layout_height="10dp"
         android:layout_gravity="center_vertical|center_horizontal"/>
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    <ScrollView
         android:layout_width="375dp"
-        android:layout_height="100dp">
+        android:layout_height="150dp">
+        <LinearLayout
+            android:layout_width="375dp"
+            android:layout_height="150dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -62,11 +61,9 @@
             android:text="@string/EllisInfo"
             android:id="@+id/BuildInfo"
             style="@style/BuildingInformation"/>
-    </ScrollView>
     <Space
         android:layout_width="15dp"
-        android:layout_height="10dp"
-        android:layout_gravity="center_vertical|center_horizontal"/>
+        android:layout_height="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -76,23 +73,16 @@
         style="@style/SubTitleBuilding"/>
     <Space
         android:layout_width="15dp"
-        android:layout_height="10dp"
-        android:layout_gravity="center_vertical|center_horizontal"/>
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="375dp"
-        android:layout_height="100dp">
+        android:layout_height="10dp"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/EllisFact"
             android:id="@+id/EllisFact"
             style="@style/BuildingInformation"/>
+        </LinearLayout>
     </ScrollView>
-
-    <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/progressBar" />
 
 
 </LinearLayout>

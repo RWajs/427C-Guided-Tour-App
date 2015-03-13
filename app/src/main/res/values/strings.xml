@@ -50,7 +50,7 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_ellis_hall_building">EllisHallBuilding</string>
-    <string name="EllisHallLocHour">Location:58 University Avenue \nHours of Operation:</string>
+    <string name="EllisHallLocation">Location:58 University Avenue </string>
     <string name="EllisTitle">Ellis Hall</string>
     <string name="EllisInfoTitle">Main Uses</string>
     <string name="EllisInfo">Ellis Hall, constructed in 1958, is home to the Department of Civil Engineering, the Queen’s Observatory, the GeoEngineering Centre, and the Groundwater and Flows Research Groups. The observatory houses a 16-inch state-of-the-art telescope used to study astrophysics. Ellis Hall is also home to multiple classrooms and an auditorium, where many first year engineering lectures are held. </string>
