@@ -21,8 +21,8 @@ public class EngineeringBuildingsMenu extends ActionBarActivity {
         actionBar.hide();
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
-        Button button4 = (Button) findViewById(R.id.button4);
-        button4.setOnClickListener(new View.OnClickListener() {
+        Button button = (Button) findViewById(R.id.Ellis);
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(),EllisHallBuilding.class);
