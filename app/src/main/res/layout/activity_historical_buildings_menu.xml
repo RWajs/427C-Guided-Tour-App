@@ -1,14 +1,8 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:background="#a460ec"
+    android:background="@drawable/purple_leather"
     android:layout_height="fill_parent">
-    <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:rowCount="50"
-        android:columnCount="6"
-        android:orientation="horizontal"
-        >
+
 
     <TextView android:layout_row="21"
         android:layout_column="1"
@@ -16,75 +10,111 @@
         android:id="@+id/HistTitle"
         style="@style/TitleB"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/HistTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp">
 
 
-    <Button
-        android:layout_width="113dp"
-        android:layout_height="90dp"
-        android:text="Bendickson\nField"
-        style="@style/Type2C"
-        android:id="@+id/Benny"
-        android:layout_row="23"
-        android:layout_column="1"
-        android:layout_margin="3dp"
-        android:layout_marginLeft="4dp" />
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="85dp"
+            android:text="Bendickson\nField"
+            style="@style/Type2C"
+            android:id="@+id/Benny"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp" />
 
-    <Button
-        android:layout_width="113dp"
-        android:layout_height="90dp"
-        android:text="Grant\nHall"
-        android:id="@+id/Grant"
-        style="@style/Type1"
-        android:layout_row="23"
-        android:layout_column="3"
-        android:layout_margin="3dp" />
-
-    <Button
-        android:layout_width="113dp"
-        android:layout_height="90dp"
-        android:text="Kingston\nHall"
-        android:id="@+id/Kingston"
-        style="@style/Type2"
-        android:layout_row="23"
-        android:layout_column="5"
-        android:layout_margin="3dp"
-        android:layout_marginRight="4dp" />
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="85dp"
+            android:text="Grant\nHall"
+            android:id="@+id/Grant"
+            style="@style/Type1"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="20dp" />
 
 
-    <Button
-        android:layout_width="113dp"
-        android:layout_height="90dp"
-        android:text="Nicol\nHall"
-        android:id="@+id/Nicol"
-        style="@style/Type1"
-        android:layout_row="25"
-        android:layout_column="1"
-        android:layout_margin="3dp"
-        android:layout_marginLeft="4dp" />
+    </LinearLayout>
 
-    <Button
-        android:layout_width="113dp"
-        android:layout_height="90dp"
-        android:text="Summerhill\n"
-        android:id="@+id/Shill"
-        style="@style/Type2B"
-        android:layout_row="25"
-        android:layout_column="3"
-        android:layout_margin="3dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp">
 
-    <Button
-        android:layout_width="113dp"
-        android:layout_height="90dp"
-        android:text="Theological\nHall"
-        android:id="@+id/Theo"
-        style="@style/Type2C"
-        android:layout_row="25"
-        android:layout_column="5"
-        android:layout_margin="3dp"
-        android:layout_marginRight="4dp" />
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="85dp"
+            android:text="Nicol\nHall"
+            android:id="@+id/Nicol"
+            style="@style/Type1"
+            android:layout_weight="1"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="85dp"
+            android:text="Kingston\nHall"
+            android:id="@+id/Kingston"
+            style="@style/Type2"
+            android:layout_weight="1"
+            android:layout_margin="10dp" />
 
 
+    </LinearLayout>
 
-</GridLayout>
-</ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout3"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentStart="true">
+
+
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="85dp"
+            android:text="Summerhill\n"
+            android:id="@+id/Shill"
+            style="@style/Type2B"
+            android:layout_weight="1"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:layout_width="105dp"
+            android:layout_height="85dp"
+            android:text="Theological\nHall"
+            android:id="@+id/Theo"
+            style="@style/Type1C"
+            android:layout_weight="1"
+            android:layout_margin="10dp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
+

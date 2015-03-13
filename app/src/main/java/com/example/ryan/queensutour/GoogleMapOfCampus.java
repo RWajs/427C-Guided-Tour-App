@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
@@ -61,8 +62,18 @@ public class GoogleMapOfCampus extends FragmentActivity {
      * This should only be called once and when we are sure that {@link #mMap} is not null.
      */
     private void setUpMap() {
-        mMap.addMarker(new MarkerOptions().position(new LatLng(44.226322, -76.496284)).title("Ellis Hall"));
-        mMap.addMarker(new MarkerOptions().position(new LatLng(44.228376, -76.496233)).title("Stauffer Library"));
+        mMap.addMarker(new MarkerOptions()
+                .position(new LatLng(44.226322, -76.496284))
+                .title("Ellis Hall")
+        );
+       // .icon(BitmapDescriptorFactory.fromResource(R.drawable.blackdot))
+
+
+
+        mMap.addMarker(new MarkerOptions()
+                .position(new LatLng(44.228376, -76.496233))
+                .title("Stauffer Library")
+        );
 
         mMap.addMarker(new MarkerOptions().position(new LatLng(44.224224, -76.498866)).title("Chernoff Hall"));
         mMap.addMarker(new MarkerOptions().position(new LatLng(44.224597, -76.497744)).title("Stirling Hall"));
