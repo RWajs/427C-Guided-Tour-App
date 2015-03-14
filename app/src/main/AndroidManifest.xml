@@ -131,6 +131,34 @@
             android:name=".InnovationCommonsBuilding"
             android:label="@string/title_activity_innovation_commons_building" >
         </activity>
+        <activity
+            android:name=".MclaughlinHallBuilding"
+            android:label="@string/title_activity_mclaughlin_hall_building" >
+        </activity>
+        <activity
+            android:name=".MillerHallBuilding"
+            android:label="@string/title_activity_miller_hall_building" >
+        </activity>
+        <activity
+            android:name=".StirlingHallBuilding"
+            android:label="@string/title_activity_stirling_hall_building" >
+        </activity>
+        <activity
+            android:name=".WalterLightBuilding"
+            android:label="@string/title_activity_walter_light_building" >
+        </activity>
+        <activity
+            android:name=".BanBuilding"
+            android:label="@string/title_activity_ban_building" >
+        </activity>
+        <activity
+            android:name=".LazyBuilding"
+            android:label="@string/title_activity_lazy_building" >
+        </activity>
+        <activity
+            android:name=".LeonardBuilding"
+            android:label="@string/title_activity_leonard_building" >
+        </activity>
     </application>
 
 </manifest>

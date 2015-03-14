@@ -1,11 +1,14 @@
 package com.example.ryan.queensutour;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
 public class FoodBuildingsMenu extends ActionBarActivity {
@@ -17,6 +20,31 @@ public class FoodBuildingsMenu extends ActionBarActivity {
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
+
+        Button button = (Button) findViewById(R.id.Ban);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),BanBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
+        Button button1 = (Button) findViewById(R.id.Lazy);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),LazyBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
+        Button button2 = (Button) findViewById(R.id.Lenny);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),LeonardBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
     }
 
 

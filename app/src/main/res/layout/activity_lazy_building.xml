@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/purple_leather"
+    android:id="@+id/linearLayout1"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal">
+
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LazyTitle"
+        android:id="@+id/LazyTitle"
+        android:layout_gravity="center_horizontal"
+        style="@style/BuildingPageTitle"/>
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="225dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/lazy"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/LazyLocation"
+        android:id="@+id/LazyTitleLocation"
+        android:layout_gravity="center_horizontal"
+        style="@style/BuildingInformation"/>
+
+    <Space
+        android:layout_width="15dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LazyInfoTitle"
+                android:id="@+id/LazyInfoTitle"
+                style="@style/SubTitleBuilding"
+                android:layout_alignParentTop="true"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LazyInfo"
+                android:id="@+id/LazyBuildInfo"
+                style="@style/BuildingInformation"
+                android:layout_below="@+id/InfoTitle"/>
+
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="10dp"
+                android:id="@+id/space1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LazyFactTitle"
+                android:id="@+id/LazyFactTitle"
+                style="@style/SubTitleBuilding"
+                android:layout_below="@+id/space1"/>
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="10dp"
+                android:id="@+id/space2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LazyFact"
+                android:id="@+id/LazyFact"
+                style="@style/BuildingInformation"
+                android:layout_below="@id/space2"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
