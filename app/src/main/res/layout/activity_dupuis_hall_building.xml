@@ -13,8 +13,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/EllisTitle"
-        android:id="@+id/EllisTitle"
+        android:text="@string/DupuisTitle"
+        android:id="@+id/DupuisTitle"
         android:layout_gravity="center_horizontal"
         style="@style/BuildingPageTitle"/>
     <Space
@@ -22,10 +22,10 @@
         android:layout_height="10dp"
         android:layout_gravity="center_vertical|center_horizontal"/>
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="225dp"
         android:id="@+id/imageView"
-        android:src="@drawable/ellishall"
+        android:src="@drawable/dupuishall"
         android:layout_gravity="center_vertical|center_horizontal"/>
     <Space
         android:layout_width="15dp"
@@ -34,8 +34,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/EllisHallLocation"
-        android:id="@+id/EllsTitleLocation"
+        android:text="@string/DupuisHallLocation"
+        android:id="@+id/DupuisTitleLocation"
         android:layout_gravity="center_horizontal"
         style="@style/BuildingInformation"/>
 
@@ -54,45 +54,45 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/EllisInfoTitle"
-                android:id="@+id/EllisInfoTitle"
+                android:text="@string/DupuisInfoTitle"
+                android:id="@+id/DupuisInfoTitle"
                 style="@style/SubTitleBuilding"
                 android:layout_alignParentTop="true"/>
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/EllisInfo"
-            android:id="@+id/EllisBuildInfo"
-            style="@style/BuildingInformation"
-            android:layout_below="@+id/InfoTitle"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/DupuisInfo"
+                android:id="@+id/DupuisBuildInfo"
+                style="@style/BuildingInformation"
+                android:layout_below="@+id/InfoTitle"/>
 
-    <Space
-        android:layout_width="15dp"
-        android:layout_height="10dp"
-        android:id="@+id/space1"/>
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="10dp"
+                android:id="@+id/space1"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/EllisFactTitle"
-        android:id="@+id/EllisFactTitle"
-        style="@style/SubTitleBuilding"
-        android:layout_below="@+id/space1"/>
-    <Space
-        android:layout_width="15dp"
-        android:layout_height="10dp"
-        android:id="@+id/space2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/DupuisFactTitle"
+                android:id="@+id/DupuisFactTitle"
+                style="@style/SubTitleBuilding"
+                android:layout_below="@+id/space1"/>
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="10dp"
+                android:id="@+id/space2"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/EllisFact"
-            android:id="@+id/EllisFact"
-            style="@style/BuildingInformation"
-            android:layout_below="@id/space2"/>
-       </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/DupuisFact"
+                android:id="@+id/DupuisFact"
+                style="@style/BuildingInformation"
+                android:layout_below="@id/space2"/>
+        </LinearLayout>
     </ScrollView>
 
 

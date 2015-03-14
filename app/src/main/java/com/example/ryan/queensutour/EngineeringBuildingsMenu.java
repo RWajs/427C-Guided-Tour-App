@@ -21,11 +21,60 @@ public class EngineeringBuildingsMenu extends ActionBarActivity {
         actionBar.hide();
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
-        Button button = (Button) findViewById(R.id.Ellis);
+
+        Button button = (Button) findViewById(R.id.Chernoff);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),ChernoffHallBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
+        Button button1 = (Button) findViewById(R.id.Clark);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),ClarkHallBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
+        Button button2 = (Button) findViewById(R.id.Dupuis);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),DupuisHallBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
+        Button button3 = (Button) findViewById(R.id.Ellis);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 Intent intent = new Intent(v.getContext(),EllisHallBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
+        Button button4 = (Button) findViewById(R.id.Goodwin);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),GoodwinHallBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
+        Button button5 = (Button) findViewById(R.id.ILC);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),ILCBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
+        Button button6 = (Button) findViewById(R.id.IC);
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),InnovationCommonsBuilding.class);
                 startActivityForResult(intent,0);
             }
         });

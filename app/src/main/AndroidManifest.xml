@@ -103,6 +103,34 @@
             android:name=".EllisHallBuilding"
             android:label="@string/title_activity_ellis_hall_building" >
         </activity>
+        <activity
+            android:name=".ChernoffHallBuilding"
+            android:label="@string/title_activity_chernoff_hall_building" >
+        </activity>
+        <activity
+            android:name=".ClarkHallBuilding"
+            android:label="@string/title_activity_clark_hall_building" >
+        </activity>
+        <activity
+            android:name=".DupuisHallBuilding"
+            android:label="@string/title_activity_dupuis_hall_building" >
+        </activity>
+        <activity
+            android:name=".GoodwinHallBuiling"
+            android:label="@string/title_activity_goodwin_hall_builing" >
+        </activity>
+        <activity
+            android:name=".GoodwinHallBuilding"
+            android:label="@string/title_activity_goodwin_hall_building" >
+        </activity>
+        <activity
+            android:name=".ILCBuilding"
+            android:label="@string/title_activity_ilcbuilding" >
+        </activity>
+        <activity
+            android:name=".InnovationCommonsBuilding"
+            android:label="@string/title_activity_innovation_commons_building" >
+        </activity>
     </application>
 
 </manifest>

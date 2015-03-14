@@ -13,8 +13,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/EllisTitle"
-        android:id="@+id/EllisTitle"
+        android:text="@string/ICTitle"
+        android:id="@+id/ICTitle"
         android:layout_gravity="center_horizontal"
         style="@style/BuildingPageTitle"/>
     <Space
@@ -22,10 +22,10 @@
         android:layout_height="10dp"
         android:layout_gravity="center_vertical|center_horizontal"/>
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="225dp"
         android:id="@+id/imageView"
-        android:src="@drawable/ellishall"
+        android:src="@drawable/innovationcommons"
         android:layout_gravity="center_vertical|center_horizontal"/>
     <Space
         android:layout_width="15dp"
@@ -34,8 +34,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/EllisHallLocation"
-        android:id="@+id/EllsTitleLocation"
+        android:text="@string/ICLocation"
+        android:id="@+id/ICTitleLocation"
         android:layout_gravity="center_horizontal"
         style="@style/BuildingInformation"/>
 
@@ -54,45 +54,45 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/EllisInfoTitle"
-                android:id="@+id/EllisInfoTitle"
+                android:text="@string/ICInfoTitle"
+                android:id="@+id/ICInfoTitle"
                 style="@style/SubTitleBuilding"
                 android:layout_alignParentTop="true"/>
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/EllisInfo"
-            android:id="@+id/EllisBuildInfo"
-            style="@style/BuildingInformation"
-            android:layout_below="@+id/InfoTitle"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ICInfo"
+                android:id="@+id/ICBuildInfo"
+                style="@style/BuildingInformation"
+                android:layout_below="@+id/InfoTitle"/>
 
-    <Space
-        android:layout_width="15dp"
-        android:layout_height="10dp"
-        android:id="@+id/space1"/>
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="10dp"
+                android:id="@+id/space1"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/EllisFactTitle"
-        android:id="@+id/EllisFactTitle"
-        style="@style/SubTitleBuilding"
-        android:layout_below="@+id/space1"/>
-    <Space
-        android:layout_width="15dp"
-        android:layout_height="10dp"
-        android:id="@+id/space2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ICFactTitle"
+                android:id="@+id/ICFactTitle"
+                style="@style/SubTitleBuilding"
+                android:layout_below="@+id/space1"/>
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="10dp"
+                android:id="@+id/space2"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/EllisFact"
-            android:id="@+id/EllisFact"
-            style="@style/BuildingInformation"
-            android:layout_below="@id/space2"/>
-       </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ICFact"
+                android:id="@+id/ICFact"
+                style="@style/BuildingInformation"
+                android:layout_below="@id/space2"/>
+        </LinearLayout>
     </ScrollView>
 
 
