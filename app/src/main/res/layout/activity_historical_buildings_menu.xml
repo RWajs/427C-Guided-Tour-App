@@ -27,9 +27,9 @@
         <Button
             android:layout_width="105dp"
             android:layout_height="85dp"
-            android:text="Bendickson\nField"
+            android:text="Benidickson\nField"
             style="@style/Type2C"
-            android:id="@+id/Benny"
+            android:id="@+id/Benidickson"
             android:layout_weight="1"
             android:layout_margin="10dp"
             android:layout_marginBottom="20dp" />
@@ -90,7 +90,7 @@
             android:layout_width="105dp"
             android:layout_height="85dp"
             android:text="Summerhill\n"
-            android:id="@+id/Shill"
+            android:id="@+id/Summerhill"
             style="@style/Type2B"
             android:layout_weight="1"
             android:layout_margin="10dp" />
@@ -99,7 +99,7 @@
             android:layout_width="105dp"
             android:layout_height="85dp"
             android:text="Theological\nHall"
-            android:id="@+id/Theo"
+            android:id="@+id/Theological"
             style="@style/Type1C"
             android:layout_weight="1"
             android:layout_margin="10dp" />

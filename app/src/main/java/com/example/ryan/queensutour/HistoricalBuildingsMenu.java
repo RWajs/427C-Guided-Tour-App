@@ -1,11 +1,14 @@
 package com.example.ryan.queensutour;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 
 public class HistoricalBuildingsMenu extends ActionBarActivity {
@@ -17,6 +20,57 @@ public class HistoricalBuildingsMenu extends ActionBarActivity {
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
+
+        Button button = (Button) findViewById(R.id.Benidickson);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),BenidicksonBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
+        Button button1 = (Button) findViewById(R.id.Grant);
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),GrantHallBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
+        Button button2 = (Button) findViewById(R.id.Nicol);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),NicolHallBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
+        Button button3 = (Button) findViewById(R.id.Kingston);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),KingstonHallBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
+        Button button4 = (Button) findViewById(R.id.Summerhill);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),SummerhillBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
+        Button button5 = (Button) findViewById(R.id.Theological);
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),TheologicalHallBuilding.class);
+                startActivityForResult(intent,0);
+            }
+        });
     }
 
 
