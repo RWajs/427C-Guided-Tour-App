@@ -27,7 +27,7 @@ public class HistoricalBuildingsMenu extends ActionBarActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),BenidicksonBuilding.class);
+                Intent intent = new Intent(v.getContext(),BenidicksonBldg.class);
                 startActivityForResult(intent,0);
             }
         });
@@ -35,7 +35,7 @@ public class HistoricalBuildingsMenu extends ActionBarActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),GrantHallBuilding.class);
+                Intent intent = new Intent(v.getContext(),GrantHallBldg.class);
                 startActivityForResult(intent,0);
             }
         });
@@ -43,7 +43,7 @@ public class HistoricalBuildingsMenu extends ActionBarActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),NicolHallBuilding.class);
+                Intent intent = new Intent(v.getContext(),NicolHallBldg.class);
                 startActivityForResult(intent,0);
             }
         });
@@ -51,7 +51,7 @@ public class HistoricalBuildingsMenu extends ActionBarActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),KingstonHallBuilding.class);
+                Intent intent = new Intent(v.getContext(),KingstonHallBldg.class);
                 startActivityForResult(intent,0);
             }
         });
@@ -59,7 +59,7 @@ public class HistoricalBuildingsMenu extends ActionBarActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),SummerhillBuilding.class);
+                Intent intent = new Intent(v.getContext(),SummerhillBldg.class);
                 startActivityForResult(intent,0);
             }
         });
@@ -67,7 +67,7 @@ public class HistoricalBuildingsMenu extends ActionBarActivity {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),TheologicalHallBuilding.class);
+                Intent intent = new Intent(v.getContext(),TheologicalHallBldg.class);
                 startActivityForResult(intent,0);
             }
         });

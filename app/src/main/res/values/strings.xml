@@ -232,4 +232,18 @@ Ellis Hall also houses new and innovative classrooms, with interactive displays 
     <string name="TindallInfo">Tindall</string>
     <string name="TindallFactTitle">Interesting Facts</string>
     <string name="TindallFact">Tindall</string>
+    <string name="title_activity_arcbldg">ARCBldg</string>
+    <string name="title_activity_douglas_bldg">DouglasBldg</string>
+    <string name="title_activity_gordon_bldg">GordonBldg</string>
+    <string name="title_activity_jducbldg">JDUCBldg</string>
+    <string name="title_activity_mac_corry_bldg">MacCorryBldg</string>
+    <string name="title_activity_nixon_field_bldg">NixonFieldBldg</string>
+    <string name="title_activity_stauffer_bldg">StaufferBldg</string>
+    <string name="title_activity_tindall_bldg">TindallBldg</string>
+    <string name="title_activity_benidickson_bldg">BenidicksonBldg</string>
+    <string name="title_activity_grant_hall_bldg">GrantHallBldg</string>
+    <string name="title_activity_nicol_hall_bldg">NicolHallBldg</string>
+    <string name="title_activity_kingston_hall_bldg">KingstonHallBldg</string>
+    <string name="title_activity_summerhill_bldg">SummerhillBldg</string>
+    <string name="title_activity_theological_hall_bldg">TheologicalHallBldg</string>
 </resources>

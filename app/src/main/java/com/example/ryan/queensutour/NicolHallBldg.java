@@ -1,24 +1,24 @@
 package com.example.ryan.queensutour;
 
-import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class MacCorryHallBuilding extends ActionBarActivity {
+public class NicolHallBldg extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_maccorry_hall_building);
+        setContentView(R.layout.activity_nicol_hall_bldg);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_mac_corry_hall_building, menu);
+        getMenuInflater().inflate(R.menu.menu_nicol_hall_bldg, menu);
         return true;
     }
 

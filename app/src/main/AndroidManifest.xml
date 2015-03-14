@@ -159,6 +159,62 @@
             android:name=".LeonardBuilding"
             android:label="@string/title_activity_leonard_building" >
         </activity>
+        <activity
+            android:name=".ARCBldg"
+            android:label="@string/title_activity_arcbldg" >
+        </activity>
+        <activity
+            android:name=".DouglasBldg"
+            android:label="@string/title_activity_douglas_bldg" >
+        </activity>
+        <activity
+            android:name=".GordonBldg"
+            android:label="@string/title_activity_gordon_bldg" >
+        </activity>
+        <activity
+            android:name=".JDUCBldg"
+            android:label="@string/title_activity_jducbldg" >
+        </activity>
+        <activity
+            android:name=".MacCorryBldg"
+            android:label="@string/title_activity_mac_corry_bldg" >
+        </activity>
+        <activity
+            android:name=".NixonFieldBldg"
+            android:label="@string/title_activity_nixon_field_bldg" >
+        </activity>
+        <activity
+            android:name=".StaufferBldg"
+            android:label="@string/title_activity_stauffer_bldg" >
+        </activity>
+        <activity
+            android:name=".TindallBldg"
+            android:label="@string/title_activity_tindall_bldg" >
+        </activity>
+        <activity
+            android:name=".BenidicksonBldg"
+            android:label="@string/title_activity_benidickson_bldg" >
+        </activity>
+        <activity
+            android:name=".GrantHallBldg"
+            android:label="@string/title_activity_grant_hall_bldg" >
+        </activity>
+        <activity
+            android:name=".NicolHallBldg"
+            android:label="@string/title_activity_nicol_hall_bldg" >
+        </activity>
+        <activity
+            android:name=".KingstonHallBldg"
+            android:label="@string/title_activity_kingston_hall_bldg" >
+        </activity>
+        <activity
+            android:name=".SummerhillBldg"
+            android:label="@string/title_activity_summerhill_bldg" >
+        </activity>
+        <activity
+            android:name=".TheologicalHallBldg"
+            android:label="@string/title_activity_theological_hall_bldg" >
+        </activity>
     </application>
 
 </manifest>

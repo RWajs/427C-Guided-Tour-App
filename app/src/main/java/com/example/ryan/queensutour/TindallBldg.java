@@ -1,24 +1,24 @@
 package com.example.ryan.queensutour;
 
-import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class StaufferLibraryBuilding extends ActionBarActivity {
+public class TindallBldg extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stauffer_library_building);
+        setContentView(R.layout.activity_tindall_bldg);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_stauffer_library_building, menu);
+        getMenuInflater().inflate(R.menu.menu_tindall_bldg, menu);
         return true;
     }
 

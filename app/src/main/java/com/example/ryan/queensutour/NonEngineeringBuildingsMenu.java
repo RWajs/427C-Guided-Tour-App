@@ -26,7 +26,7 @@ public class NonEngineeringBuildingsMenu extends ActionBarActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),ARCBuilding.class);
+                Intent intent = new Intent(v.getContext(),ARCBldg.class);
                 startActivityForResult(intent,0);
             }
         });
@@ -34,7 +34,7 @@ public class NonEngineeringBuildingsMenu extends ActionBarActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),DouglasLibraryBuilding.class);
+                Intent intent = new Intent(v.getContext(),DouglasBldg.class);
                 startActivityForResult(intent,0);
             }
         });
@@ -42,7 +42,7 @@ public class NonEngineeringBuildingsMenu extends ActionBarActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),GordonHallBuilding.class);
+                Intent intent = new Intent(v.getContext(),GordonBldg.class);
                 startActivityForResult(intent,0);
             }
         });
@@ -50,7 +50,7 @@ public class NonEngineeringBuildingsMenu extends ActionBarActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),JDUCBuilding.class);
+                Intent intent = new Intent(v.getContext(),JDUCBldg.class);
                 startActivityForResult(intent,0);
             }
         });
@@ -58,7 +58,7 @@ public class NonEngineeringBuildingsMenu extends ActionBarActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),MacCorryHallBuilding.class);
+                Intent intent = new Intent(v.getContext(),MacCorryBldg.class);
                 startActivityForResult(intent,0);
             }
         });
@@ -66,7 +66,7 @@ public class NonEngineeringBuildingsMenu extends ActionBarActivity {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),NixonBuilding.class);
+                Intent intent = new Intent(v.getContext(),NixonFieldBldg.class);
                 startActivityForResult(intent,0);
             }
         });
@@ -74,7 +74,7 @@ public class NonEngineeringBuildingsMenu extends ActionBarActivity {
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),StaufferLibraryBuilding.class);
+                Intent intent = new Intent(v.getContext(),StaufferBldg.class);
                 startActivityForResult(intent,0);
             }
         });
@@ -82,7 +82,7 @@ public class NonEngineeringBuildingsMenu extends ActionBarActivity {
         button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),TindallBuilding.class);
+                Intent intent = new Intent(v.getContext(),TindallBldg.class);
                 startActivityForResult(intent,0);
             }
         });
