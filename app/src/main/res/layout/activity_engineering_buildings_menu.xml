@@ -5,7 +5,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:rowCount="10"
-        android:background="@drawable/purple_leather"
+        android:background="@drawable/grant_side"
         android:columnCount="6"
         android:orientation="horizontal">
 
