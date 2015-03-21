@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Queens Tour</string>
-    <string name="line1">Welcome to the Queens University Tour!</string>
+    <string name="app_name">Queen\'s Tour</string>
+    <string name="line1">Welcome to the Queen\'s University Tour!</string>
     <string name="action_settings">Settings</string>
     <string name="button1">Take the Tour</string>
     <string name="button2">Map of Campus</string>
@@ -20,7 +20,8 @@
     <string name="title_activity_google_map_of_campus">Map</string>
     <string name="title_activity_list_of_gallery">ListOfGallery</string>
     <string name="EngTitle">Eng</string>
-    //Strings for Links and Contacts Page                                                            <string name="TitleContactsPage">Links and Contacts</string>
+    //Strings for Links and Contacts Page
+    <string name="TitleContactsPage">Links and Contacts</string>
     <string name="GenInfo">General Information</string>
     <string name="C1"> Stacy Shane</string>
     <string name="Info1">mgrss@appsci.queensu.ca</string>
@@ -29,10 +30,11 @@
     <string name="FirstYO">First Year Engineers</string>
     <string name="C3"> Aphra Rogers</string>
     <string name="Info3">firstyr@appsci.queensu.ca</string>
-    //FAQ Strings                                                            <string name="TitleFAQPage">Frequently Asked Questions</string>
+    //FAQ Strings
+    <string name="TitleFAQPage">Frequently Asked Questions</string>
     <string name="Question1FAQPage">Q) What are all these extra charges I see?</string>
-    <string name="Answer1FAQPage"> LALALALALA </string>
-    //A) University is expensive. However, some of the costs are actually optional. For example, student fees include a health and dental plan, bus passes, and gym membership. If you'd like, you can opt out of those fees. Details here: "http://myams.org/society/about-your-ams/student-activity-fees"                                                            <string name="Q2FAQPage">hi</string>
+    <string name="Answer1FAQPage"> A) University is expensive. However, some of the costs are actually optional. For example, student fees include a health and dental plan, bus passes, and gym membership. If you\'d like, you can opt out of those fees. Details here: "http://myams.org/society/about-your-ams/student-activity-fees" </string>
+    <string name="Q2FAQPage">hi</string>
     <string name="A2FAQPage">hi</string>
     <string name="Q3FAQPage">hi</string>
     <string name="A3FAQPage">hi</string>
