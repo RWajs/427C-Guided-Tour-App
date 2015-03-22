@@ -5,13 +5,14 @@
 
 
     <TextView
-        android:text="Non-Eng"
+        android:text="Non-Engineering Buildings"
         android:id="@+id/MiscTitle"
         style="@style/Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="35dp"
-        android:layout_centerHorizontal="true"/>
+        android:textSize="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
 
     <LinearLayout
@@ -29,7 +30,8 @@
             android:layout_height="85dp"
             android:layout_weight="1"
             android:text="Athletic\nRec Centre"
-            style="@style/Type2B"
+            style="@style/Type2"
+            android:background="@drawable/button_building"
             android:id="@+id/Arc"
             android:layout_margin="5dp" />
 
@@ -39,7 +41,8 @@
             android:layout_weight="1"
             android:text="Douglas\nLibrary"
             android:id="@+id/Douglas"
-            style="@style/Type1"
+            style="@style/Type2"
+            android:background="@drawable/button_building"
             android:layout_margin="5dp" />
 
         <Button
@@ -49,6 +52,7 @@
             android:text="Gordon\n Hall"
             android:id="@+id/Gordon"
             style="@style/Type2"
+            android:background="@drawable/button_building"
             android:layout_margin="5dp" />
 
 
@@ -67,7 +71,8 @@
 
        <Button
            android:text="John Deutsch Uni. Centre"
-           style="@style/Type1"
+           style="@style/Type2"
+           android:background="@drawable/button_building"
            android:id="@+id/JDUC"
            android:layout_width="105dp"
            android:layout_height="85dp"
@@ -81,7 +86,8 @@
             android:layout_weight="1"
             android:text="Mac-Corry\nHall"
             android:id="@+id/MCor"
-            style="@style/Type2B"
+            style="@style/Type2"
+            android:background="@drawable/button_building"
             android:layout_margin="5dp" />
 
         <Button
@@ -90,7 +96,8 @@
             android:layout_weight="1"
             android:text="Nixon\nField"
             android:id="@+id/Nixon"
-            style="@style/Type1"
+            style="@style/Type2"
+            android:background="@drawable/button_building"
             android:layout_margin="5dp" />
 
     </LinearLayout>
@@ -110,6 +117,7 @@
             android:layout_weight="1"
             android:text="Stauffer\nLibrary"
             style="@style/Type2"
+            android:background="@drawable/button_building"
             android:id="@+id/Stauff"
             android:layout_margin="25dp" />
 
@@ -120,6 +128,7 @@
             android:text="Tindall\nField"
             android:id="@+id/Tindall"
             style="@style/Type2"
+            android:background="@drawable/button_building"
             android:layout_margin="25dp" />
     </LinearLayout>
 </RelativeLayout>

@@ -5,7 +5,7 @@
 
 
     <TextView
-        android:text="Historical"
+        android:text="Historical Buildings"
         android:id="@+id/HistTitle"
         style="@style/TitleB"
         android:layout_width="wrap_content"
@@ -29,6 +29,7 @@
             android:layout_height="85dp"
             android:text="Benidickson\nField"
             style="@style/Type2C"
+            android:background="@drawable/button_building"
             android:id="@+id/Benidickson"
             android:layout_weight="1"
             android:layout_margin="10dp"
@@ -39,7 +40,8 @@
             android:layout_height="85dp"
             android:text="Grant\nHall"
             android:id="@+id/Grant"
-            style="@style/Type1"
+            style="@style/Type2"
+            android:background="@drawable/button_building"
             android:layout_weight="1"
             android:layout_margin="10dp"
             android:layout_marginBottom="20dp" />
@@ -61,7 +63,8 @@
             android:layout_height="85dp"
             android:text="Nicol\nHall"
             android:id="@+id/Nicol"
-            style="@style/Type1"
+            style="@style/Type2"
+            android:background="@drawable/button_building"
             android:layout_weight="1"
             android:layout_margin="10dp" />
 
@@ -71,6 +74,7 @@
             android:text="Kingston\nHall"
             android:id="@+id/Kingston"
             style="@style/Type2"
+            android:background="@drawable/button_building"
             android:layout_weight="1"
             android:layout_margin="10dp" />
 
@@ -91,7 +95,8 @@
             android:layout_height="85dp"
             android:text="Summerhill\n"
             android:id="@+id/Summerhill"
-            style="@style/Type2B"
+            style="@style/Type2"
+            android:background="@drawable/button_building"
             android:layout_weight="1"
             android:layout_margin="10dp" />
 
@@ -100,7 +105,8 @@
             android:layout_height="85dp"
             android:text="Theological\nHall"
             android:id="@+id/Theological"
-            style="@style/Type1C"
+            style="@style/Type2"
+            android:background="@drawable/button_building"
             android:layout_weight="1"
             android:layout_margin="10dp" />
 

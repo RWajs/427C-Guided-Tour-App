@@ -10,7 +10,9 @@ android:layout_height="fill_parent">
     style="@style/TitleB"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:textSize="35dp"/>
+    android:textSize="35dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
 
 
 <LinearLayout
@@ -30,7 +32,8 @@ android:layout_height="fill_parent">
         android:layout_width="105dp"
         android:layout_height="85dp"
         android:text="Ban-Righ\nCafeteria"
-        style="@style/Type1B"
+        style="@style/Type2"
+        android:background="@drawable/button_building"
         android:id="@+id/Ban"
         android:layout_margin="3dp"
         android:layout_weight="1" />
@@ -58,6 +61,7 @@ android:layout_height="fill_parent">
         android:text="The Lazy\nScholar"
         android:id="@+id/Lazy"
         style="@style/Type2"
+        android:background="@drawable/button_building"
        android:layout_weight="1"
         android:layout_margin="3dp" />
 
@@ -82,7 +86,8 @@ android:layout_height="fill_parent">
         android:layout_weight="1"
         android:text="Leonard\nCafeteria"
         android:id="@+id/Lenny"
-        style="@style/Type1"
+        style="@style/Type2"
+        android:background="@drawable/button_building"
         android:layout_row="19"
         android:layout_column="5"
         android:layout_margin="3dp"

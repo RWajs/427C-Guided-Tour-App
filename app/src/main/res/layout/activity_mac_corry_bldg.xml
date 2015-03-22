@@ -1,7 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:orientation="vertical"
-    android:background="@drawable/jacket_side"
+    android:background="@drawable/limestone_standard"
     android:id="@+id/linearLayout1"
     android:layout_height="fill_parent"
     android:layout_gravity="center_horizontal">

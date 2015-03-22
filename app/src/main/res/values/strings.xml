@@ -19,7 +19,7 @@
     <string name="title_activity_links_and_contacts">Links and Contacts</string>
     <string name="title_activity_google_map_of_campus">Map</string>
     <string name="title_activity_list_of_gallery">ListOfGallery</string>
-    <string name="EngTitle">Eng</string>
+    <string name="EngTitle">Engineering Buildings</string>
     //Strings for Links and Contacts Page
     <string name="TitleContactsPage">Links and Contacts</string>
     <string name="GenInfo">General Information</string>
@@ -57,8 +57,7 @@
     <string name="EllisInfoTitle">Main Uses</string>
     <string name="EllisInfo">Ellis Hall, constructed in 1958, is home to the Department of Civil Engineering, the Queen\’s Observatory, the GeoEngineering Centre, and the Groundwater and Flows Research Groups. The observatory houses a 16-inch state-of-the-art telescope used to study astrophysics. Ellis Hall is also home to multiple classrooms and an auditorium, where many first year engineering lectures are held. </string>
     <string name="EllisFactTitle">Interesting Facts</string>
-    <string name="EllisFact">Ellis Hall was one of the first engineering buildings at Queen\’s University to be built away from the north-east portion of campus.
-Ellis Hall also houses new and innovative classrooms, with interactive displays and unique seating arrangements, both of which allow for increased group work and participation. These classrooms are used for APSC 100 (Engineering Practice) Module 1, a first year engineering course based on group projects. </string>
+    <string name="EllisFact">Ellis Hall was one of the first engineering buildings at Queen\’s University to be built away from the north-east portion of campus. Ellis Hall also houses new and innovative classrooms, with interactive displays and unique seating arrangements, both of which allow for increased group work and participation. These classrooms are used for APSC 100 (Engineering Practice) Module 1, a first year engineering course based on group projects. </string>
     <string name="title_activity_chernoff_hall_building">ChernoffHallBuilding</string>
     <string name="ChernoffTitle">Chernoff Hall</string>
     <string name="ChernoffHallLocation">Location:90 Bader Lane, Kingston, Ontario. Located on the south side of Victoria Hall.  </string>
@@ -174,7 +173,7 @@ Ellis Hall also houses new and innovative classrooms, with interactive displays 
     <string name="SummerhillTitle">Summerhill</string>
     <string name="SummerhillLocation">Location: 55 Stuart Street, Kingston, Ontario</string>
     <string name="SummerhillInfoTitle">Main Uses</string>
-    <string name="SummerhillInfo">Since the 1860s, Summerhill has been the Principal's official residence, although only the east wing is now used for that purpose.</string>
+    <string name="SummerhillInfo">Since the 1860\'s, Summerhill has been the Principal\'s official residence, although only the east wing is now used for that purpose.</string>
     <string name="SummerhillFactTitle">Interesting Facts</string>
     <string name="SummerhillFact">Summerhill is the oldest building at Queen\'s and originally housed the entire university. Prior to this, when Kingston was the capital of Canada in the early 1840s, the building was actually rented as a home to MPs. Over the course of its history, Summerhill has been used to house students, classrooms, the library, and even a gymnasium at one point. The east wing of the building was recently renamed Agnes Benidickson House in honour of the former Chancellor.</string>
     <string name="TheologicalTitle">Theological Hall</string>
