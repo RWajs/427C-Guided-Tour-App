@@ -116,10 +116,6 @@
             android:label="@string/title_activity_dupuis_hall_building" >
         </activity>
         <activity
-            android:name=".GoodwinHallBuiling"
-            android:label="@string/title_activity_goodwin_hall_building" >
-        </activity>
-        <activity
             android:name=".GoodwinHallBuilding"
             android:label="@string/title_activity_goodwin_hall_building" >
         </activity>
