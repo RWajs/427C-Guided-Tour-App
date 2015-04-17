@@ -13,6 +13,10 @@
         android:layout_width="fill_parent"
         android:orientation="vertical"
         android:id="@+id/linearLayout1"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
         android:layout_height="fill_parent"
         android:layout_gravity="center_horizontal">
 
@@ -85,10 +89,6 @@
             android:id="@+id/FirstYO"
             style="@style/SubTitleContactsPage" />
 
-        <Space
-            android:layout_width="15dp"
-            android:layout_height="5dp"
-            android:layout_gravity="center"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -103,6 +103,104 @@
             android:text="@string/Info3"
             android:id="@+id/Info3"
             style="@style/InformationContactsPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/VisandInfoCent"
+            android:id="@+id/VisandInfoCent"
+            style="@style/SubTitleContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/C4"
+            android:id="@+id/C4"
+            style="@style/PersonContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Info4"
+            android:id="@+id/Info4"
+            style="@style/InformationContactsPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/DirFirstYO"
+            android:id="@+id/DirFirstYO"
+            style="@style/SubTitleContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/C5"
+            android:id="@+id/C5"
+            style="@style/PersonContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Info5"
+            android:id="@+id/Info5"
+            style="@style/InformationContactsPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EngQandInfo"
+            android:id="@+id/EngQandInfo"
+            style="@style/SubTitleContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/C6"
+            android:id="@+id/C6"
+            style="@style/PersonContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Info6"
+            android:id="@+id/Info6"
+            style="@style/InformationContactsPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Social"
+            android:id="@+id/Social"
+            style="@style/SubTitleContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Info11"
+            android:id="@+id/Info11"
+            style="@style/InformationContactsPage" />
+
 
     </LinearLayout>
 

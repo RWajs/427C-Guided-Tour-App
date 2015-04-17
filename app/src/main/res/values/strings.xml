@@ -30,6 +30,28 @@
     <string name="FirstYO">First Year Engineers</string>
     <string name="C3"> Aphra Rogers</string>
     <string name="Info3">firstyr@appsci.queensu.ca</string>
+    <string name="VisandInfoCent">Visitor and Information Centre</string>
+    <string name="C4">Email: jduc@queensu.ca </string>
+    <string name="Info4">Phone: (613)-533-2794 \nHours of Operation: Mon-Fri (9am-5pm), Sat-Sun (10am-4pm)</string>
+    <string name="DirFirstYO">Director of First Year</string>
+    <string name="C5">Evan Dressel</string>
+    <string name="Info5">Engineering Society of Queen's University\nEmail: firstyear@engsoc.queensu.ca\nPhone: (587)-435-4666</string>
+    <string name="EngQandInfo">Engineering Questions and Information</string>
+    <string name="C6">Email: engineering.first.year@queensu.ca</string>
+    <string name="Info6">Phone:(613)-533-6000 x77650\nOffice: Room 300 Beamish-Munro Hall (ILC)</string>
+    <string name="C7"></string>
+    <string name="Info7"></string>
+    <string name="C8"></string>
+    <string name="Info8"></string>
+    <string name="C9"></string>
+    <string name="Info9"></string>
+    <string name="C10"></string>
+    <string name="Info10"></string>
+    <string name="Social">Social Media</string>
+    <string name="Info11">Join the <a href="https://www.facebook.com/groups/441036839381217/">Queen’s Engineering Class of 2019</a> Facebook Page!\n
+Join the <a href="https://www.facebook.com/groups/QueensU2019/"> Queen’s University Class of 2019</a> Facebook Page!\n
+Follow <a href="https://twitter.com/queensu">@queensu</a> on twitter to receive updates from Queen’s University!\n
+Follow <a href="https://twitter.com/QueensEngineer"> @QueensEngineer</a> on twitter to receive updates from the Faculty of Engineering and Applied Science!\n</string>
     //FAQ Strings
     <string name="TitleFAQPage">Frequently Asked Questions</string>
     <string name="Question1FAQPage">Q) What are all these extra charges I see?</string>
@@ -52,7 +74,7 @@
     <string name="A9FAQPage">A)Frosh Week is a great opportunity for students to be introduced to the spirit and excellence of the Engineering Faculty at Queens. Students are put through a variety of events that test teamwork, skills, and passion. Though Frosh Week is not mandatory, it is suggested that incoming students attend events to see what Engineering is all about. With such highly coveted events, Frosh Week 2015 is a week you will definitely not want to miss!</string>
     <string name="Q10FAQPage">Q)What if I cannot afford to pay for Frosh Week events but I still want to participate?</string>
     <string name="A10FAQPage">A)The Engineering Society awards a financial bursary that covers part of the fee of Frosh week for incoming students who require assistance. In order to qualify for this, students must download, complete, and send in the, ‘Frosh Bursary Application Form’.
-</string>
+    </string>
     //Tips Settings
     <string name="TitleTipsPage">Pro Tips from Ex-First Years</string>
     <string name="ActualTips">1) Don’t fall behind in your classes early on. Although there are no midterms the first few weeks, you should really try and keep up with all your course material because it is very difficult to catch up once you’re behind. \n

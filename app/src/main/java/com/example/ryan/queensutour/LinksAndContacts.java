@@ -4,8 +4,10 @@ import android.content.pm.ActivityInfo;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 
 public class LinksAndContacts extends ActionBarActivity {
@@ -17,7 +19,8 @@ public class LinksAndContacts extends ActionBarActivity {
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
-
+        TextView social = (TextView) findViewById(R.id.Info11);
+        social.setMovementMethod(LinkMovementMethod.getInstance());
 
     }
 
