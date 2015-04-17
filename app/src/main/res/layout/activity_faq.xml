@@ -9,6 +9,8 @@
         android:orientation="vertical"
         android:id="@+id/linearLayout1"
         android:layout_height="350dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
         android:layout_gravity="center_horizontal">
 
         <Space
@@ -40,6 +42,7 @@
             android:layout_height="wrap_content"
             android:text="@string/Answer1FAQPage"
             android:id="@+id/Answer1FAQPage"
+            android:autoLink="all"
             style="@style/AnswerFAQPage" />
 
         <Space
@@ -118,8 +121,100 @@
             android:id="@+id/A5"
             style="@style/AnswerFAQPage" />
 
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q6FAQPage"
+            android:id="@+id/Q6"
+            style="@style/QuestionFAQPage" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/A6FAQPage"
+            android:id="@+id/A6"
+            style="@style/AnswerFAQPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q7FAQPage"
+            android:id="@+id/Q7"
+            style="@style/QuestionFAQPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/A7FAQPage"
+            android:id="@+id/A7"
+            style="@style/AnswerFAQPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q8FAQPage"
+            android:id="@+id/Q8"
+            style="@style/QuestionFAQPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/A8FAQPage"
+            android:id="@+id/A8"
+            style="@style/AnswerFAQPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q9FAQPage"
+            android:id="@+id/Q9"
+            style="@style/QuestionFAQPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/A9FAQPage"
+            android:id="@+id/A9"
+            style="@style/AnswerFAQPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Q10FAQPage"
+            android:id="@+id/Q10"
+            style="@style/QuestionFAQPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/A10FAQPage"
+            android:id="@+id/A10"
+            style="@style/AnswerFAQPage" />
     </LinearLayout>
 
 </ScrollView>
