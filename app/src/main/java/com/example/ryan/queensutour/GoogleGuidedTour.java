@@ -195,8 +195,71 @@ public class GoogleGuidedTour extends FragmentActivity {
                 else if (marker.getId().equals(markerMap.get("lazy"))){
                     intent = new Intent(GoogleGuidedTour.this,LazyBuilding.class);
                 }
+                else if (marker.getId().equals(markerMap.get("banrigh"))){
+                    intent = new Intent(GoogleGuidedTour.this,BanBuilding.class);
+                }
+                else if (marker.getId().equals(markerMap.get("mclaughlin"))){
+                    intent = new Intent(GoogleGuidedTour.this,MclaughlinHallBuilding.class);
+                }
+                else if (marker.getId().equals(markerMap.get("maccory"))){
+                    intent = new Intent(GoogleGuidedTour.this,MacCorryBldg.class);
+                }
+                else if (marker.getId().equals(markerMap.get("granthall"))){
+                    intent = new Intent(GoogleGuidedTour.this,GrantHallBldg.class);
+                }
+                else if (marker.getId().equals(markerMap.get("kingstonhall"))){
+                    intent = new Intent(GoogleGuidedTour.this,KingstonHallBldg.class);
+                }
+                else if (marker.getId().equals(markerMap.get("jduc"))){
+                    intent = new Intent(GoogleGuidedTour.this,JDUCBldg.class);
+                }
+                else if (marker.getId().equals(markerMap.get("arc"))){
+                    intent = new Intent(GoogleGuidedTour.this,ARCBldg.class);
+                }
+                else if (marker.getId().equals(markerMap.get("dupuis"))){
+                    intent = new Intent(GoogleGuidedTour.this,DupuisHallBuilding.class);
+                }
+                else if (marker.getId().equals(markerMap.get("walterlight"))){
+                    intent = new Intent(GoogleGuidedTour.this,WalterLightBuilding.class);
+                }
+                else if (marker.getId().equals(markerMap.get("gordon"))){
+                    intent = new Intent(GoogleGuidedTour.this,GordonBldg.class);
+                }
+                else if (marker.getId().equals(markerMap.get("theological"))){
+                    intent = new Intent(GoogleGuidedTour.this,TheologicalHallBldg.class);
+                }
+                else if (marker.getId().equals(markerMap.get("nicol"))){
+                    intent = new Intent(GoogleGuidedTour.this,NicolHallBldg.class);
+                }
+                else if (marker.getId().equals(markerMap.get("miller"))){
+                    intent = new Intent(GoogleGuidedTour.this,MillerHallBuilding.class);
+                }
+                else if (marker.getId().equals(markerMap.get("summerhill"))){
+                    intent = new Intent(GoogleGuidedTour.this,SummerhillBldg.class);
+                }
+                else if (marker.getId().equals(markerMap.get("ilc"))){
+                    intent = new Intent(GoogleGuidedTour.this,ILCBuilding.class);
+                }
+                else if (marker.getId().equals(markerMap.get("goodwin"))){
+                    intent = new Intent(GoogleGuidedTour.this,GoodwinHallBuilding.class);
+                }
+                else if (marker.getId().equals(markerMap.get("clark"))){
+                    intent = new Intent(GoogleGuidedTour.this,ClarkHallBuilding.class);
+                }
+                else if (marker.getId().equals(markerMap.get("douglas"))){
+                    intent = new Intent(GoogleGuidedTour.this,DouglasBldg.class);
+                }
+                else if (marker.getId().equals(markerMap.get("tindall"))){
+                    intent = new Intent(GoogleGuidedTour.this,TindallBldg.class);
+                }
+                else if (marker.getId().equals(markerMap.get("nixon"))){
+                    intent = new Intent(GoogleGuidedTour.this,NixonFieldBldg.class);
+                }
+                else if (marker.getId().equals(markerMap.get("leonard"))){
+                    intent = new Intent(GoogleGuidedTour.this,LeonardBuilding.class);
+                }
                 else{
-                    intent = new Intent(GoogleGuidedTour.this,EllisHallBuilding.class);
+                    intent = new Intent(GoogleGuidedTour.this,BenidicksonBldg.class);
                 }
                 startActivity(intent);
                 System.out.println(marker.getId());
