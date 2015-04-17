@@ -250,5 +250,6 @@
     <string name="JefferyInfo">Jeffery Hall is home to the Department of Mathematics and Statistics. Jeffery Hall is composed of six floors, three above and three below ground.</string>
     <string name="JefferyFactTitle">Interesting Facts</string>
     <string name="JefferyFact">Jeffery Hall is named after Ralph L. Jeffery, the Head of Mathematics and Chair of Graduate Studies from 1943 to 1960. The reasoning behind having underground floors in Jeffery Hall was so that it would not detract from the tower of Grant Hall, across the street.</string>
+    <string name="title_activity_go_to_ilc">GoToILC</string>
 
 </resources>

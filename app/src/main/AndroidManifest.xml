@@ -211,6 +211,10 @@
             android:name=".TheologicalHallBldg"
             android:label="@string/title_activity_theological_hall_bldg" >
         </activity>
+        <activity
+            android:name=".GoToILC"
+            android:label="@string/title_activity_go_to_ilc" >
+        </activity>
     </application>
 
 </manifest>
