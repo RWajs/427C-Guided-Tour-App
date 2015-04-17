@@ -25,7 +25,7 @@ public class MainActivity extends ActionBarActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),GoogleGuidedTour.class);
+                Intent intent = new Intent(v.getContext(),GoToILC.class);
                 startActivityForResult(intent,0);
             }
         });

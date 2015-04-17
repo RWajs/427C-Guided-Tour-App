@@ -95,7 +95,7 @@ public class GoogleMapOfCampus extends FragmentActivity {
         markerMap.put("douglas",mMap.addMarker(new MarkerOptions().position(new LatLng(44.227359, -76.495118)).title("Douglas Library")).getId());
         markerMap.put("tindall", mMap.addMarker(new MarkerOptions().position(new LatLng(44.226679, -76.498171)).title("Tindall Field")).getId());
         markerMap.put("nixon", mMap.addMarker(new MarkerOptions().position(new LatLng(44.224907, -76.494683)).title("Nixon Field")).getId());
-        markerMap.put("leonard",mMap.addMarker(new MarkerOptions().position(new LatLng(44.224292, -76.500763)).title("Leonard Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW))).getId());
+        markerMap.put("leonard",mMap.addMarker(new MarkerOptions().position(new LatLng(44.224292, -76.500763)).title("Leonard Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW)).snippet("Cafeteria")).getId());
         markerMap.put("anges",mMap.addMarker(new MarkerOptions().position(new LatLng(44.226081, -76.494213)).title("Anges Benidickson Field").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN))).getId());
 
 
