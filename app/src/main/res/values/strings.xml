@@ -54,6 +54,7 @@ Follow <a href="https://twitter.com/queensu">@queensu</a> on twitter to receive 
 Follow <a href="https://twitter.com/QueensEngineer"> @QueensEngineer</a> on twitter to receive updates from the Faculty of Engineering and Applied Science!\n</string>
     //FAQ Strings
     <string name="TitleFAQPage">Frequently Asked Questions</string>
+    <string name="EngFAQ">Engineering:</string>
     <string name="Question1FAQPage">Q) What are all these extra charges I see?</string>
     <string name="Answer1FAQPage"> A) University is expensive. However, some of the costs are actually optional. For example, student fees include a health and dental plan, bus passes, and gym membership. If you\'d like, you can opt out of those fees. Details here: "http://myams.org/society/about-your-ams/student-activity-fees" </string>
     <string name="Q2FAQPage">Q)What courses will I be taking in my First Year?</string>
@@ -74,6 +75,17 @@ Follow <a href="https://twitter.com/QueensEngineer"> @QueensEngineer</a> on twit
     <string name="A9FAQPage">A)Frosh Week is a great opportunity for students to be introduced to the spirit and excellence of the Engineering Faculty at Queens. Students are put through a variety of events that test teamwork, skills, and passion. Though Frosh Week is not mandatory, it is suggested that incoming students attend events to see what Engineering is all about. With such highly coveted events, Frosh Week 2015 is a week you will definitely not want to miss!</string>
     <string name="Q10FAQPage">Q)What if I cannot afford to pay for Frosh Week events but I still want to participate?</string>
     <string name="A10FAQPage">A)The Engineering Society awards a financial bursary that covers part of the fee of Frosh week for incoming students who require assistance. In order to qualify for this, students must download, complete, and send in the, ‘Frosh Bursary Application Form’.
+    <string name="UniFAQ">University Life: </string>
+    <string name="Q11FAQPage">Q)Where can I use my Meal Plan?</string>
+    <string name="A11FAQPage">A)If you are living in residence, your first year meal plan can be used at any of the cafeterias, as well as any retail location on campus. You cannot use your meal plan off campus.</string>
+    <string name="Q12FAQPage">Q)I am worried about my child walking alone around campus. What services are available for him/her?</string>
+    <string name="A12FAQPage">A)f a student needs to get somewhere on campus late at night, Queen’s has a safety service called Walkhome. This service allows any student to call and request a walk, in which a team of one male and one female student staff member will go to their location and safely accompany them as they walk to their destination. Walkhome is also completely anonymous and non-judgemental, as staff members do not have a uniform or anything indicating that they work for the service.</string>
+    <string name="Q13FAQPage">Q)Does it cost money to take the bus in Kingston as a Queen’s student?</string>
+    <string name="A13FAQPage">A)Kingston Transit via bus is actually free with your Queen’s student card. Simply show the driver your card when you get on, and you won’t have to pay any additional fee or bus fare. </string>
+    <string name="Q14FAQPage">Q)What recreational facilities are available to students?</string>
+    <string name="A14FAQPage">A)Queen’s students receive free access to the workout facilities in the Athletics and Recreation Centre (ARC). Additionally, the gyms, fields, courts, and swimming pool can be reserved upon request.</string>
+    <string name="Q15FAQPage">Q)Where can I go if I am ever feeling sick?</string>
+    <string name="A15FAQPage">A)If you ever feel sick, you can visit either the Kingston General Hospital (KGH) or the LaSalle Building, both of which are on campus. KGH is located at 76 Stuart Street and the LaSalle Building is located at 146 Stuart Street. It is important to note that you may not skip an exam or test unless you have proof of an illness, personal issue, or serious injury, so if you believe you are too sick to write, you must have a doctor’s note. This is also the case for some labs as well.</string>
     </string>
     //Tips Settings
     <string name="TitleTipsPage">Pro Tips from Ex-First Years</string>
