@@ -33,7 +33,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Food Buildings"
+        android:text="Cafeterias"
         android:id="@+id/buttonFoodBuildings"
         android:background="@drawable/button_back"
         android:layout_alignParentStart="true"

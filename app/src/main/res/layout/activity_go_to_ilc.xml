@@ -10,20 +10,19 @@
     <TextView android:text="To begin to the tour, head to the Integrated Learning Centre (ILC)"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25sp"
+        android:textSize="24sp"
         android:textColor="#f2edf6"
         android:layout_alignParentRight="false"
         android:gravity="center_vertical|center_horizontal"
         android:id="@+id/id1"/>
-    <TextView android:text="The ILC is located at the intersection Union and Division Street. "
+    <TextView android:text="\nThe ILC is located at the intersection Union and Division Street. "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/id1"
-        android:textSize="25sp"
+        android:textSize="22sp"
         android:textColor="#f2edf6"
-        android:layout_alignParentRight="false"
         android:id="@+id/id2"
-        android:password="false" />
+         />
     <Button
         android:layout_width="fill_parent"
         android:layout_height="50dp"
@@ -35,15 +34,13 @@
         android:id="@+id/id3"
         android:layout_marginBottom="10dp"
         android:textColor="#f2edf6"/>
-    <TextView android:text="Once you are there click the button below to start your tour"
+    <TextView android:text="Once you are there click the button below to start your tour. \n\nFollow the black route for a tour around campus and click on the markers twice to get more information about each building."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/id3"
-        android:textSize="25sp"
+        android:textSize="22sp"
         android:textColor="#f2edf6"
-        android:layout_alignParentRight="false"
         android:id="@+id/id4"
-        android:password="false"
         android:layout_marginTop="10dp"/>
     <Button
         android:layout_width="fill_parent"
