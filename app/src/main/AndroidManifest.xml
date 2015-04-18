@@ -215,6 +215,14 @@
             android:name=".GoToILC"
             android:label="@string/title_activity_go_to_ilc" >
         </activity>
+        <activity
+            android:name=".JeffryHallBldg"
+            android:label="@string/title_activity_jeffry_hall_bldg" >
+        </activity>
+        <activity
+            android:name=".JefferyHallBldg"
+            android:label="@string/title_activity_jeffery_hall_bldg" >
+        </activity>
     </application>
 
 </manifest>

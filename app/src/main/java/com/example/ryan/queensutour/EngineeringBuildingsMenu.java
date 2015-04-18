@@ -110,6 +110,14 @@ public class EngineeringBuildingsMenu extends ActionBarActivity {
                 startActivityForResult(intent,0);
             }
         });
+        Button button11 = (Button) findViewById(R.id.Jeffery);
+        button11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),JefferyHallBldg.class);
+                startActivityForResult(intent,0);
+            }
+        });
     }
 
 

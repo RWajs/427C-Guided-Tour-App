@@ -32,7 +32,7 @@
     <string name="Info3">firstyr@appsci.queensu.ca</string>
     <string name="VisandInfoCent">Visitor and Information Centre</string>
     <string name="C4">Email: jduc@queensu.ca </string>
-    <string name="Info4">Phone: (613) 533 2794 \nHours of Operation: Mon-Fri (9am-5pm), Sat-Sun (10am-4pm)</string>
+    <string name="Info4">Phone:(613) 533 2794 \nHours of Operation: Mon-Fri (9am-5pm), Sat-Sun (10am-4pm)</string>
     <string name="DirFirstYO">Director of First Year</string>
     <string name="C5">Evan Dressel</string>
     <string name="Info5">Engineering Society of Queen\'s University\nEmail: firstyear@engsoc.queensu.ca\nPhone: (587) 435 4666</string>
@@ -57,48 +57,48 @@ Follow <a href="https://twitter.com/QueensEngineer"> @QueensEngineer</a> on twit
     <string name="EngFAQ">Engineering:</string>
     <string name="Question1FAQPage">Q) What are all these extra charges I see?</string>
     <string name="Answer1FAQPage"> A) University is expensive. However, some of the costs are actually optional. For example, student fees include a health and dental plan, bus passes, and gym membership. If you\'d like, you can opt out of those fees. Details here: "http://myams.org/society/about-your-ams/student-activity-fees" </string>
-    <string name="Q2FAQPage">Q)What courses will I be taking in my First Year?</string>
-    <string name="A2FAQPage">A)In First Year, students take a total of 11 courses. 10 are Half-Year courses, and 1 is a Full Year course. In the Fall Term, students take: APSC 100 (Module 1), APSC 111 (Mechanics), APSC 131 (Chemistry and Materials), APSC 151 (Earth Systems and Engineering), APSC 161 (Basic Engineering Graphics), and APSC 171 (Calculus I). In the Winter Term, students take: APSC 100 (Module 3), APSC 112 (Electricity and Magnetism), APSC 132 (Chemistry and its Applications), APSC 142 (Computer Programming for Engineers), APSC 172 (Calculus II), and APSC 174 (Introduction to Linear Algebra). APSC 100 (Module 2) is broken up amongst students in both the Fall and Winter Term. </string>
-    <string name="Q3FAQPage">Q)Do I get to take any Complementary Studies Courses?</string>
-    <string name="A3FAQPage">A)Students are required to receive at least 18.75 credits through completion of Complementary Studies Courses. These courses must be taken in Upper Years, and can be from Engineering Economics, Communications, Humanities and Social Sciences, Linkage and Professional Issues, Performance Arts and Languages, and Management. These courses are different from the technical electives that students must also take. </string>
-    <string name="Q4FAQPage">Q)Do I get to choose my courses this summer on SOLUS?</string>
-    <string name="A4FAQPage">A)All First Year Engineering courses are core courses, meaning you must take and pass them in order to complete your degree. These courses are put into your schedule by the faculty and you are assigned a section and subsection. You do not need to choose any courses in the summer. Schedules will be posted on SOLUS sometime before the Fall Term begins. </string>
-    <string name="Q5FAQPage">Q)What if I do not do well in my first term?</string>
-    <string name="A5FAQPage">A)Queen’s University offers a back up plan called, “J-Section”. If students failed any courses, have below a 1.6 GPA, or want to improve their overall GPA, they can sign up for J-Section. Over the first few weeks of Winter Term you retake your specified Fall Term courses, and take the exams during reading week. After this they begin their Winter Term Classes, finishing sometime at the beginning of June. There is an additional fee required to be in J-Section. </string>
-    <string name="Q6FAQPage">Q)What is this English Proficiency Test I hear about?</string>
-    <string name="A6FAQPage">A)The English Proficiency Test is a written test that all engineering students are required to take and pass to obtain their degree. It is ideally completed in First Year, but is available for students to retake during each exam period over 4 years. </string>
-    <string name="Q7FAQPage">Q)Are there private places I can go to work on campus?</string>
-    <string name="A7FAQPage">A)Students can go to Stauffer Library and Douglas Library to do work in a private area with access to many books, articles, and other information. Beamish Munro Hall (ILC) also has numerous study rooms available to be rented out for group projects, or individual work. </string>
-    <string name="Q8FAQPage">Q)When do I get to choose my engineering discipline and sub-plan?</string>
-    <string name="A8FAQPage">A)The different engineering faculties hold discipline nights between January and February to educate students of the many advantages of each specific plan. Students are required to choose their plan for second year at the end of February in their First Year. </string>
-    <string name="Q9FAQPage">Q)Is Frosh Week mandatory?</string>
-    <string name="A9FAQPage">A)Frosh Week is a great opportunity for students to be introduced to the spirit and excellence of the Engineering Faculty at Queens. Students are put through a variety of events that test teamwork, skills, and passion. Though Frosh Week is not mandatory, it is suggested that incoming students attend events to see what Engineering is all about. With such highly coveted events, Frosh Week 2015 is a week you will definitely not want to miss!</string>
-    <string name="Q10FAQPage">Q)What if I cannot afford to pay for Frosh Week events but I still want to participate?</string>
-    <string name="A10FAQPage">A)The Engineering Society awards a financial bursary that covers part of the fee of Frosh week for incoming students who require assistance. In order to qualify for this, students must download, complete, and send in the, ‘Frosh Bursary Application Form’. </string>
+    <string name="Q2FAQPage">Q) What courses will I be taking in my First Year?</string>
+    <string name="A2FAQPage">A) In First Year, students take a total of 11 courses. 10 are Half-Year courses, and 1 is a Full Year course. In the Fall Term, students take: APSC 100 (Module 1), APSC 111 (Mechanics), APSC 131 (Chemistry and Materials), APSC 151 (Earth Systems and Engineering), APSC 161 (Basic Engineering Graphics), and APSC 171 (Calculus I). In the Winter Term, students take: APSC 100 (Module 3), APSC 112 (Electricity and Magnetism), APSC 132 (Chemistry and its Applications), APSC 142 (Computer Programming for Engineers), APSC 172 (Calculus II), and APSC 174 (Introduction to Linear Algebra). APSC 100 (Module 2) is broken up amongst students in both the Fall and Winter Term. </string>
+    <string name="Q3FAQPage">Q) Do I get to take any Complementary Studies Courses?</string>
+    <string name="A3FAQPage">A) Students are required to receive at least 18.75 credits through completion of Complementary Studies Courses. These courses must be taken in Upper Years, and can be from Engineering Economics, Communications, Humanities and Social Sciences, Linkage and Professional Issues, Performance Arts and Languages, and Management. These courses are different from the technical electives that students must also take. </string>
+    <string name="Q4FAQPage">Q) Do I get to choose my courses this summer on SOLUS?</string>
+    <string name="A4FAQPage">A) All First Year Engineering courses are core courses, meaning you must take and pass them in order to complete your degree. These courses are put into your schedule by the faculty and you are assigned a section and subsection. You do not need to choose any courses in the summer. Schedules will be posted on SOLUS sometime before the Fall Term begins. </string>
+    <string name="Q5FAQPage">Q) What if I do not do well in my first term?</string>
+    <string name="A5FAQPage">A) Queen’s University offers a back up plan called, “J-Section”. If students failed any courses, have below a 1.6 GPA, or want to improve their overall GPA, they can sign up for J-Section. Over the first few weeks of Winter Term you retake your specified Fall Term courses, and take the exams during reading week. After this they begin their Winter Term Classes, finishing sometime at the beginning of June. There is an additional fee required to be in J-Section. </string>
+    <string name="Q6FAQPage">Q) What is this English Proficiency Test I hear about?</string>
+    <string name="A6FAQPage">A) The English Proficiency Test is a written test that all engineering students are required to take and pass to obtain their degree. It is ideally completed in First Year, but is available for students to retake during each exam period over 4 years. </string>
+    <string name="Q7FAQPage">Q) Are there private places I can go to work on campus?</string>
+    <string name="A7FAQPage">A) Students can go to Stauffer Library and Douglas Library to do work in a private area with access to many books, articles, and other information. Beamish Munro Hall (ILC) also has numerous study rooms available to be rented out for group projects, or individual work. </string>
+    <string name="Q8FAQPage">Q) When do I get to choose my engineering discipline and sub-plan?</string>
+    <string name="A8FAQPage">A) The different engineering faculties hold discipline nights between January and February to educate students of the many advantages of each specific plan. Students are required to choose their plan for second year at the end of February in their First Year. </string>
+    <string name="Q9FAQPage">Q) Is Frosh Week mandatory?</string>
+    <string name="A9FAQPage">A) Frosh Week is a great opportunity for students to be introduced to the spirit and excellence of the Engineering Faculty at Queens. Students are put through a variety of events that test teamwork, skills, and passion. Though Frosh Week is not mandatory, it is suggested that incoming students attend events to see what Engineering is all about. With such highly coveted events, Frosh Week 2015 is a week you will definitely not want to miss!</string>
+    <string name="Q10FAQPage">Q) What if I cannot afford to pay for Frosh Week events but I still want to participate?</string>
+    <string name="A10FAQPage">A) The Engineering Society awards a financial bursary that covers part of the fee of Frosh week for incoming students who require assistance. In order to qualify for this, students must download, complete, and send in the, ‘Frosh Bursary Application Form’. </string>
     <string name="UniFAQ">University Life: </string>
-    <string name="Q11FAQPage">Q)Where can I use my Meal Plan?</string>
-    <string name="A11FAQPage">A)If you are living in residence, your first year meal plan can be used at any of the cafeterias, as well as any retail location on campus. You cannot use your meal plan off campus.</string>
-    <string name="Q12FAQPage">Q)I am worried about my child walking alone around campus. What services are available for him/her?</string>
-    <string name="A12FAQPage">A)f a student needs to get somewhere on campus late at night, Queen’s has a safety service called Walkhome. This service allows any student to call and request a walk, in which a team of one male and one female student staff member will go to their location and safely accompany them as they walk to their destination. Walkhome is also completely anonymous and non-judgemental, as staff members do not have a uniform or anything indicating that they work for the service.</string>
-    <string name="Q13FAQPage">Q)Does it cost money to take the bus in Kingston as a Queen’s student?</string>
-    <string name="A13FAQPage">A)Kingston Transit via bus is actually free with your Queen’s student card. Simply show the driver your card when you get on, and you won’t have to pay any additional fee or bus fare. </string>
-    <string name="Q14FAQPage">Q)What recreational facilities are available to students?</string>
-    <string name="A14FAQPage">A)Queen’s students receive free access to the workout facilities in the Athletics and Recreation Centre (ARC). Additionally, the gyms, fields, courts, and swimming pool can be reserved upon request.</string>
-    <string name="Q15FAQPage">Q)Where can I go if I am ever feeling sick?</string>
-    <string name="A15FAQPage">A)If you ever feel sick, you can visit either the Kingston General Hospital (KGH) or the LaSalle Building, both of which are on campus. KGH is located at 76 Stuart Street and the LaSalle Building is located at 146 Stuart Street. It is important to note that you may not skip an exam or test unless you have proof of an illness, personal issue, or serious injury, so if you believe you are too sick to write, you must have a doctor’s note. This is also the case for some labs as well.</string>
+    <string name="Q11FAQPage">Q) Where can I use my Meal Plan?</string>
+    <string name="A11FAQPage">A) If you are living in residence, your first year meal plan can be used at any of the cafeterias, as well as any retail location on campus. You cannot use your meal plan off campus.</string>
+    <string name="Q12FAQPage">Q) I am worried about my child walking alone around campus. What services are available for him/her?</string>
+    <string name="A12FAQPage">A) If a student needs to get somewhere on campus late at night, Queen’s has a safety service called Walkhome. This service allows any student to call and request a walk, in which a team of one male and one female student staff member will go to their location and safely accompany them as they walk to their destination. Walkhome is also completely anonymous and non-judgemental, as staff members do not have a uniform or anything indicating that they work for the service.</string>
+    <string name="Q13FAQPage">Q) Does it cost money to take the bus in Kingston as a Queen’s student?</string>
+    <string name="A13FAQPage">A) Kingston Transit via bus is actually free with your Queen’s student card. Simply show the driver your card when you get on, and you won’t have to pay any additional fee or bus fare. </string>
+    <string name="Q14FAQPage">Q) What recreational facilities are available to students?</string>
+    <string name="A14FAQPage">A) Queen’s students receive free access to the workout facilities in the Athletics and Recreation Centre (ARC). Additionally, the gyms, fields, courts, and swimming pool can be reserved upon request.</string>
+    <string name="Q15FAQPage">Q) Where can I go if I am ever feeling sick?</string>
+    <string name="A15FAQPage">A) If you ever feel sick, you can visit either the Kingston General Hospital (KGH) or the LaSalle Building, both of which are on campus. KGH is located at 76 Stuart Street and the LaSalle Building is located at 146 Stuart Street. It is important to note that you may not skip an exam or test unless you have proof of an illness, personal issue, or serious injury, so if you believe you are too sick to write, you must have a doctor’s note. This is also the case for some labs as well.</string>
     //Tips Settings
     <string name="TitleTipsPage">Pro Tips from Ex-First Years</string>
-    <string name="ActualTips">1) Don’t fall behind in your classes early on. Although there are no midterms the first few weeks, you should really try and keep up with all your course material because it is very difficult to catch up once you’re behind. \n
-2) Get involved in clubs sometime in your first year! Queen’s provides a wide variety of extra-curriculars for students to take part in.\n
-3) Although it is important to work hard, it’s also important to have a little fun. Remember to take some time to enjoy yourself while you are here!\n
-4) You’ll be required to complete an Excel/Word assignment by the first week of classes. Complete this before orientation week! You don’t want to be sitting in your room working while everyone else is having the time of their lives!\n
-5) Especially in first term, many professors offer their lecture notes online for you to access electronically or print and annotate in class.\n
-6) EngSoc offers printed lecture slides for APSC 131 and APSC 132, the two chemistry courses taken in first year. They are sold at a reasonable price and are well worth the money.\n
-7) Even for courses that provide online lecture notes, be sure to listen to your professors in class. More often than not, they give helpful tips that you won’t find in your notes!\n
-8) Make some friends in your lectures and tutorials! You’ll really value this decision when you end up missing class from illness or because you couldn’t wake up for your 8:30 lecture.\n
-9) Learn to compromise. It is very likely that you won’t be able to complete all your readings and finish every homework problem, so try to prioritize your tasks and be as efficient as possible with assignments and studying.\n
-10) Once work comes, the work keeps coming… Enjoy your first few weeks without midterms, because as soon as they come around, you’ll likely have a midterm every week for the next month and a half!\n
-11) Remember that grades don’t define you as a person. You’re more than your grades say you are, so don’t feel down about your marks!\n
+    <string name="ActualTips">1) Don’t fall behind in your classes early on. Although there are no midterms the first few weeks, you should really try and keep up with all your course material because it is very difficult to catch up once you’re behind. \n\n
+2) Get involved in clubs sometime in your first year! Queen’s provides a wide variety of extra-curriculars for students to take part in. \n\n
+3) Although it is important to work hard, it’s also important to have a little fun. Remember to take some time to enjoy yourself while you are here! \n\n
+4) You’ll be required to complete an Excel/Word assignment by the first week of classes. Complete this before orientation week! You don’t want to be sitting in your room working while everyone else is having the time of their lives!\n \n
+5) Especially in first term, many professors offer their lecture notes online for you to access electronically or print and annotate in class. \n\n
+6) EngSoc offers printed lecture slides for APSC 131 and APSC 132, the two chemistry courses taken in first year. They are sold at a reasonable price and are well worth the money. \n\n
+7) Even for courses that provide online lecture notes, be sure to listen to your professors in class. More often than not, they give helpful tips that you won’t find in your notes! \n \n
+8) Make some friends in your lectures and tutorials! You’ll really value this decision when you end up missing class from illness or because you couldn’t wake up for your 8:30 lecture. \n \n
+9) Learn to compromise. It is very likely that you won’t be able to complete all your readings and finish every homework problem, so try to prioritize your tasks and be as efficient as possible with assignments and studying.\n \n
+10) Once work comes, the work keeps coming… Enjoy your first few weeks without midterms, because as soon as they come around, you’ll likely have a midterm every week for the next month and a half! \n \n
+11) Remember that grades don’t define you as a person. You’re more than your grades say you are, so don’t feel down about your marks! \n\n
 12) You’ll never pass 112 frosh.\n
 </string>
     //Building Things
@@ -148,7 +148,7 @@ Follow <a href="https://twitter.com/QueensEngineer"> @QueensEngineer</a> on twit
     <string name="GoodwinFact">: The department of Mining Engineering was the first active department in what evolved into the Faculty of Engineering and Applied Science. Goodwin Hall also houses the School of Computing. In June of 2002, a 20 kilowatt solar array was installed on Goodwin\’s roof. It was constructed as a learning, teaching, and research tool for Applied Science students. The array produces 18,000 kWh of electricity annually, which is distributed among Walter Light Hall, Goodwin Hall, and the Integrated Learning Centre. </string>
     <string name="title_activity_ilcbuilding">ILCBuilding</string>
     <string name="ILCTitle">Integrated Learning Centre</string>
-    <string name="ILCLocation"> Northeast corner of Union and Division Street (45 Union Street). </string>
+    <string name="ILCLocation">Location: Northeast corner of Union and Division Street (45 Union Street). </string>
     <string name="ILCInfoTitle">Main Uses</string>
     <string name="ILCInfo">The Integrated Learning Centre (ILC) is home to the Faculty of Engineering and Applied Science. It is also called Beamish-Munro Hall.  In addition, the building consists of group rooms, a multimedia facility, a site investigation facility, a design studio, and a prototyping studio and lab facilities. Beamish-Munro Hall was built to meet the needs of a growing multi-disciplinary Engineering faculty, as a model of sustainable construction. </string>
     <string name="ILCFactTitle">Interesting Facts</string>
@@ -311,5 +311,7 @@ Follow <a href="https://twitter.com/QueensEngineer"> @QueensEngineer</a> on twit
     <string name="JefferyFactTitle">Interesting Facts</string>
     <string name="JefferyFact">Jeffery Hall is named after Ralph L. Jeffery, the Head of Mathematics and Chair of Graduate Studies from 1943 to 1960. The reasoning behind having underground floors in Jeffery Hall was so that it would not detract from the tower of Grant Hall, across the street.</string>
     <string name="title_activity_go_to_ilc">GoToILC</string>
+    <string name="title_activity_jeffry_hall_bldg">JeffryHallBldg</string>
+    <string name="title_activity_jeffery_hall_bldg">JefferyHallBldg</string>
 
 </resources>

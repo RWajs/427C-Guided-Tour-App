@@ -6,6 +6,6 @@
     android:id="@+id/GuidedTourMap"
     tools:context="com.example.ryan.queensutour.GoogleGuidedTour"
     android:name="com.google.android.gms.maps.SupportMapFragment"
-    map:cameraTargetLat="44.226229"
-    map:cameraTargetLng="-76.495624"
-    map:cameraZoom="15.75" />
+    map:cameraTargetLat="44.227850"
+    map:cameraTargetLng="-76.492884"
+    map:cameraZoom="19" />

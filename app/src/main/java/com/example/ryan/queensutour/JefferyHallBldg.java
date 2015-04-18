@@ -8,7 +8,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class JefferyHallBuilding extends ActionBarActivity {
+public class JefferyHallBldg extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class JefferyHallBuilding extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_jeffery_hall_building, menu);
+        getMenuInflater().inflate(R.menu.menu_jeffery_hall_bldg, menu);
         return true;
     }
 

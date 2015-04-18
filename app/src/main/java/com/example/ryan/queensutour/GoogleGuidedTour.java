@@ -1,9 +1,13 @@
 package com.example.ryan.queensutour;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.widget.PopupWindow;
 
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -144,15 +148,15 @@ public class GoogleGuidedTour extends FragmentActivity {
      */
     private void setUpMap() {
 
-        markerMap.put("stauffer", mMap.addMarker(new MarkerOptions().position(new LatLng(44.228376, -76.496233)).title("Stauffer Library")).getId());
-        markerMap.put("ellis",  mMap.addMarker(new MarkerOptions().position(new LatLng(44.226322, -76.496284)).title("Ellis Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
-        markerMap.put("chernoff",  mMap.addMarker(new MarkerOptions().position(new LatLng(44.224224, -76.498866)).title("Chernoff Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
-        markerMap.put("stirling",  mMap.addMarker(new MarkerOptions().position(new LatLng(44.224597, -76.497744)).title("Stirling Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
-        markerMap.put("lazy",  mMap.addMarker(new MarkerOptions().position(new LatLng(44.225492, -76.498651)).title("The Lazy Scholar").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW))).getId());
+        markerMap.put("stauffer", mMap.addMarker(new MarkerOptions().position(new LatLng(44.228376, -76.496233)).title("Stauffer Library").snippet("Non-Engineering")).getId());
+        markerMap.put("ellis",  mMap.addMarker(new MarkerOptions().position(new LatLng(44.226322, -76.496284)).title("Ellis Hall").snippet("Engineering").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
+        markerMap.put("chernoff",  mMap.addMarker(new MarkerOptions().position(new LatLng(44.224224, -76.498866)).title("Chernoff Hall").snippet("Engineering").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
+        markerMap.put("stirling",  mMap.addMarker(new MarkerOptions().position(new LatLng(44.224597, -76.497744)).title("Stirling Hall").snippet("Engineering").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
+        markerMap.put("lazy",  mMap.addMarker(new MarkerOptions().position(new LatLng(44.225492, -76.498651)).title("The Lazy Scholar").snippet("Cafeteria").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW))).getId());
 
-        markerMap.put("banrigh",mMap.addMarker(new MarkerOptions().position(new LatLng(44.224670, -76.496226)).title("Ban Righ Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW))).getId());
+        markerMap.put("banrigh",mMap.addMarker(new MarkerOptions().position(new LatLng(44.224670, -76.496226)).title("Ban Righ Hall").snippet("Cafeteria").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW))).getId());
         markerMap.put("mclaughlin",mMap.addMarker(new MarkerOptions().position(new LatLng(44.223728, -76.495389)).title("McLaughlin Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
-        markerMap.put("jeffry",mMap.addMarker(new MarkerOptions().position(new LatLng(44.225900, -76.496135)).title("Jeffry Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
+        markerMap.put("jeffery",mMap.addMarker(new MarkerOptions().position(new LatLng(44.225900, -76.496135)).title("Jeffery Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
         markerMap.put("maccory",mMap.addMarker(new MarkerOptions().position(new LatLng(44.226469, -76.497036)).title("Mackintosh-Corry Hall")).getId());
         markerMap.put("granthall",mMap.addMarker(new MarkerOptions().position(new LatLng(44.225897, -76.495180)).title("Grant Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN))).getId());
         markerMap.put("kingstonhall",mMap.addMarker(new MarkerOptions().position(new LatLng(44.225635, -76.494852)).title("Kingston Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN))).getId());
@@ -257,6 +261,9 @@ public class GoogleGuidedTour extends FragmentActivity {
                 }
                 else if (marker.getId().equals(markerMap.get("leonard"))){
                     intent = new Intent(GoogleGuidedTour.this,LeonardBuilding.class);
+                }
+                else if (marker.getId().equals(markerMap.get("jeffery"))){
+                    intent = new Intent(GoogleGuidedTour.this,JefferyHallBldg.class);
                 }
                 else{
                     intent = new Intent(GoogleGuidedTour.this,BenidicksonBldg.class);

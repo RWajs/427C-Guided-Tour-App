@@ -76,7 +76,7 @@ public class GoogleMapOfCampus extends FragmentActivity {
 
         markerMap.put("banrigh",mMap.addMarker(new MarkerOptions().position(new LatLng(44.224670, -76.496226)).title("Ban Righ Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW))).getId());
         markerMap.put("mclaughlin",mMap.addMarker(new MarkerOptions().position(new LatLng(44.223728, -76.495389)).title("McLaughlin Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
-        markerMap.put("jeffry",mMap.addMarker(new MarkerOptions().position(new LatLng(44.225900, -76.496135)).title("Jeffry Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
+        markerMap.put("jeffery",mMap.addMarker(new MarkerOptions().position(new LatLng(44.225900, -76.496135)).title("Jeffery Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
         markerMap.put("maccory",mMap.addMarker(new MarkerOptions().position(new LatLng(44.226469, -76.497036)).title("Mackintosh-Corry Hall")).getId());
         markerMap.put("granthall",mMap.addMarker(new MarkerOptions().position(new LatLng(44.225897, -76.495180)).title("Grant Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN))).getId());
         markerMap.put("kingstonhall",mMap.addMarker(new MarkerOptions().position(new LatLng(44.225635, -76.494852)).title("Kingston Hall").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN))).getId());
@@ -181,6 +181,9 @@ public class GoogleMapOfCampus extends FragmentActivity {
                 }
                 else if (marker.getId().equals(markerMap.get("leonard"))){
                     intent = new Intent(GoogleMapOfCampus.this,LeonardBuilding.class);
+                }
+                else if (marker.getId().equals(markerMap.get("jeffery"))){
+                    intent = new Intent(GoogleMapOfCampus.this,JefferyHallBldg.class);
                 }
                 else{
                     intent = new Intent(GoogleMapOfCampus.this,BenidicksonBldg.class);
