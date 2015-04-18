@@ -39,14 +39,14 @@
     <string name="EngQandInfo">Engineering Questions and Information</string>
     <string name="C6">Email: engineering.first.year@queensu.ca</string>
     <string name="Info6">Phone:(613) 533 6000 x77650\nOffice: Room 300 Beamish-Munro Hall (ILC)</string>
-    <string name="C7"></string>
-    <string name="Info7"></string>
-    <string name="C8"></string>
-    <string name="Info8"></string>
-    <string name="C9"></string>
-    <string name="Info9"></string>
-    <string name="C10"></string>
-    <string name="Info10"></string>
+    <string name="StuBlog">Student Bloggers (Life as an Engineer at Queens University)</string>
+    <string name="Info7">http://prospective.appsci.queensu.ca/Student-Bloggers.html</string>
+    <string name="ParentEng">Parents Guide to Queen's Engineering and Applied Science:</string>
+    <string name="Info8">http://issuu.com/queenseng/docs/parentguide?viewMode=presentation&mode=embed</string>
+    <string name="SOAR">Summer Orientation to Academics and Resources (SOAR) 2015:</string>
+    <string name="Info9">http://www.queensu.ca/studentexperience/summer-orientation-soar</string>
+    <string name="InfoFee">Information on Tuition and Fees:</string>
+    <string name="Info10">http://www.queensu.ca/registrar/sites/webpublish.queensu.ca.uregwww/files/files/Reg_Guide_2014_2015.pdf</string>
     <string name="Social">Social Media</string>
     <string name="Info11">Join the <a href="https://www.facebook.com/groups/441036839381217/">Queen’s Engineering Class of 2019</a> Facebook Page!\n
 Join the <a href="https://www.facebook.com/groups/QueensU2019/"> Queen’s University Class of 2019</a> Facebook Page!\n
