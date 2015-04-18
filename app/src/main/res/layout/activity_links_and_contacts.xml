@@ -53,7 +53,9 @@
             android:layout_height="wrap_content"
             android:text="@string/Info1"
             android:id="@+id/Info1"
-            style="@style/InformationContactsPage" />
+            style="@style/InformationContactsPage"
+            android:autoLink="email"
+            />
 
         <Space
             android:layout_width="15dp"
@@ -72,7 +74,8 @@
             android:layout_height="wrap_content"
             android:text="@string/Info2"
             android:id="@+id/Info2"
-            style="@style/InformationContactsPage" />
+            style="@style/InformationContactsPage"
+            android:autoLink="email"/>
 
         <Space
             android:layout_width="15dp"
@@ -99,7 +102,8 @@
             android:layout_height="wrap_content"
             android:text="@string/Info3"
             android:id="@+id/Info3"
-            style="@style/InformationContactsPage" />
+            style="@style/InformationContactsPage"
+            android:autoLink="email"/>
 
         <Space
             android:layout_width="15dp"
@@ -118,14 +122,16 @@
             android:layout_height="wrap_content"
             android:text="@string/C4"
             android:id="@+id/C4"
-            style="@style/PersonContactsPage" />
+            style="@style/PersonContactsPage"
+            android:autoLink="email"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Info4"
             android:id="@+id/Info4"
-            style="@style/InformationContactsPage" />
+            style="@style/InformationContactsPage"
+            android:autoLink="phone"/>
 
         <Space
             android:layout_width="15dp"
@@ -151,7 +157,8 @@
             android:layout_height="wrap_content"
             android:text="@string/Info5"
             android:id="@+id/Info5"
-            style="@style/InformationContactsPage" />
+            style="@style/InformationContactsPage"
+            android:autoLink="all"/>
 
         <Space
             android:layout_width="15dp"
@@ -170,14 +177,15 @@
             android:layout_height="wrap_content"
             android:text="@string/C6"
             android:id="@+id/C6"
-            style="@style/PersonContactsPage" />
+            style="@style/PersonContactsPage" android:autoLink="email"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Info6"
             android:id="@+id/Info6"
-            style="@style/InformationContactsPage" />
+            style="@style/InformationContactsPage"
+            android:autoLink="phone"/>
 
         <Space
             android:layout_width="15dp"
@@ -275,7 +283,7 @@
             android:layout_height="wrap_content"
             android:text="@string/Info11"
             android:id="@+id/Info11"
-            android:autoLink="all"
+            
             style="@style/InformationContactsPage" />
 
 
