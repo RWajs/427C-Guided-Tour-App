@@ -8,12 +8,6 @@
     android:background="@drawable/jacket_back">
 
 
-
-    <TextView android:text="This is the campus map page" android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textCampusMap"
-        />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

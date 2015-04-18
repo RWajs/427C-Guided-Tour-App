@@ -7,11 +7,6 @@
     android:background="@drawable/jacket_back">
 
 
-    <TextView android:text="@string/line1" android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView"
-        style="@style/BuildingInformation"/>
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
