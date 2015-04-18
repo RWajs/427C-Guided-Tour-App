@@ -27,7 +27,8 @@
             android:text="@string/TitleFAQPage"
             android:id="@+id/TitleFAQ"
             android:layout_gravity="center_horizontal"
-            style="@style/TitleFAQPage"/>
+            style="@style/TitleFAQPage"
+            android:gravity="center" />
         <Space
             android:layout_width="15dp"
             android:layout_height="15dp"
@@ -45,7 +46,8 @@
             android:layout_height="wrap_content"
             android:text="@string/Question1FAQPage"
             android:id="@+id/Question1"
-            style="@style/QuestionFAQPage" />
+            style="@style/QuestionFAQPage"
+           />
 
         <TextView
             android:layout_width="wrap_content"
@@ -53,7 +55,8 @@
             android:text="@string/Answer1FAQPage"
             android:id="@+id/Answer1FAQPage"
             android:autoLink="all"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage"
+            android:textColorLink="@android:color/holo_blue_light"/>
 
         <Space
             android:layout_width="15dp"

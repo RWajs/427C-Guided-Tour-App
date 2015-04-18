@@ -16,7 +16,8 @@
         android:text="@string/ILCTitle"
         android:id="@+id/ILCTitle"
         android:layout_gravity="center_horizontal"
-        style="@style/BuildingPageTitle"/>
+        style="@style/BuildingPageTitle"
+        android:gravity="center" />
     <Space
         android:layout_width="15dp"
         android:layout_height="10dp"

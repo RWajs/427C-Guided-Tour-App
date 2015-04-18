@@ -27,7 +27,8 @@
             android:text="@string/TitleTipsPage"
             android:id="@+id/TitleTips"
             android:layout_gravity="center_horizontal"
-            style="@style/TitleFAQPage"/>
+            style="@style/TitleFAQPage"
+            android:gravity="center" />
 
         <Space
             android:layout_width="15dp"

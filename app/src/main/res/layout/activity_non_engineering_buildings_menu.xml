@@ -5,14 +5,15 @@
 
 
     <TextView
-        android:text="Non-Engineering Buildings"
+        android:text="Non-Engineering\nBuildings"
         android:id="@+id/MiscTitle"
         style="@style/Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="31dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
 
 
     <LinearLayout
@@ -29,7 +30,7 @@
             android:layout_width="105dp"
             android:layout_height="85dp"
             android:layout_weight="1"
-            android:text="Athletic\nRec Centre"
+            android:text="Athletics and\nRec. Centre"
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:id="@+id/Arc"
