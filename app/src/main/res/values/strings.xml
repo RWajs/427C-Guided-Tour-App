@@ -313,5 +313,6 @@
     <string name="title_activity_go_to_ilc">GoToILC</string>
     <string name="title_activity_jeffry_hall_bldg">JeffryHallBldg</string>
     <string name="title_activity_jeffery_hall_bldg">JefferyHallBldg</string>
+    <string name="title_activity_splash">splash</string>
 
 </resources>
