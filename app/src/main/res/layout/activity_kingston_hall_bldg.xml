@@ -57,7 +57,7 @@
                 android:text="@string/KingstonInfoTitle"
                 android:id="@+id/KingstonInfoTitle"
                 style="@style/SubTitleBuilding"
-                android:layout_alignParentTop="true"/>
+                />
 
 
             <TextView
@@ -66,7 +66,7 @@
                 android:text="@string/KingstonInfo"
                 android:id="@+id/KingstonBuildInfo"
                 style="@style/BuildingInformation"
-                android:layout_below="@+id/InfoTitle"/>
+                />
 
             <Space
                 android:layout_width="15dp"
@@ -79,7 +79,7 @@
                 android:text="@string/KingstonFactTitle"
                 android:id="@+id/KingstonFactTitle"
                 style="@style/SubTitleBuilding"
-                android:layout_below="@+id/space1"/>
+                />
             <Space
                 android:layout_width="15dp"
                 android:layout_height="10dp"
@@ -91,7 +91,7 @@
                 android:text="@string/KingstonFact"
                 android:id="@+id/KingstonFact"
                 style="@style/BuildingInformation"
-                android:layout_below="@id/space2"/>
+                />
         </LinearLayout>
     </ScrollView>
 

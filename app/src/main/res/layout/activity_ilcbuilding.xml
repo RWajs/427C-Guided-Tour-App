@@ -58,7 +58,7 @@
                 android:text="@string/ILCInfoTitle"
                 android:id="@+id/ILCInfoTitle"
                 style="@style/SubTitleBuilding"
-                android:layout_alignParentTop="true"/>
+                />
 
 
             <TextView
@@ -67,7 +67,7 @@
                 android:text="@string/ILCInfo"
                 android:id="@+id/ILCBuildInfo"
                 style="@style/BuildingInformation"
-                android:layout_below="@+id/InfoTitle"/>
+               />
 
             <Space
                 android:layout_width="15dp"
@@ -80,7 +80,7 @@
                 android:text="@string/ILCFactTitle"
                 android:id="@+id/ILCFactTitle"
                 style="@style/SubTitleBuilding"
-                android:layout_below="@+id/space1"/>
+                />
             <Space
                 android:layout_width="15dp"
                 android:layout_height="10dp"
@@ -92,7 +92,7 @@
                 android:text="@string/ILCFact"
                 android:id="@+id/ILCFact"
                 style="@style/BuildingInformation"
-                android:layout_below="@id/space2"/>
+                />
         </LinearLayout>
     </ScrollView>
 

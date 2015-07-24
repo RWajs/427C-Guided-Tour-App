@@ -57,7 +57,7 @@
                 android:text="@string/GordonInfoTitle"
                 android:id="@+id/GordonInfoTitle"
                 style="@style/SubTitleBuilding"
-                android:layout_alignParentTop="true"/>
+               />
 
 
             <TextView
@@ -66,7 +66,7 @@
                 android:text="@string/GordonInfo"
                 android:id="@+id/GordonBuildInfo"
                 style="@style/BuildingInformation"
-                android:layout_below="@+id/InfoTitle"/>
+                />
 
             <Space
                 android:layout_width="15dp"
@@ -79,7 +79,7 @@
                 android:text="@string/GordonFactTitle"
                 android:id="@+id/GordonFactTitle"
                 style="@style/SubTitleBuilding"
-                android:layout_below="@+id/space1"/>
+                />
             <Space
                 android:layout_width="15dp"
                 android:layout_height="10dp"
@@ -91,7 +91,7 @@
                 android:text="@string/GordonFact"
                 android:id="@+id/GordonFact"
                 style="@style/BuildingInformation"
-                android:layout_below="@id/space2"/>
+                />
         </LinearLayout>
     </ScrollView>
 

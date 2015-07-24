@@ -10,7 +10,7 @@
         style="@style/Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="31dp"
+        android:textSize="31sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:gravity="center"/>
@@ -23,6 +23,7 @@
         android:id="@+id/linearLayout"
         android:layout_below="@+id/MiscTitle"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="30dp">
 
@@ -67,6 +68,7 @@
         android:id="@+id/linearLayout2"
         android:layout_below="@+id/linearLayout"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="5dp">
 
@@ -109,7 +111,8 @@
         android:orientation="horizontal"
         android:id="@+id/linearLayout3"
         android:layout_below="@+id/linearLayout2"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true">
 
 
         <Button

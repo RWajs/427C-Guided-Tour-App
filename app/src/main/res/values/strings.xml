@@ -314,5 +314,6 @@
     <string name="title_activity_jeffry_hall_bldg">JeffryHallBldg</string>
     <string name="title_activity_jeffery_hall_bldg">JefferyHallBldg</string>
     <string name="title_activity_splash">splash</string>
+    <string name="TourInstructions">Once you are there click the button below to start your tour. \n\nFollow the black route for a tour around campus and click on the markers twice to get more information about each building.</string>
 
 </resources>

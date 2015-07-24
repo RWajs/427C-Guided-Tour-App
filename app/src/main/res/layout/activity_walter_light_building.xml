@@ -57,7 +57,7 @@
                 android:text="@string/WalterInfoTitle"
                 android:id="@+id/WalterInfoTitle"
                 style="@style/SubTitleBuilding"
-                android:layout_alignParentTop="true"/>
+                />
 
 
             <TextView
@@ -66,7 +66,7 @@
                 android:text="@string/WalterInfo"
                 android:id="@+id/WalterBuildInfo"
                 style="@style/BuildingInformation"
-                android:layout_below="@+id/InfoTitle"/>
+                />
 
             <Space
                 android:layout_width="15dp"
@@ -79,7 +79,7 @@
                 android:text="@string/WalterFactTitle"
                 android:id="@+id/WalterFactTitle"
                 style="@style/SubTitleBuilding"
-                android:layout_below="@+id/space1"/>
+                />
             <Space
                 android:layout_width="15dp"
                 android:layout_height="10dp"
@@ -91,7 +91,7 @@
                 android:text="@string/WalterFact"
                 android:id="@+id/WalterFact"
                 style="@style/BuildingInformation"
-                android:layout_below="@id/space2"/>
+                />
         </LinearLayout>
     </ScrollView>
 

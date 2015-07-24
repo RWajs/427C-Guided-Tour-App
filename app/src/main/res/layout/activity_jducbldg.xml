@@ -58,7 +58,7 @@
                 android:text="@string/JDUCInfoTitle"
                 android:id="@+id/JDUCInfoTitle"
                 style="@style/SubTitleBuilding"
-                android:layout_alignParentTop="true"/>
+                />
 
 
             <TextView
@@ -67,7 +67,7 @@
                 android:text="@string/JDUCInfo"
                 android:id="@+id/JDUCBuildInfo"
                 style="@style/BuildingInformation"
-                android:layout_below="@+id/InfoTitle"/>
+                />
 
             <Space
                 android:layout_width="15dp"
@@ -80,7 +80,7 @@
                 android:text="@string/JDUCFactTitle"
                 android:id="@+id/JDUCFactTitle"
                 style="@style/SubTitleBuilding"
-                android:layout_below="@+id/space1"/>
+               />
             <Space
                 android:layout_width="15dp"
                 android:layout_height="10dp"
@@ -92,7 +92,7 @@
                 android:text="@string/JDUCFact"
                 android:id="@+id/JDUCFact"
                 style="@style/BuildingInformation"
-                android:layout_below="@id/space2"/>
+                />
         </LinearLayout>
     </ScrollView>
 

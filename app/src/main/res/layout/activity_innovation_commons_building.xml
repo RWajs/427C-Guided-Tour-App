@@ -47,7 +47,7 @@
                 android:text="@string/ICInfoTitle"
                 android:id="@+id/ICInfoTitle"
                 style="@style/SubTitleBuilding"
-                android:layout_alignParentTop="true"/>
+                />
 
 
             <TextView
@@ -56,7 +56,7 @@
                 android:text="@string/ICInfo"
                 android:id="@+id/ICBuildInfo"
                 style="@style/BuildingInformation"
-                android:layout_below="@+id/InfoTitle"/>
+                />
 
             <Space
                 android:layout_width="15dp"

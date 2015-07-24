@@ -13,7 +13,7 @@ public class FunFacts extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fun_facts);
+        setContentView(R.layout.activity_pro_tips);
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);

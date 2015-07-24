@@ -10,15 +10,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.ryan.queensutour.R;
-
 
 public class ListOfGallery extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_of_gallery);
+        setContentView(R.layout.activity_buildings_menu);
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);

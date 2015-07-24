@@ -57,7 +57,7 @@
                 android:text="@string/EllisInfoTitle"
                 android:id="@+id/EllisInfoTitle"
                 style="@style/SubTitleBuilding"
-                android:layout_alignParentTop="true"/>
+                />
 
 
         <TextView
@@ -66,7 +66,7 @@
             android:text="@string/EllisInfo"
             android:id="@+id/EllisBuildInfo"
             style="@style/BuildingInformation"
-            android:layout_below="@+id/InfoTitle"/>
+            />
 
     <Space
         android:layout_width="15dp"
@@ -79,7 +79,7 @@
         android:text="@string/EllisFactTitle"
         android:id="@+id/EllisFactTitle"
         style="@style/SubTitleBuilding"
-        android:layout_below="@+id/space1"/>
+        />
     <Space
         android:layout_width="15dp"
         android:layout_height="10dp"
@@ -91,7 +91,7 @@
             android:text="@string/EllisFact"
             android:id="@+id/EllisFact"
             style="@style/BuildingInformation"
-            android:layout_below="@id/space2"/>
+            />
        </LinearLayout>
     </ScrollView>
 

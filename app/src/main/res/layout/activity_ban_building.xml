@@ -57,7 +57,7 @@
                 android:text="@string/BanRighInfoTitle"
                 android:id="@+id/BanRighInfoTitle"
                 style="@style/SubTitleBuilding"
-                android:layout_alignParentTop="true"/>
+                />
 
 
             <TextView
@@ -66,7 +66,7 @@
                 android:text="@string/BanRighInfo"
                 android:id="@+id/BanRighBuildInfo"
                 style="@style/BuildingInformation"
-                android:layout_below="@+id/InfoTitle"/>
+                />
 
             <Space
                 android:layout_width="15dp"
@@ -79,7 +79,7 @@
                 android:text="@string/BanRighFactTitle"
                 android:id="@+id/BanRighFactTitle"
                 style="@style/SubTitleBuilding"
-                android:layout_below="@+id/space1"/>
+                />
             <Space
                 android:layout_width="15dp"
                 android:layout_height="10dp"
@@ -91,7 +91,7 @@
                 android:text="@string/BanRighFact"
                 android:id="@+id/BanRighFact"
                 style="@style/BuildingInformation"
-                android:layout_below="@id/space2"/>
+                />
         </LinearLayout>
     </ScrollView>
 
