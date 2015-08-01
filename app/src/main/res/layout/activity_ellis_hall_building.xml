@@ -31,18 +31,7 @@
         android:layout_width="15dp"
         android:layout_height="10dp"
         android:layout_gravity="center_vertical|center_horizontal"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/EllisHallLocation"
-        android:id="@+id/EllsTitleLocation"
-        android:layout_gravity="center_horizontal"
-        style="@style/BuildingInformation"/>
 
-    <Space
-        android:layout_width="15dp"
-        android:layout_height="10dp"
-        android:layout_gravity="center_vertical|center_horizontal"/>
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
@@ -54,44 +43,57 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="@string/EllisHallLocation"
+                android:id="@+id/EllsTitleLocation"
+                android:layout_gravity="center_horizontal"
+                style="@style/BuildingInformation"/>
+
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="@string/EllisInfoTitle"
                 android:id="@+id/EllisInfoTitle"
                 style="@style/SubTitleBuilding"
                 />
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/EllisInfo"
-            android:id="@+id/EllisBuildInfo"
-            style="@style/BuildingInformation"
-            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EllisInfo"
+                android:id="@+id/EllisBuildInfo"
+                style="@style/BuildingInformation"
+                />
 
-    <Space
-        android:layout_width="15dp"
-        android:layout_height="10dp"
-        android:id="@+id/space1"/>
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="10dp"
+                android:id="@+id/space1"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/EllisFactTitle"
-        android:id="@+id/EllisFactTitle"
-        style="@style/SubTitleBuilding"
-        />
-    <Space
-        android:layout_width="15dp"
-        android:layout_height="10dp"
-        android:id="@+id/space2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EllisFactTitle"
+                android:id="@+id/EllisFactTitle"
+                style="@style/SubTitleBuilding"
+                />
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="10dp"
+                android:id="@+id/space2"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/EllisFact"
-            android:id="@+id/EllisFact"
-            style="@style/BuildingInformation"
-            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EllisFact"
+                android:id="@+id/EllisFact"
+                style="@style/BuildingInformation"
+                />
        </LinearLayout>
     </ScrollView>
 
