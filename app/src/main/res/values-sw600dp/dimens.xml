@@ -1,0 +1,9 @@
+<resources>
+        //7+ inch
+    <dimen name="activity_horizontal_margin">40dp</dimen>
+    <dimen name="activity_vertical_margin">40dp</dimen>
+    <dimen name="button_spacing">60dp</dimen>
+    <dimen name="button_text_size">27sp</dimen>
+    <dimen name="building_button_height">130dp</dimen>
+    <dimen name="space">60sp</dimen>
+</resources>
