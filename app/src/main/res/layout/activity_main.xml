@@ -13,7 +13,7 @@
         android:text="@string/button1"
         android:id="@+id/button"
         android:background="@drawable/button_back"
-
+        android:textSize="@dimen/main_button_text_size"
         android:layout_marginBottom="@dimen/button_spacing" />
 
     <Button
@@ -23,7 +23,7 @@
         android:id="@+id/button2"
         android:background="@drawable/button_back"
         android:layout_below="@+id/button"
-
+        android:textSize="@dimen/main_button_text_size"
         android:layout_marginBottom="@dimen/button_spacing" />
 
     <Button
@@ -33,7 +33,7 @@
         android:id="@+id/button3"
         android:background="@drawable/button_back"
         android:layout_below="@+id/button2"
-
+        android:textSize="@dimen/main_button_text_size"
         android:layout_marginBottom="@dimen/button_spacing"
         />
 
@@ -44,7 +44,7 @@
         android:id="@+id/button4"
         android:background="@drawable/button_back"
         android:layout_below="@+id/button3"
-
+        android:textSize="@dimen/main_button_text_size"
         android:layout_marginBottom="@dimen/button_spacing"        />
 
     <Button
@@ -54,7 +54,7 @@
         android:id="@+id/button5"
         android:background="@drawable/button_back"
         android:layout_below="@+id/button4"
-
+        android:textSize="@dimen/main_button_text_size"
         android:layout_marginBottom="@dimen/button_spacing" />
 
     <Button
@@ -64,6 +64,7 @@
         android:id="@+id/button6"
         android:background="@drawable/button_back"
         android:layout_below="@id/button5"
-         />
+        android:textSize="@dimen/main_button_text_size"
+        />
 
 </RelativeLayout>

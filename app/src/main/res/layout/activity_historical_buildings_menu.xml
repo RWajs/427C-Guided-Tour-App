@@ -1,130 +1,147 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:background="@drawable/grant_entrance"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
 
     <TextView
         android:text="Historical Buildings"
         android:id="@+id/HistTitle"
         style="@style/Title"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textSize="35sp"
-        android:layout_centerHorizontal="true" />
+        android:gravity="center_horizontal" />
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/space" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:id="@+id/linearLayout"
-        android:layout_below="@+id/HistTitle"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="30dp"
-        android:layout_marginTop="30dp">
+        android:layout_marginBottom="@dimen/button_spacing"
+        android:gravity="center">
 
 
         <Button
-            android:layout_width="105dp"
-            android:layout_height="85dp"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/building_button_height"
             android:text="Benidickson\nField"
             style="@style/Type2C"
             android:background="@drawable/button_building"
             android:id="@+id/Benidickson"
             android:layout_weight="1"
-            android:layout_margin="10dp"
-            android:layout_marginBottom="20dp" />
+            android:textSize="@dimen/building_button_text_size"
+            android:layout_margin="5dp" />
 
         <Button
-            android:layout_width="105dp"
-            android:layout_height="85dp"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/building_button_height"
             android:text="Grant\nHall"
             android:id="@+id/Grant"
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:layout_weight="1"
-            android:layout_margin="10dp"
-            android:layout_marginBottom="20dp" />
+            android:textSize="@dimen/building_button_text_size"
+            android:layout_margin="5dp" />
 
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:id="@+id/linearLayout2"
-        android:layout_below="@+id/linearLayout"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="30dp">
+        android:layout_marginBottom="@dimen/button_spacing"
+        android:gravity="center"
+        android:layout_below="@id/linearLayout">
 
 
 
         <Button
-            android:layout_width="105dp"
-            android:layout_height="85dp"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/building_button_height"
             android:text="Kingston\nHall"
             android:id="@+id/Kingston"
             style="@style/Type2"
             android:background="@drawable/button_building"
-            android:layout_weight="1"
-            android:layout_margin="10dp" />
+            android:textSize="@dimen/building_button_text_size"
+            android:layout_margin="5dp"
+            android:layout_weight="1" />
 
         <Button
-            android:layout_width="105dp"
-            android:layout_height="85dp"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/building_button_height"
             android:text="Nicol\nHall"
             android:id="@+id/Nicol"
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:layout_weight="1"
-            android:layout_margin="10dp" />
+            android:textSize="@dimen/building_button_text_size"
+            android:layout_margin="5dp" />
 
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:id="@+id/linearLayout3"
-        android:layout_below="@+id/linearLayout2"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true">
+        android:layout_marginBottom="@dimen/button_spacing"
+        android:gravity="center"
+        android:layout_below="@id/linearLayout2">
 
 
         <Button
-            android:layout_width="105dp"
-            android:layout_height="85dp"
-            android:text="Summerhill\n"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/building_button_height"
+            android:text="Summerhill"
             android:id="@+id/Summerhill"
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:layout_weight="1"
-            android:layout_margin="10dp" />
+            android:textSize="@dimen/building_button_text_size"
+            android:layout_margin="5dp" />
 
         <Button
-            android:layout_width="105dp"
-            android:layout_height="85dp"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/building_button_height"
             android:text="Theological\nHall"
             android:id="@+id/Theological"
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:layout_weight="1"
-            android:layout_margin="10dp" />
+            android:textSize="@dimen/building_button_text_size"
+            android:layout_margin="5dp" />
 
 
 
 
     </LinearLayout>
 
-
-
-
-
-
-
 </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
 

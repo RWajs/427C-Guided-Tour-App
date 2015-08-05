@@ -53,7 +53,7 @@
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:id="@+id/Arc"
-            android:textSize="@dimen/button_text_size"
+            android:textSize="@dimen/building_button_text_size"
             android:layout_margin="5dp" />
 
         <Button
@@ -65,7 +65,7 @@
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:layout_margin="5dp"
-            android:textSize="@dimen/button_text_size"/>
+            android:textSize="@dimen/building_button_text_size"/>
 
         <Button
             android:layout_width="fill_parent"
@@ -76,7 +76,7 @@
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:layout_margin="5dp"
-            android:textSize="@dimen/button_text_size"/>
+            android:textSize="@dimen/building_button_text_size"/>
 
 
 
@@ -101,7 +101,7 @@
            android:layout_height="@dimen/building_button_height"
            android:layout_weight="1"
            android:layout_margin="5dp"
-           android:textSize="@dimen/button_text_size"/>
+           android:textSize="@dimen/building_button_text_size"/>
 
 
         <Button
@@ -113,7 +113,7 @@
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:layout_margin="5dp"
-            android:textSize="@dimen/button_text_size"/>
+            android:textSize="@dimen/building_button_text_size"/>
 
         <Button
             android:layout_width="fill_parent"
@@ -124,7 +124,7 @@
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:layout_margin="5dp"
-            android:textSize="@dimen/button_text_size"/>
+            android:textSize="@dimen/building_button_text_size"/>
 
     </LinearLayout>
 
@@ -146,7 +146,7 @@
             android:background="@drawable/button_building"
             android:id="@+id/Stauff"
             android:layout_margin="5dp"
-            android:textSize="@dimen/button_text_size"/>
+            android:textSize="@dimen/building_button_text_size"/>
 
         <Button
             android:layout_width="fill_parent"
@@ -157,7 +157,7 @@
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:layout_margin="5dp"
-            android:textSize="@dimen/button_text_size"/>
+            android:textSize="@dimen/building_button_text_size"/>
     </LinearLayout>
 </RelativeLayout>
     </LinearLayout>

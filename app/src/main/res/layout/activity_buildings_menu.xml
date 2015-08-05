@@ -15,7 +15,7 @@
         android:id="@+id/buttonEngBuildings"
         android:background="@drawable/button_back"
 
-        android:layout_marginBottom="50dp" />
+        android:layout_marginBottom="@dimen/button_spacing" />
 
     <Button
         android:layout_width="fill_parent"
@@ -26,7 +26,7 @@
 
         android:layout_below="@+id/buttonEngBuildings"
 
-        android:layout_marginBottom="50dp" />
+        android:layout_marginBottom="@dimen/button_spacing" />
 
     <Button
         android:layout_width="fill_parent"
@@ -37,7 +37,7 @@
 
         android:layout_below="@+id/buttonNonEngBuildings"
 
-        android:layout_marginBottom="50dp" />
+        android:layout_marginBottom="@dimen/button_spacing" />
 
     <Button
         android:layout_width="fill_parent"
