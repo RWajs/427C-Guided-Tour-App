@@ -21,7 +21,8 @@ public class LinksAndContacts extends ActionBarActivity {
         actionBar.hide();
         TextView social = (TextView) findViewById(R.id.Info11);
         social.setMovementMethod(LinkMovementMethod.getInstance());
-
+        TextView Useful = (TextView) findViewById(R.id.StuBlog);
+        Useful.setMovementMethod(LinkMovementMethod.getInstance());
     }
 
 

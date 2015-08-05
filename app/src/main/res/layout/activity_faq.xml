@@ -4,17 +4,59 @@
     android:layout_height="fill_parent"
     android:fillViewport="false"
     android:id="@+id/ScrollView"
-    android:paddingBottom="24dp">
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:orientation="vertical"
         android:id="@+id/linearLayout1"
-        android:layout_height="350dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:paddingTop="5dp"
-        android:paddingBottom="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TitleContactsPage"
+            android:id="@+id/TitleContact"
+            android:layout_gravity="center_horizontal"
+            style="@style/TitleContactsPage"/>
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/GenInfo"
+            android:id="@+id/GenInfo"
+            style="@style/SubTitleContactsPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/C1"
+            android:id="@+id/C1"
+            style="@style/PersonContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Info1"
+            android:id="@+id/Info1"
+            style="@style/InformationContactsPage"
+            android:autoLink="email"
+            android:textColorLink="@android:color/holo_blue_light"
+            />
 
         <Space
             android:layout_width="15dp"
@@ -24,38 +66,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/TitleFAQPage"
-            android:id="@+id/TitleFAQ"
-            android:layout_gravity="center_horizontal"
-            style="@style/TitleFAQPage"
-            android:gravity="center" />
-        <Space
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_gravity="center"/>
+            android:text="@string/C2"
+            android:id="@+id/C2"
+            style="@style/PersonContactsPage" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/EngFAQ"
-            android:id="@+id/EngFAQ"
-            style="@style/SubTitleFAQPage" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Question1FAQPage"
-            android:id="@+id/Question1"
-            style="@style/QuestionFAQPage"
-           />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Answer1FAQPage"
-            android:id="@+id/Answer1FAQPage"
-            android:autoLink="all"
-            style="@style/AnswerFAQPage"
+            android:text="@string/Info2"
+            android:id="@+id/Info2"
+            style="@style/InformationContactsPage"
+            android:autoLink="email"
             android:textColorLink="@android:color/holo_blue_light"/>
 
         <Space
@@ -66,16 +87,26 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Q2FAQPage"
-            android:id="@+id/Q2"
-            style="@style/QuestionFAQPage" />
+            android:text="@string/FirstYO"
+            android:id="@+id/FirstYO"
+            style="@style/SubTitleContactsPage" />
+
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/A2FAQPage"
-            android:id="@+id/A2"
-            style="@style/AnswerFAQPage" />
+            android:text="@string/C3"
+            android:id="@+id/C3"
+            style="@style/PersonContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Info3"
+            android:id="@+id/Info3"
+            style="@style/InformationContactsPage"
+            android:autoLink="email"
+            android:textColorLink="@android:color/holo_blue_light"/>
 
         <Space
             android:layout_width="15dp"
@@ -85,16 +116,27 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Q3FAQPage"
-            android:id="@+id/Q3"
-            style="@style/QuestionFAQPage" />
+            android:text="@string/VisandInfoCent"
+            android:id="@+id/VisandInfoCent"
+            style="@style/SubTitleContactsPage" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/A3FAQPage"
-            android:id="@+id/A3"
-            style="@style/AnswerFAQPage" />
+            android:text="@string/C4"
+            android:id="@+id/C4"
+            style="@style/PersonContactsPage"
+            android:autoLink="email"
+            android:textColorLink="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Info4"
+            android:id="@+id/Info4"
+            style="@style/InformationContactsPage"
+            android:autoLink="phone"
+            android:textColorLink="@android:color/holo_blue_light"/>
 
         <Space
             android:layout_width="15dp"
@@ -104,16 +146,25 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Q4FAQPage"
-            android:id="@+id/Q4"
-            style="@style/QuestionFAQPage" />
+            android:text="@string/DirFirstYO"
+            android:id="@+id/DirFirstYO"
+            style="@style/SubTitleContactsPage" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/A4FAQPage"
-            android:id="@+id/A4"
-            style="@style/AnswerFAQPage" />
+            android:text="@string/C5"
+            android:id="@+id/C5"
+            style="@style/PersonContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Info5"
+            android:id="@+id/Info5"
+            style="@style/InformationContactsPage"
+            android:autoLink="all"
+            android:textColorLink="@android:color/holo_blue_light"/>
 
         <Space
             android:layout_width="15dp"
@@ -123,16 +174,26 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Q5FAQPage"
-            android:id="@+id/Q5"
-            style="@style/QuestionFAQPage" />
+            android:text="@string/EngQandInfo"
+            android:id="@+id/EngQandInfo"
+            style="@style/SubTitleContactsPage" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/A5FAQPage"
-            android:id="@+id/A5"
-            style="@style/AnswerFAQPage" />
+            android:text="@string/C6"
+            android:id="@+id/C6"
+            style="@style/PersonContactsPage" android:autoLink="email"
+            android:textColorLink="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Info6"
+            android:id="@+id/Info6"
+            style="@style/InformationContactsPage"
+            android:autoLink="phone"
+            android:textColorLink="@android:color/holo_blue_light"/>
 
         <Space
             android:layout_width="15dp"
@@ -142,16 +203,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Q6FAQPage"
-            android:id="@+id/Q6"
-            style="@style/QuestionFAQPage" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A6FAQPage"
-            android:id="@+id/A6"
-            style="@style/AnswerFAQPage" />
+            android:text="@string/Useful"
+            android:id="@+id/Useful"
+            style="@style/SubTitleContactsPage" />
 
         <Space
             android:layout_width="15dp"
@@ -161,16 +215,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Q7FAQPage"
-            android:id="@+id/Q7"
-            style="@style/QuestionFAQPage" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A7FAQPage"
-            android:id="@+id/A7"
-            style="@style/AnswerFAQPage" />
+            android:text="@string/StuBlog"
+            android:id="@+id/StuBlog"
+            android:textColorLink="#D5D5D5"
+            style="@style/PersonContactsPage" />
 
         <Space
             android:layout_width="15dp"
@@ -180,152 +228,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Q8FAQPage"
-            android:id="@+id/Q8"
-            style="@style/QuestionFAQPage" />
+            android:text="@string/Social"
+            android:id="@+id/Social"
+            style="@style/SubTitleContactsPage" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/A8FAQPage"
-            android:id="@+id/A8"
-            style="@style/AnswerFAQPage" />
-
-        <Space
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_gravity="center"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Q9FAQPage"
-            android:id="@+id/Q9"
-            style="@style/QuestionFAQPage" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A9FAQPage"
-            android:id="@+id/A9"
-            style="@style/AnswerFAQPage" />
-
-        <Space
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_gravity="center"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Q10FAQPage"
-            android:id="@+id/Q10"
-            style="@style/QuestionFAQPage" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A10FAQPage"
-            android:id="@+id/A10"
-            style="@style/AnswerFAQPage" />
-
-        <Space
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_gravity="center"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/UniFAQ"
-            android:id="@+id/UniFAQ"
-            style="@style/SubTitleFAQPage" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Q11FAQPage"
-            android:id="@+id/Q11"
-            style="@style/QuestionFAQPage" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A11FAQPage"
-            android:id="@+id/A11"
-            style="@style/AnswerFAQPage" />
-
-        <Space
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_gravity="center"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Q12FAQPage"
-            android:id="@+id/Q12"
-            style="@style/QuestionFAQPage" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A12FAQPage"
-            android:id="@+id/A12"
-            style="@style/AnswerFAQPage" />
-
-        <Space
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_gravity="center"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Q13FAQPage"
-            android:id="@+id/Q13"
-            style="@style/QuestionFAQPage" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A13FAQPage"
-            android:id="@+id/A13"
-            style="@style/AnswerFAQPage" />
-
-        <Space
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_gravity="center"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Q14FAQPage"
-            android:id="@+id/Q14"
-            style="@style/QuestionFAQPage" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A14FAQPage"
-            android:id="@+id/A14"
-            style="@style/AnswerFAQPage" />
-
-        <Space
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_gravity="center"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Q15FAQPage"
-            android:id="@+id/Q15"
-            style="@style/QuestionFAQPage" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/A15FAQPage"
-            android:id="@+id/A15"
-            style="@style/AnswerFAQPage" />
-
+            android:text="@string/Info11"
+            android:id="@+id/Info11"
+            style="@style/InformationContactsPage"
+            android:textColorLink="@android:color/holo_blue_light"/>
 
     </LinearLayout>
 

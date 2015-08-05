@@ -39,19 +39,16 @@
     <string name="EngQandInfo">Engineering Questions and Information</string>
     <string name="C6">Email: engineering.first.year@queensu.ca</string>
     <string name="Info6">Phone:(613) 533 6000 x77650\nOffice: Room 300 Beamish-Munro Hall (ILC)</string>
-    <string name="StuBlog">Student Bloggers (Life as an Engineer at Queens University)</string>
-    <string name="Info7">http://prospective.appsci.queensu.ca/Student-Bloggers.html</string>
-    <string name="ParentEng">Parents Guide to Queen\'s Engineering and Applied Science:</string>
-    <string name="Info8">http://issuu.com/queenseng/docs/parentguide?viewMode=presentation</string>
-    <string name="SOAR">Summer Orientation to Academics and Resources (SOAR) 2015:</string>
-    <string name="Info9">http://www.queensu.ca/studentexperience/summer-orientation-soar</string>
-    <string name="InfoFee">Information on Tuition and Fees:</string>
-    <string name="Info10">http://www.queensu.ca/registrar/sites/webpublish.queensu.ca.uregwww/files/files/Reg_Guide_2014_2015.pdf</string>
+    <string name="Useful">Useful Links</string>
+    <string name="StuBlog"><a href="http://prospective.appsci.queensu.ca/Student-Bloggers.html">Student Bloggers (Life as an Engineer at Queens University)</a>\n\n
+    <a href="http://issuu.com/queenseng/docs/parentguide?viewMode=presentation">Parents Guide to Queen\'s Engineering and Applied Science</a>\n\n
+    <a href="http://www.queensu.ca/studentexperience/summer-orientation-soar">Summer Orientation to Academics and Resources (SOAR) 2015</a>\n\n
+    <a href="http://www.queensu.ca/registrar/financials/tuition-fees">Information on Tuition and Fees</a>\n </string>
     <string name="Social">Social Media</string>
     <string name="Info11">Join the <a href="https://www.facebook.com/groups/441036839381217/">Queen’s Engineering Class of 2019</a> Facebook Page!\n\n
-                          Join the <a href="https://www.facebook.com/groups/QueensU2019/"> Queen’s University Class of 2019</a> Facebook Page!\n\n
-                          Follow <a href="https://twitter.com/queensu">@queensu</a> on twitter to receive updates from Queen’s University!\n\n
-                          Follow <a href="https://twitter.com/QueensEngineer">@QueensEngineer</a> on twitter to receive updates from the Faculty of Engineering and Applied Science!\n</string>
+    Join the <a href="https://www.facebook.com/groups/QueensU2019/">Queen’s University Class of 2019</a> Facebook Page!\n\n
+    Follow <a href="https://twitter.com/queensu">@queensu</a> on twitter to receive updates from Queen’s University!\n\n
+    Follow <a href="https://twitter.com/QueensEngineer">@QueensEngineer</a> on twitter to receive updates from the Faculty of Engineering and Applied Science!\n</string>
     //FAQ Strings
     <string name="TitleFAQPage">Frequently Asked Questions</string>
     <string name="EngFAQ">Engineering:</string>

@@ -203,80 +203,22 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="@string/Useful"
+            android:id="@+id/Useful"
+            style="@style/SubTitleContactsPage" />
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/StuBlog"
             android:id="@+id/StuBlog"
-            style="@style/SubTitleContactsPage" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Info7"
-            android:autoLink="all"
-            android:id="@+id/Info7"
-            style="@style/InformationContactsPage"
-            android:textColorLink="@android:color/holo_blue_light"/>
-
-        <Space
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_gravity="center"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/ParentEng"
-            android:id="@+id/ParentEng"
-            style="@style/SubTitleContactsPage" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Info8"
-            android:autoLink="all"
-            android:id="@+id/Info8"
-            style="@style/InformationContactsPage"
-            android:textColorLink="@android:color/holo_blue_light"/>
-
-        <Space
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_gravity="center"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/SOAR"
-            android:id="@+id/SOAR"
-            style="@style/SubTitleContactsPage" />
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Info9"
-            android:autoLink="all"
-            android:id="@+id/Info9"
-            style="@style/InformationContactsPage"
-            android:textColorLink="@android:color/holo_blue_light"/>
-
-        <Space
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_gravity="center"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/InfoFee"
-            android:id="@+id/InfoFee"
-            style="@style/SubTitleContactsPage" />
-
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Info10"
-            android:autoLink="all"
-            android:id="@+id/Info10"
-            style="@style/InformationContactsPage"
-            android:textColorLink="@android:color/holo_blue_light"/>
+            android:textColorLink="#D5D5D5"
+            style="@style/PersonContactsPage" />
 
         <Space
             android:layout_width="15dp"
@@ -295,10 +237,8 @@
             android:layout_height="wrap_content"
             android:text="@string/Info11"
             android:id="@+id/Info11"
-
             style="@style/InformationContactsPage"
             android:textColorLink="@android:color/holo_blue_light"/>
-
 
     </LinearLayout>
 
