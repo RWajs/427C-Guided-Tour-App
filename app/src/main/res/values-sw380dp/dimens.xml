@@ -7,5 +7,5 @@
     <dimen name="building_button_height">100dp</dimen>
     <dimen name="space">60sp</dimen>
     <dimen name="space_engbldgs">40sp</dimen>
-    <dimen name="main_button_text_size">sp</dimen>
+    <dimen name="main_button_text_size">23sp</dimen>
 </resources>

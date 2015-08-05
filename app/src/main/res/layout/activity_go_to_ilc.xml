@@ -25,7 +25,7 @@
          />
     <Button
         android:layout_width="fill_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:text="Navigate to the ILC"
         android:layout_below="@+id/id2"
         android:layout_alignParentStart="true"
@@ -34,7 +34,8 @@
         android:background="@drawable/button_building"
         android:id="@+id/id3"
         android:layout_marginBottom="10dp"
-        android:textColor="#f2edf6"/>
+        android:textColor="#f2edf6"
+        android:textSize="@dimen/main_button_text_size"/>
     <TextView android:text="@string/TourInstructions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,7 +46,7 @@
         android:layout_marginTop="10dp"/>
     <Button
         android:layout_width="fill_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:text="Begin Tour!"
         android:layout_below="@+id/id4"
         android:layout_alignParentStart="true"
@@ -53,5 +54,6 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/button_building"
         android:id="@+id/id5"
-        android:textColor="#f2edf6"/>
+        android:textColor="#f2edf6"
+        android:textSize="@dimen/main_button_text_size"/>
 </RelativeLayout>

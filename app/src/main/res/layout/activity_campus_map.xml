@@ -15,7 +15,8 @@
         android:text="Google Maps View"
         android:id="@+id/buttonGoogleMapsView"
         android:background="@drawable/button_back"
-        android:layout_marginBottom="@dimen/button_spacing" />
+        android:layout_marginBottom="@dimen/button_spacing"
+        android:textSize="@dimen/main_button_text_size"/>
 
 
     <Button
@@ -25,7 +26,7 @@
         android:id="@+id/buttonPictureView"
         android:background="@drawable/button_back"
         android:layout_below="@id/buttonGoogleMapsView"
-
+        android:textSize="@dimen/main_button_text_size"
         />
 
 </RelativeLayout>
