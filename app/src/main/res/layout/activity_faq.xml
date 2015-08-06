@@ -4,17 +4,18 @@
     android:layout_height="fill_parent"
     android:fillViewport="false"
     android:id="@+id/ScrollView"
-    android:paddingBottom="24dp">
+   >
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:orientation="vertical"
         android:id="@+id/linearLayout1"
-        android:layout_height="350dp"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:paddingTop="5dp"
-        android:paddingBottom="24dp"
-        android:layout_gravity="center_horizontal">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
 
         <Space
             android:layout_width="15dp"
@@ -42,15 +43,15 @@
             style="@style/SubTitleFAQPage" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Question1FAQPage"
             android:id="@+id/Question1"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -59,7 +60,8 @@
             android:id="@+id/Answer1FAQPage"
             android:autoLink="all"
             style="@style/AnswerFAQPage"
-            android:textColorLink="@android:color/holo_blue_light"/>
+            android:textColorLink="@android:color/holo_blue_light"
+            android:visibility="gone"/>
 
         <Space
             android:layout_width="15dp"
@@ -67,22 +69,23 @@
             android:layout_gravity="center"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Q2FAQPage"
             android:id="@+id/Q2"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A2FAQPage"
             android:id="@+id/A2"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage"
+            android:visibility="gone"/>
 
         <Space
             android:layout_width="15dp"
@@ -90,22 +93,23 @@
             android:layout_gravity="center"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Q3FAQPage"
             android:id="@+id/Q3"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A3FAQPage"
             android:id="@+id/A3"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage"
+            android:visibility="gone"/>
 
         <Space
             android:layout_width="15dp"
@@ -113,22 +117,22 @@
             android:layout_gravity="center"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Q4FAQPage"
             android:id="@+id/Q4"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A4FAQPage"
             android:id="@+id/A4"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage" android:visibility="gone"/>
 
         <Space
             android:layout_width="15dp"
@@ -136,22 +140,22 @@
             android:layout_gravity="center"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Q5FAQPage"
             android:id="@+id/Q5"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A5FAQPage"
             android:id="@+id/A5"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage" android:visibility="gone"/>
 
         <Space
             android:layout_width="15dp"
@@ -159,22 +163,22 @@
             android:layout_gravity="center"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Q6FAQPage"
             android:id="@+id/Q6"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A6FAQPage"
             android:id="@+id/A6"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage" android:visibility="gone"/>
 
         <Space
             android:layout_width="15dp"
@@ -182,22 +186,22 @@
             android:layout_gravity="center"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Q7FAQPage"
             android:id="@+id/Q7"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A7FAQPage"
             android:id="@+id/A7"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage" android:visibility="gone"/>
 
         <Space
             android:layout_width="15dp"
@@ -205,22 +209,22 @@
             android:layout_gravity="center"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Q8FAQPage"
             android:id="@+id/Q8"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A8FAQPage"
             android:id="@+id/A8"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage" android:visibility="gone"/>
 
         <Space
             android:layout_width="15dp"
@@ -228,22 +232,22 @@
             android:layout_gravity="center"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="40dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Q9FAQPage"
             android:id="@+id/Q9"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A9FAQPage"
             android:id="@+id/A9"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage" android:visibility="gone"/>
 
         <Space
             android:layout_width="15dp"
@@ -251,22 +255,22 @@
             android:layout_gravity="center"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="80dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Q10FAQPage"
             android:id="@+id/Q10"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A10FAQPage"
             android:id="@+id/A10"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage" android:visibility="gone"/>
 
         <Space
             android:layout_width="15dp"
@@ -280,110 +284,110 @@
             style="@style/SubTitleFAQPage" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="40dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Q11FAQPage"
             android:id="@+id/Q11"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A11FAQPage"
             android:id="@+id/A11"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage" android:visibility="gone"/>
 
         <Space
             android:layout_width="15dp"
             android:layout_height="15dp"
             android:layout_gravity="center"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="80dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Q12FAQPage"
             android:id="@+id/Q12"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A12FAQPage"
             android:id="@+id/A12"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage" android:visibility="gone"/>
 
         <Space
             android:layout_width="15dp"
             android:layout_height="15dp"
             android:layout_gravity="center"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Q13FAQPage"
             android:id="@+id/Q13"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A13FAQPage"
             android:id="@+id/A13"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage" android:visibility="gone"/>
 
         <Space
             android:layout_width="15dp"
             android:layout_height="15dp"
             android:layout_gravity="center"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="60dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Q14FAQPage"
             android:id="@+id/Q14"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A14FAQPage"
             android:id="@+id/A14"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage" android:visibility="gone"/>
 
         <Space
             android:layout_width="15dp"
             android:layout_height="15dp"
             android:layout_gravity="center"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="50dp"
-            android:gravity="center"
             android:textAllCaps="false"
             android:text="@string/Q15FAQPage"
             android:id="@+id/Q15"
             style="@style/QuestionFAQPage"
             android:background="@drawable/button_building"
-            android:layout_margin="7dp" />
+            android:layout_margin="7dp"
+            android:gravity="left|center" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/A15FAQPage"
             android:id="@+id/A15"
-            style="@style/AnswerFAQPage" />
+            style="@style/AnswerFAQPage" android:visibility="gone"/>
 
 
     </LinearLayout>
