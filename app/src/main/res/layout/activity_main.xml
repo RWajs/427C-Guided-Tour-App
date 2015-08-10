@@ -7,12 +7,21 @@
     android:background="@drawable/purple_leather"
     android:gravity="center_vertical|center_horizontal">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_vertical|center_horizontal"/>
+
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/button1"
         android:id="@+id/button"
         android:background="@drawable/button_back"
+        android:layout_below="@+id/logo"
         android:textSize="@dimen/main_button_text_size"
         android:layout_marginBottom="@dimen/button_spacing" />
 
