@@ -1,6 +1,6 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:background="@drawable/limestone_dark"
+    android:background="@drawable/limestone_dark3"
     android:layout_height="fill_parent"
     android:fillViewport="false"
     android:id="@+id/ScrollView"
@@ -49,6 +49,7 @@
             android:text="@string/Question1FAQPage"
             android:id="@+id/Question1"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />
@@ -75,6 +76,7 @@
             android:text="@string/Q2FAQPage"
             android:id="@+id/Q2"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />
@@ -99,6 +101,7 @@
             android:text="@string/Q3FAQPage"
             android:id="@+id/Q3"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />
@@ -123,6 +126,7 @@
             android:text="@string/Q4FAQPage"
             android:id="@+id/Q4"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />
@@ -146,6 +150,7 @@
             android:text="@string/Q5FAQPage"
             android:id="@+id/Q5"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />
@@ -169,6 +174,7 @@
             android:text="@string/Q6FAQPage"
             android:id="@+id/Q6"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />
@@ -192,6 +198,7 @@
             android:text="@string/Q7FAQPage"
             android:id="@+id/Q7"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />
@@ -215,6 +222,7 @@
             android:text="@string/Q8FAQPage"
             android:id="@+id/Q8"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />
@@ -238,6 +246,7 @@
             android:text="@string/Q9FAQPage"
             android:id="@+id/Q9"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />
@@ -261,6 +270,7 @@
             android:text="@string/Q10FAQPage"
             android:id="@+id/Q10"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />
@@ -290,6 +300,7 @@
             android:text="@string/Q11FAQPage"
             android:id="@+id/Q11"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />
@@ -312,6 +323,7 @@
             android:text="@string/Q12FAQPage"
             android:id="@+id/Q12"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />
@@ -334,6 +346,7 @@
             android:text="@string/Q13FAQPage"
             android:id="@+id/Q13"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />
@@ -356,6 +369,7 @@
             android:text="@string/Q14FAQPage"
             android:id="@+id/Q14"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />
@@ -378,6 +392,7 @@
             android:text="@string/Q15FAQPage"
             android:id="@+id/Q15"
             style="@style/QuestionFAQPage"
+            android:textAlignment="center"
             android:background="@drawable/button_building"
             android:layout_margin="7dp"
             android:gravity="left|center" />

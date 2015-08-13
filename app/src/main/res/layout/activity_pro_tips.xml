@@ -1,6 +1,6 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:background="@drawable/limestone_dark"
+    android:background="@drawable/limestone_dark2"
     android:layout_height="fill_parent"
     android:fillViewport="false"
     android:id="@+id/ScrollView"
