@@ -85,19 +85,19 @@
     <string name="A15FAQPage">A) If you ever feel sick, you can visit either the Kingston General Hospital (KGH) or the LaSalle Building, both of which are on campus. KGH is located at 76 Stuart Street and the LaSalle Building is located at 146 Stuart Street. It is important to note that you may not skip an exam or test unless you have proof of an illness, personal issue, or serious injury, so if you believe you are too sick to write, you must have a doctor’s note. This is also the case for some labs as well.</string>
     //Tips Settings
     <string name="TitleTipsPage">Pro Tips from Ex-First Years</string>
-    <string name="ActualTips">1) Don’t fall behind in your classes early on. Although there are no midterms the first few weeks, you should really try and keep up with all your course material because it is very difficult to catch up once you’re behind. \n\n
-2) Get involved in clubs in your first year! Queen’s provides a wide variety of extra-curriculars for students to take part in. \n\n
-3) Although it is important to work hard, it’s also important to have a little fun. Remember to take some time to enjoy yourself while you are here! \n\n
-4) You’ll be required to complete an Excel/Word assignment by the first week of classes. Complete this before orientation week! You don’t want to be sitting in your room working while everyone else is having the time of their lives!\n \n
-5) Especially in first term, many professors offer their lecture notes online for you to access electronically or print and annotate in class. \n\n
-6) EngSoc offers printed lecture slides for APSC 131 and APSC 132, the two chemistry courses taken in first year. They are sold at a reasonable price and are well worth the money. \n\n
-7) Even for courses that provide online lecture notes, be sure to listen to your professors in class. More often than not, they give helpful tips that you won’t find in your notes! \n \n
-8) Make some friends in your lectures and tutorials! You’ll really value this decision when you end up missing class from illness or because you couldn’t wake up for your 8:30 lecture. \n \n
-9) Learn to compromise. It is very likely that you won’t be able to complete all your readings and finish every homework problem. Try to prioritize your tasks and be as efficient as possible with assignments and studying.\n \n
-10) Once work comes, the work keeps coming… Enjoy your first few weeks without midterms, because as soon as they come around, you’ll likely have a midterm every week for the next month and a half! \n \n
-11) Remember that grades don’t define you as a person. You’re more than your grades say you are, so don’t feel down about your marks! \n\n
-12) You’ll never pass 112 frosh.\n
-</string>
+    <string name="tip1">Don’t fall behind in your classes early on. Although there are no midterms the first few weeks, you should really try and keep up with all your course material because it is very difficult to catch up once you’re behind.</string>
+    <string name="tip2">Get involved in clubs in your first year! Queen’s provides a wide variety of extra-curriculars for students to take part in.</string>
+    <string name="tip3">Although it is important to work hard, it’s also important to have a little fun. Remember to take some time to enjoy yourself while you are here!</string>
+    <string name="tip4">You’ll be required to complete an Excel/Word assignment by the first week of classes. Complete this before orientation week! You don’t want to be sitting in your room working while everyone else is having the time of their lives!</string>
+    <string name="tip5">Especially in first term, many professors offer their lecture notes online for you to access electronically or print and annotate in class.</string>
+    <string name="tip6">EngSoc offers printed lecture slides for APSC 131 and APSC 132, the two chemistry courses taken in first year. They are sold at a reasonable price and are well worth the money.</string>
+    <string name="tip7">Even for courses that provide online lecture notes, be sure to listen to your professors in class. More often than not, they give helpful tips that you won’t find in your notes!</string>
+    <string name="tip8">Make some friends in your lectures and tutorials! You’ll really value this decision when you end up missing class from illness or because you couldn’t wake up for your 8:30 lecture.</string>
+    <string name="tip9">Learn to compromise. It is very likely that you won’t be able to complete all your readings and finish every homework problem. Try to prioritize your tasks and be as efficient as possible with assignments and studying.</string>
+    <string name="tip10">Once work comes, the work keeps coming… Enjoy your first few weeks without midterms, because as soon as they come around, you’ll likely have a midterm every week for the next month and a half!</string>
+    <string name="tip11">Remember that grades don’t define you as a person. You’re more than your grades say you are, so don’t feel down about your marks!</string>
+    <string name="tip12">You’ll never pass 112 frosh.</string>
+
     //Building Things
     <string name="title_activity_google_guided_tour">Map</string>
     <string name="title_activity_engineering_buildings_menu">EngineeringBuildingsMenu</string>

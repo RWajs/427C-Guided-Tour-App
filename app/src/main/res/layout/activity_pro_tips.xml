@@ -18,12 +18,12 @@
         android:layout_gravity="center_horizontal">
 
         <Space
-            android:layout_width="15dp"
-            android:layout_height="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dropdown_spacing"
             android:layout_gravity="center"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/TitleTipsPage"
             android:id="@+id/TitleTips"
@@ -32,16 +32,317 @@
             android:gravity="center" />
 
         <Space
-            android:layout_width="15dp"
-            android:layout_height="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dropdown_spacing"
             android:layout_gravity="center"/>
 
-        <TextView
-            android:layout_width="wrap_content"
+        <Button
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="@string/ActualTips"
-            android:id="@+id/ActualTips"
+            android:textAllCaps="false"
+            android:text="Tip One"
+            android:textColor="#f2edf6"
+            android:textAlignment="center"
+            android:background="@drawable/button_building"
+            android:gravity="center"
+            android:id="@+id/t1"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tip1"
+            android:id="@+id/tip1"
             android:layout_gravity="center"
-            style="@style/ActualTips" />
+            style="@style/ActualTips"
+            android:visibility="gone"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dropdown_spacing"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tip Two"
+            android:textColor="#f2edf6"
+            android:textAlignment="center"
+            android:background="@drawable/button_building"
+            android:gravity="center"
+            android:id="@+id/t2"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tip2"
+            android:id="@+id/tip2"
+            android:layout_gravity="center"
+            style="@style/ActualTips"
+            android:visibility="gone"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dropdown_spacing"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tip Three"
+            android:textColor="#f2edf6"
+            android:textAlignment="center"
+            android:background="@drawable/button_building"
+            android:gravity="center"
+            android:id="@+id/t3"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tip3"
+            android:id="@+id/tip3"
+            android:layout_gravity="center"
+            style="@style/ActualTips"
+            android:visibility="gone"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dropdown_spacing"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tip Four"
+            android:textColor="#f2edf6"
+            android:textAlignment="center"
+            android:background="@drawable/button_building"
+            android:gravity="center"
+            android:id="@+id/t4"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tip4"
+            android:id="@+id/tip4"
+            android:layout_gravity="center"
+            style="@style/ActualTips"
+            android:visibility="gone"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dropdown_spacing"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tip Five"
+            android:textColor="#f2edf6"
+            android:textAlignment="center"
+            android:background="@drawable/button_building"
+            android:gravity="center"
+            android:id="@+id/t5"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tip5"
+            android:id="@+id/tip5"
+            android:layout_gravity="center"
+            style="@style/ActualTips"
+            android:visibility="gone"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dropdown_spacing"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tip Six"
+            android:textColor="#f2edf6"
+            android:textAlignment="center"
+            android:background="@drawable/button_building"
+            android:gravity="center"
+            android:id="@+id/t6"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tip6"
+            android:id="@+id/tip6"
+            android:layout_gravity="center"
+            style="@style/ActualTips"
+            android:visibility="gone"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dropdown_spacing"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tip Seven"
+            android:textColor="#f2edf6"
+            android:textAlignment="center"
+            android:background="@drawable/button_building"
+            android:gravity="center"
+            android:id="@+id/t7"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tip7"
+            android:id="@+id/tip7"
+            android:layout_gravity="center"
+            style="@style/ActualTips"
+            android:visibility="gone"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dropdown_spacing"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tip Eight"
+            android:textColor="#f2edf6"
+            android:textAlignment="center"
+            android:background="@drawable/button_building"
+            android:gravity="center"
+            android:id="@+id/t8"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tip8"
+            android:id="@+id/tip8"
+            android:layout_gravity="center"
+            style="@style/ActualTips"
+            android:visibility="gone"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dropdown_spacing"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tip Nine"
+            android:textColor="#f2edf6"
+            android:textAlignment="center"
+            android:background="@drawable/button_building"
+            android:gravity="center"
+            android:id="@+id/t9"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tip9"
+            android:id="@+id/tip9"
+            android:layout_gravity="center"
+            style="@style/ActualTips"
+            android:visibility="gone"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dropdown_spacing"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tip Ten"
+            android:textColor="#f2edf6"
+            android:textAlignment="center"
+            android:background="@drawable/button_building"
+            android:gravity="center"
+            android:id="@+id/t10"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tip10"
+            android:id="@+id/tip10"
+            android:layout_gravity="center"
+            style="@style/ActualTips"
+            android:visibility="gone"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dropdown_spacing"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tip Eleven"
+            android:textColor="#f2edf6"
+            android:textAlignment="center"
+            android:background="@drawable/button_building"
+            android:gravity="center"
+            android:id="@+id/t11"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tip11"
+            android:id="@+id/tip11"
+            android:layout_gravity="center"
+            style="@style/ActualTips"
+            android:visibility="gone"/>
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dropdown_spacing"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Tip Twelve"
+            android:textColor="#f2edf6"
+            android:textAlignment="center"
+            android:background="@drawable/button_building"
+            android:gravity="center"
+            android:id="@+id/t12"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tip12"
+            android:id="@+id/tip12"
+            android:layout_gravity="center"
+            style="@style/ActualTips"
+            android:visibility="gone"/>
+
+
+
     </LinearLayout>
 </ScrollView>

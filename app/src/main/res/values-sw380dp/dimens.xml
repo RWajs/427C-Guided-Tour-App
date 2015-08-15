@@ -8,4 +8,5 @@
     <dimen name="space">60sp</dimen>
     <dimen name="space_engbldgs">40sp</dimen>
     <dimen name="main_button_text_size">23sp</dimen>
+    <dimen name="dropdown_spacing">20sp</dimen>
 </resources>

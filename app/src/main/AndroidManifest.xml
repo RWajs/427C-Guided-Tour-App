@@ -40,7 +40,7 @@
                 android:value="com.example.ryan.queensutour.MainActivity" />
         </activity>
         <activity
-            android:name=".FunFacts"
+            android:name=".ProTips"
             android:label="@string/title_activity_fun_facts"
             android:parentActivityName=".MainActivity" >
             <meta-data
