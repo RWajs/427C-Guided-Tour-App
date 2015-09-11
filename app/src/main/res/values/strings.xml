@@ -121,7 +121,7 @@
     <string name="ChernoffInfoTitle">Main Uses</string>
     <string name="ChernoffInfo">Chernoff Hall, home to the Department of Chemistry is a new and innovative building composed of both classrooms, laboratory and administrative based sections, and an auditorium/lecture hall. </string>
     <string name="ChernoffFactTitle">Interesting Facts</string>
-    <string name="ChernoffFact">Chernoff Hall was built with a substantial contribution from Michael and Dorine Chernoff. Both him and his wife also created the, \‘Chernoff Family Award\’, which offers financial assistance to students around Canada who wish to attend Queen\’s University.  </string>
+    <string name="ChernoffFact">Chernoff Hall was built with a substantial contribution from Michael and Dorine Chernoff. Both he and his wife also created the, \‘Chernoff Family Award\’, which offers financial assistance to students around Canada who wish to attend Queen\’s University.  </string>
     <string name="title_activity_clark_hall_building">ClarkHallBuilding</string>
     <string name="ClarkTitle">Clark Hall</string>
     <string name="ClarkHallLocation">Location: East side of Fifth Field Company Lane (30 Fifth Field Company Lane). </string>
@@ -133,7 +133,7 @@
     <string name="DupuisTitle">Dupuis Hall</string>
     <string name="DupuisHallLocation">Location: Attached to the north side of the ILC (19 Division Street). </string>
     <string name="DupuisInfoTitle">Main Uses</string>
-    <string name="DupuisInfo">Dupuis Hall is home to the department of Chemical Engineering, the Campus Computer Sales and Service Store, and the ITservices Main Office. Dupuis Hall contains two classrooms and one auditorium as well as multiple laboratory rooms focused on chemistry research. </string>
+    <string name="DupuisInfo">Dupuis Hall is home to the department of Chemical Engineering, the Campus Computer Sales and Service Store, and the ITServices Main Office. Dupuis Hall contains two classrooms and one auditorium as well as multiple laboratory rooms focused on chemistry research. </string>
     <string name="DupuisFactTitle">Interesting Facts</string>
     <string name="DupuisFact">Dupuis Hall was constructed in 1966 and is named after Nathan Fellowes Dupuis, a professor of math at Queens in the early 20th century, also a founder of the Faculty of Engineering and Applied Science. </string>
     <string name="title_activity_goodwin_hall_building">GoodwinHallBuilding</string>
@@ -149,11 +149,11 @@
     <string name="ILCInfoTitle">Main Uses</string>
     <string name="ILCInfo">The Integrated Learning Centre (ILC) is home to the Faculty of Engineering and Applied Science. It is also called Beamish-Munro Hall.  In addition, the building consists of group rooms, a multimedia facility, a site investigation facility, a design studio, and a prototyping studio and lab facilities. Beamish-Munro Hall was built to meet the needs of a growing multi-disciplinary Engineering faculty, as a model of sustainable construction. </string>
     <string name="ILCFactTitle">Interesting Facts</string>
-    <string name="ILCFact"> Beamish-Munro Hall was named in honor of Robert Beamish (Sci\’60) and Donald Munro (Sci\’52). In 2005, a year after opening, it was selected as one of the most environmentally advanced buildings in Canada. [12] The ILC is a student-oriented building that was designed in collaboration with students. It serves as a resource to broaden awareness of green building design and environmental sustainability. The facility itself is instrumented as a working laboratory, where students can see structural elements of the building that are usually hidden and monitor systems like air quality, heating, lighting, and cooling using specially designed software, showing how sustainable practices can be incorporated into building design. Inside the front doors is a green wall that filters particles from the air before it is distributed throughout the building. Since 2004, it has won a numerous number of awards.</string>
+    <string name="ILCFact"> Beamish-Munro Hall was named in honor of Robert Beamish (Sci\’60) and Donald Munro (Sci\’52). In 2005, a year after opening, it was selected as one of the most environmentally advanced buildings in Canada. The ILC is a student-oriented building that was designed in collaboration with students. It serves as a resource to broaden awareness of green building design and environmental sustainability. The facility itself is instrumented as a working laboratory, where students can see structural elements of the building that are usually hidden and monitor systems like air quality, heating, lighting, and cooling using specially designed software, showing how sustainable practices can be incorporated into building design. Inside the front doors is a green wall that filters particles from the air before it is distributed throughout the building. Since 2004, it has won a numerous number of awards.</string>
     <string name="title_activity_innovation_commons_building">InnovationCommonsBuilding</string>
     <string name="ICTitle">Innovation Commons</string>
     <string name="ICInfoTitle">Main Uses</string>
-    <string name="ICInfo">The Queen\’s Innovation Commons is a new 70,000 square-foot complex that the University is planning to launch to condone graduate students innovative ideas and creations. This building will serve as a cohesive and collaborative learning environment that will help students succeed from an entrepreneurial standpoint. Special laboratories, offices, classrooms, machinery, and equipment will be made available to students to support their learning and expansion of their academic knowledge. The QIC is a new approach to teaching and designing, where students and faculty members have the opportunity to work out complex solutions to dignified problems. The Queen\s Innovation Commons will be equipped with world renowned design studios to support graduate students in their research. Students need to have opportunities and resources available to them to think critically and thrive in the workplace, and that is what is the aim of the QIC. The post secondary world is a competitive environment, but with the help of the Queen\’s Innovation Commons, graduate students will have the chance to have their ideas flourish and grow, with support from team members and colleagues. </string>
+    <string name="ICInfo">The Queen\’s Innovation Commons is a new 70,000 square-foot complex that the University is planning to launch to condone graduate students innovative ideas and creations. This building will serve as a cohesive and collaborative learning environment that will help students succeed from an entrepreneurial standpoint. Special laboratories, offices, classrooms, machinery, and equipment will be made available to students to support their learning and expansion of their academic knowledge. The QIC is a new approach to teaching and designing, where students and faculty members have the opportunity to work out complex solutions to dignified problems. The Queen\'s Innovation Commons will be equipped with world renowned design studios to support graduate students in their research. Students need to have opportunities and resources available to them to think critically and thrive in the workplace, and that is what the aim of the QIC is. The post-secondary world is a competitive environment, but with the help of the Queen\’s Innovation Commons, graduate students will have the chance to have their ideas flourish and grow, with support from team members and colleagues. </string>
     <string name="title_activity_mclaughlin_hall_building">MclaughlinHallBuilding</string>
     <string name="MclaughlinTitle">Mclaughlin Hall</string>
     <string name="MclaughlinHallLocation">Location: South edge of University Avenue (130 Stuart Street). </string>
@@ -174,7 +174,7 @@
     <string name="StirlingInfoTitle">Main Uses</string>
     <string name="StirlingInfo">Stirling Hall is the distinctive round building, home to the Departments of Physics, Engineering Physics, and Astronomy. It contains many lecture halls as well as a range of smaller rooms used for labs and tutorials.  </string>
     <string name="StirlingFactTitle">Interesting Facts</string>
-    <string name="StirlingFact">A notable feature of the building is a Foucault Pendulum, which hangs in the centre of the second floor. The pendulum swings in a pattern and at a speed determined by the rotation of the earth and the latitude of Kingston.</string>
+    <string name="StirlingFact">A notable feature of the building is a Foucault Pendulum, which hangs in the center of the second floor. The pendulum swings in a pattern and at a speed determined by the rotation of the earth and the latitude of Kingston.</string>
     <string name="title_activity_walter_light_building">WalterLightBuilding</string>
     <string name="WalterTitle">Walter Light Hall</string>
     <string name="WalterHallLocation">Location: North side of Union Street between Barrie and Division (19 Union Street).  </string>
@@ -226,7 +226,7 @@
     <string name="KingstonInfoTitle">Main Uses</string>
     <string name="KingstonInfo">Kingston Hall was originally built to provide classroom and library space for the Faculty of Arts and Science. Currently, the hall is home to many of the Queen\'s language departments.</string>
     <string name="KingstonFactTitle">Interesting Facts</string>
-    <string name="KingstonFact"> This building is named after the City of Kingston because they donated the funds for its construction. Along with Grant Hall, which is attached to Kingston Hall, the building served as a military hospital during WWI and as a training barracks for army courses in WWII.</string>
+    <string name="KingstonFact">This building is named after the City of Kingston because they donated the funds for its construction. Along with Grant Hall, which is attached to Kingston Hall, the building served as a military hospital during WWI and as a training barracks for army courses in WWII.</string>
     <string name="SummerhillTitle">Summerhill</string>
     <string name="SummerhillLocation">Location: Just west of Arch Street (55 Stuart Street).</string>
     <string name="SummerhillInfoTitle">Main Uses</string>
@@ -250,7 +250,7 @@
     <string name="DouglasInfoTitle">Main Uses</string>
     <string name="DouglasInfo">This library provides access to scientific and technical literature, journals, monographs, DVDs and more. Inside, there are study areas, seminar rooms, electronic classrooms and workstations available for users.</string>
     <string name="DouglasFactTitle">Interesting Facts</string>
-    <string name="DouglasFact">The current library was formed in 1997 when the old Douglas Library was renovated and the collections of 10 engineering and science libraries were compiled. This resulted in it\'s nickname, \'the engineering library\'. </string>
+    <string name="DouglasFact">The current library was formed in 1997 when the old Douglas Library was renovated and the collections of 10 engineering and science libraries were compiled. This resulted in its nickname, \'the engineering library\'. </string>
     <string name="GordonTitle">Gordon Hall</string>
     <string name="GordonHallLocation">Location: South side of Union Street, between University Avenue and Fifth Field Company Lane (74 Union Street).</string>
     <string name="GordonInfoTitle">Main Uses</string>
@@ -266,9 +266,9 @@
     <string name="MacCorryTitle">Mackintosh-Corry Hall</string>
     <string name="MacCorryLocation">Location: Beside Tindall field and behind Ellis Hall (68 University Avenue).</string>
     <string name="MacCorryInfoTitle">Main Uses</string>
-    <string name="MacCorryInfo">Mackintosh-Corry Hall (abbreviated to Mac-Corry) is a very large and multi-purpose hall constructed in 1973. It is home to many departments belonging to the Faculty of Arts and Sciences, as well as the Mac-Corry Cafe. The Cafe features multiple food choices, including the Great Canadian Grilling Company, a favourite for burgers. </string>
+    <string name="MacCorryInfo">Mackintosh-Corry Hall (abbreviated to Mac-Corry) is a very large and multi-purpose hall constructed in 1973. It is home to many departments belonging to the Faculty of Arts and Sciences, as well as the Mac-Corry Cafe. The Cafe features multiple food choices, including the Great Canadian Grilling Company, a favorite for burgers. </string>
     <string name="MacCorryFactTitle">Interesting Facts</string>
-    <string name="MacCorryFact">Mac-Corry is affectionately referred to as “The Maze” due to it\’s size and confusing layout. Due to its length, Mac-Corry is a great building to walk through to class during the winter.</string>
+    <string name="MacCorryFact">Mac-Corry is affectionately referred to as “The Maze” due to its size and confusing layout. Due to its length, Mac-Corry is a great building to walk through to class during the winter.</string>
     <string name="NixonTitle">Nixon Field</string>
     <string name="NixonLocation">Location: East side of University Avenue between Union Sreet and Stuart Street.</string>
     <string name="NixonInfoTitle">Main Uses</string>
