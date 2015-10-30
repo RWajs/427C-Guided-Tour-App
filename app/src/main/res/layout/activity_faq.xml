@@ -42,14 +42,19 @@
             android:id="@+id/EngFAQ"
             style="@style/SubTitleFAQPage" />
 
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dropdown_spacing"
+            android:layout_gravity="center"/>
+
         <Button
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textAllCaps="false"
-            android:text="@string/Question1FAQPage"
+            android:text="@string/Q1FAQPage"
             android:id="@+id/Question1"
             style="@style/QuestionFAQPage"
-            android:textAlignment="center"
+
             android:background="@drawable/button_building"
 
             android:gravity="left|center" />
@@ -57,7 +62,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/Answer1FAQPage"
+            android:text="@string/A1FAQPage"
             android:id="@+id/Answer1FAQPage"
             android:autoLink="all"
             style="@style/AnswerFAQPage"
@@ -76,7 +81,7 @@
             android:text="@string/Q2FAQPage"
             android:id="@+id/Q2"
             style="@style/QuestionFAQPage"
-            android:textAlignment="center"
+
             android:background="@drawable/button_building"
 
             android:gravity="left|center" />
@@ -101,7 +106,7 @@
             android:text="@string/Q3FAQPage"
             android:id="@+id/Q3"
             style="@style/QuestionFAQPage"
-            android:textAlignment="center"
+
             android:background="@drawable/button_building"
 
             android:gravity="left|center" />
@@ -126,7 +131,7 @@
             android:text="@string/Q4FAQPage"
             android:id="@+id/Q4"
             style="@style/QuestionFAQPage"
-            android:textAlignment="center"
+
             android:background="@drawable/button_building"
 
             android:gravity="left|center" />
@@ -150,7 +155,7 @@
             android:text="@string/Q5FAQPage"
             android:id="@+id/Q5"
             style="@style/QuestionFAQPage"
-            android:textAlignment="center"
+
             android:background="@drawable/button_building"
 
             android:gravity="left|center" />
@@ -174,7 +179,7 @@
             android:text="@string/Q6FAQPage"
             android:id="@+id/Q6"
             style="@style/QuestionFAQPage"
-            android:textAlignment="center"
+
             android:background="@drawable/button_building"
 
             android:gravity="left|center" />
@@ -198,7 +203,7 @@
             android:text="@string/Q7FAQPage"
             android:id="@+id/Q7"
             style="@style/QuestionFAQPage"
-            android:textAlignment="center"
+
             android:background="@drawable/button_building"
 
             android:gravity="left|center" />
@@ -222,7 +227,7 @@
             android:text="@string/Q8FAQPage"
             android:id="@+id/Q8"
             style="@style/QuestionFAQPage"
-            android:textAlignment="center"
+
             android:background="@drawable/button_building"
 
             android:gravity="left|center" />
@@ -246,7 +251,7 @@
             android:text="@string/Q9FAQPage"
             android:id="@+id/Q9"
             style="@style/QuestionFAQPage"
-            android:textAlignment="center"
+
             android:background="@drawable/button_building"
 
             android:gravity="left|center" />
@@ -270,7 +275,7 @@
             android:text="@string/Q10FAQPage"
             android:id="@+id/Q10"
             style="@style/QuestionFAQPage"
-            android:textAlignment="center"
+
             android:background="@drawable/button_building"
 
             android:gravity="left|center" />
@@ -300,7 +305,7 @@
             android:text="@string/Q11FAQPage"
             android:id="@+id/Q11"
             style="@style/QuestionFAQPage"
-            android:textAlignment="center"
+
             android:background="@drawable/button_building"
 
             android:gravity="left|center" />
@@ -323,7 +328,7 @@
             android:text="@string/Q12FAQPage"
             android:id="@+id/Q12"
             style="@style/QuestionFAQPage"
-            android:textAlignment="center"
+
             android:background="@drawable/button_building"
 
             android:gravity="left|center" />
@@ -346,7 +351,7 @@
             android:text="@string/Q13FAQPage"
             android:id="@+id/Q13"
             style="@style/QuestionFAQPage"
-            android:textAlignment="center"
+
             android:background="@drawable/button_building"
 
             android:gravity="left|center" />
@@ -369,7 +374,7 @@
             android:text="@string/Q14FAQPage"
             android:id="@+id/Q14"
             style="@style/QuestionFAQPage"
-            android:textAlignment="center"
+
             android:background="@drawable/button_building"
 
             android:gravity="left|center" />
@@ -379,29 +384,6 @@
             android:layout_height="wrap_content"
             android:text="@string/A14FAQPage"
             android:id="@+id/A14"
-            style="@style/AnswerFAQPage" android:visibility="gone"/>
-
-        <Space
-            android:layout_width="fill_parent"
-            android:layout_height="@dimen/dropdown_spacing"
-            android:layout_gravity="center"/>
-        <Button
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:textAllCaps="false"
-            android:text="@string/Q15FAQPage"
-            android:id="@+id/Q15"
-            style="@style/QuestionFAQPage"
-            android:textAlignment="center"
-            android:background="@drawable/button_building"
-
-            android:gravity="left|center" />
-
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/A15FAQPage"
-            android:id="@+id/A15"
             style="@style/AnswerFAQPage" android:visibility="gone"/>
 
 
