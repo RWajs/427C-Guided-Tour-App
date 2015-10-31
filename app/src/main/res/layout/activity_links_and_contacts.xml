@@ -84,6 +84,34 @@
             android:layout_height="15dp"
             android:layout_gravity="center"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FirstYO"
+            android:id="@+id/FirstYO"
+            style="@style/SubTitleContactsPage" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/C3"
+            android:id="@+id/C3"
+            style="@style/PersonContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Info3"
+            android:id="@+id/Info3"
+            style="@style/InformationContactsPage"
+            android:autoLink="email"
+            android:textColorLink="@android:color/holo_blue_light"/>
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
 
         <TextView
             android:layout_width="wrap_content"

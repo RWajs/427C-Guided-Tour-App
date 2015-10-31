@@ -70,14 +70,14 @@ public class EngineeringBuildingsMenu extends ActionBarActivity {
                 startActivityForResult(intent,0);
             }
         });
-        Button button6 = (Button) findViewById(R.id.IC);
-        button6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),InnovationCommonsBuilding.class);
-                startActivityForResult(intent,0);
-            }
-        });
+////        Button button6 = (Button) findViewById(R.id.IC);
+//        button6.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(v.getContext(),InnovationCommonsBuilding.class);
+//                startActivityForResult(intent,0);//
+//            }
+//        });
         Button button7 = (Button) findViewById(R.id.Mclaughlin);
         button7.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -45,6 +45,15 @@ public class FoodBuildingsMenu extends ActionBarActivity {
                 startActivityForResult(intent,0);
             }
         });
+
+        Button button3 = (Button) findViewById(R.id.location21);
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(),location21.class);
+                startActivityForResult(intent,0);
+            }
+        });
     }
 
 

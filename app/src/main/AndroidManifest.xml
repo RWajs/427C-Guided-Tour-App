@@ -214,14 +214,19 @@
         <activity
             android:name=".GoToILC"
             android:label="@string/title_activity_go_to_ilc" >
-      </activity>
-            <activity
+        </activity>
+        <activity
             android:name=".JefferyHallBldg"
             android:label="@string/title_activity_jeffery_hall_bldg" >
         </activity>
-        <activity android:name=".MainActivity"
-            android:label="MainActivity">
-            </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="MainActivity" >
+        </activity>
+        <activity
+            android:name=".location21"
+            android:label="@string/title_activity_location21" >
+        </activity>
     </application>
 
 </manifest>
