@@ -27,7 +27,7 @@ public class FAQ extends ActionBarActivity {
         q1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                TextView a = (TextView) FAQ.this.findViewById(R.id.Answer1FAQPage);
+                TextView a = (TextView) FAQ.this.findViewById(R.id.A1FAQPage);
                 if (a.getVisibility() == View.GONE)
                     a.setVisibility(View.VISIBLE);
                 else if (a.getVisibility() == View.VISIBLE)
@@ -190,28 +190,6 @@ public class FAQ extends ActionBarActivity {
                     a.setVisibility(View.GONE);
             }
         });
-
-        Button q15 = (Button) findViewById(R.id.Q15);
-        q15.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                TextView a = (TextView) FAQ.this.findViewById(R.id.A15);
-                if (a.getVisibility() == View.GONE)
-                    a.setVisibility(View.VISIBLE);
-                else if (a.getVisibility() == View.VISIBLE)
-                    a.setVisibility(View.GONE);
-            }
-        });
-
-
-
-
-
-
-
-
-
-
 
 
     }
