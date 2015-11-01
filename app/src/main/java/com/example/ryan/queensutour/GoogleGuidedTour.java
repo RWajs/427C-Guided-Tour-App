@@ -2,6 +2,7 @@ package com.example.ryan.queensutour;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +13,8 @@ import android.widget.PopupWindow;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.Circle;
+import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -27,6 +30,11 @@ public class GoogleGuidedTour extends FragmentActivity {
 
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
     private HashMap<String, String> markerMap = new HashMap<String, String>();
+
+
+
+
+
     PolylineOptions rectOptions = new PolylineOptions()
 
             .add(new LatLng(44.22783, -76.49289))
@@ -140,6 +148,17 @@ public class GoogleGuidedTour extends FragmentActivity {
     }
 
     private void setUpMap() {
+
+        markerMap.put("starting", mMap.addCircle(new CircleOptions()
+                .center(new LatLng(44.22783, -76.49289))
+                .radius(5)
+                .strokeColor(Color.GREEN)
+                .fillColor(Color.GREEN)).getId());
+        markerMap.put("end", mMap.addCircle(new CircleOptions()
+                .center(new LatLng(44.22857, -76.49313))
+                .radius(5)
+                .strokeColor(Color.RED)
+                .fillColor(Color.RED)).getId());
 
         markerMap.put("stauffer", mMap.addMarker(new MarkerOptions().position(new LatLng(44.228376, -76.496233)).title("Stauffer Library").snippet("Non-Engineering")).getId());
         markerMap.put("ellis",  mMap.addMarker(new MarkerOptions().position(new LatLng(44.226322, -76.496284)).title("Ellis Hall").snippet("Engineering").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
@@ -262,7 +281,7 @@ public class GoogleGuidedTour extends FragmentActivity {
                 else if (marker.getId().equals(markerMap.get("loco21"))){
                     intent = new Intent(GoogleGuidedTour.this,location21.class);
                 }
-                else{
+                else if (marker.getId().equals(markerMap.get("anges"))){
                     intent = new Intent(GoogleGuidedTour.this,BenidicksonBldg.class);
                 }
                 startActivity(intent);

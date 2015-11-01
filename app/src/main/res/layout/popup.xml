@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="While taking a tour, always rememeber to stay on designated paths and sidewalks. Make sure to look out for oncoming traffic while crossing streets."
+       />
+
+    <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" Ok "
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/text" />
+</RelativeLayout>
+</ScrollView>
+
+

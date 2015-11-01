@@ -166,7 +166,7 @@
             android:id="@+id/Mclaughlin"
             style="@style/Type2"
             android:background="@drawable/button_building"
-            android:textSize="15sp"
+            android:textSize="@dimen/building_button_text_size"
             android:layout_margin="5dp" />
 
         <Button
@@ -175,6 +175,7 @@
             android:layout_weight="1"
             android:text="Miller\nHall"
             style="@style/Type2"
+
             android:background="@drawable/button_building"
             android:id="@+id/Miller"
             android:textSize="@dimen/building_button_text_size"

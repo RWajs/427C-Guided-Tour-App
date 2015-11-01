@@ -1,5 +1,6 @@
 package com.example.ryan.queensutour;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -13,10 +14,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.PopupWindow;
+import android.widget.TextView;
 
 
 public class GoToILC extends ActionBarActivity {
+
+    final Context context = this;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,10 +47,30 @@ public class GoToILC extends ActionBarActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),GoogleGuidedTour.class);
-                startActivityForResult(intent,0);
-            }
-        });
+
+
+                    // custom dialog
+                    final Dialog dialog = new Dialog(context);
+                    dialog.setContentView(R.layout.popup);
+                    dialog.setTitle("Reminder");
+                dialog.setCanceledOnTouchOutside(false);
+
+                    Button dialogButton = (Button) dialog.findViewById(R.id.dialogButtonOK);
+                    // if button is clicked, close the custom dialog
+                dialog.setCanceledOnTouchOutside(false);
+                    dialogButton.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+
+                            Intent intent = new Intent(v.getContext(),GoogleGuidedTour.class);
+                            startActivityForResult(intent, 0);
+                            dialog.dismiss();
+                        }
+                    });
+
+                    dialog.show();
+                }
+            });
     }
 
 
