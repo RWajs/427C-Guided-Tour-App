@@ -10,7 +10,7 @@
 
     <com.example.ryan.queensutour.util.TouchImageView
         android:id="@+id/Campusimg"
-        android:src="@drawable/campusm3"
+        android:src="@drawable/campusmap"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"

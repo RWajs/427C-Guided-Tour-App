@@ -84,7 +84,7 @@ public class GoogleMapOfCampus extends FragmentActivity {
         markerMap.put("nicol",mMap.addMarker(new MarkerOptions().position(new LatLng(44.227332, -76.493836)).title("Nicol Hall").snippet("Historical").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN))).getId());
         markerMap.put("miller", mMap.addMarker(new MarkerOptions().position(new LatLng(44.227351, -76.492838)).title("Miller Hall").snippet("Engineering").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
         markerMap.put("summerhill",  mMap.addMarker(new MarkerOptions().position(new LatLng(44.225960, -76.492500)).title("Summerhill").snippet("Historical").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN))).getId());
-        markerMap.put("ilc",mMap.addMarker(new MarkerOptions().position(new LatLng(44.228139, -76.492774)).title("Integrated Learning Centre").snippet("Engineering").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
+        markerMap.put("ilc",mMap.addMarker(new MarkerOptions().position(new LatLng(44.22804, -76.49279)).title("Integrated Learning Centre").snippet("Engineering").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
         markerMap.put("goodwin",  mMap.addMarker(new MarkerOptions().position(new LatLng(44.227950, -76.492399)).title("Goodwin Hall").snippet("Engineering").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
         markerMap.put("clark",mMap.addMarker(new MarkerOptions().position(new LatLng(44.226693, -76.493850)).title("Clark Hall").snippet("Engineering")).getId());
         markerMap.put("douglas",mMap.addMarker(new MarkerOptions().position(new LatLng(44.227359, -76.495118)).title("Douglas Library").snippet("Non-Engineering")).getId());
@@ -92,6 +92,7 @@ public class GoogleMapOfCampus extends FragmentActivity {
         markerMap.put("nixon", mMap.addMarker(new MarkerOptions().position(new LatLng(44.224907, -76.494683)).title("Nixon Field").snippet("Non-Engineering")).getId());
         markerMap.put("leonard",mMap.addMarker(new MarkerOptions().position(new LatLng(44.224292, -76.500763)).title("Leonard Hall").snippet("Cafeteria").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW))).getId());
         markerMap.put("anges",mMap.addMarker(new MarkerOptions().position(new LatLng(44.226081, -76.494213)).title("Anges Benidickson Field").snippet("Historical").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN))).getId());
+        markerMap.put("loco21",mMap.addMarker(new MarkerOptions().position(new LatLng(44.223617, -76.499405)).title("Location 21").snippet("Cafeteria").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW))).getId());
 
 
 
@@ -180,6 +181,9 @@ public class GoogleMapOfCampus extends FragmentActivity {
                 }
                 else if (marker.getId().equals(markerMap.get("jeffery"))){
                     intent = new Intent(GoogleMapOfCampus.this,JefferyHallBldg.class);
+                }
+                else if (marker.getId().equals(markerMap.get("loco21"))){
+                    intent = new Intent(GoogleMapOfCampus.this,location21.class);
                 }
                 else{
                     intent = new Intent(GoogleMapOfCampus.this,BenidicksonBldg.class);

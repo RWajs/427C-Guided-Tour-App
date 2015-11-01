@@ -29,24 +29,25 @@ public class GoogleGuidedTour extends FragmentActivity {
     private HashMap<String, String> markerMap = new HashMap<String, String>();
     PolylineOptions rectOptions = new PolylineOptions()
 
-            .add(new LatLng(44.22782, -76.49290))
-            .add(new LatLng(44.22779, -76.49242))
-            .add(new LatLng(44.22774, -76.49164))
-            .add(new LatLng(44.22758, -76.49165))
-            .add(new LatLng(44.22763, -76.49273))
-            .add(new LatLng(44.22768, -76.49348))
-            .add(new LatLng(44.22751, -76.49349))
+            .add(new LatLng(44.22783, -76.49289))
+            .add(new LatLng(44.22780, -76.49207))
+            .add(new LatLng(44.22779, -76.49163))
+            .add(new LatLng(44.22760, -76.49166))
+
+            .add(new LatLng(44.22766, -76.49273))
+            .add(new LatLng(44.22771, -76.49350))
+            .add(new LatLng(44.22751, -76.49350))
             .add(new LatLng(44.22692, -76.49349))
-            .add(new LatLng(44.22595, -76.49348))
-            .add(new LatLng(44.22591, -76.49400))
-            .add(new LatLng(44.22555, -76.49448))
-            .add(new LatLng(44.22540, -76.49449))
-            .add(new LatLng(44.22535, -76.49484))
-            .add(new LatLng(44.22533, -76.49551))
-            .add(new LatLng(44.22421, -76.49553))
+            .add(new LatLng(44.22583, -76.49350))
+            .add(new LatLng(44.22577, -76.49384))
+            .add(new LatLng(44.22569, -76.49430))
+            .add(new LatLng(44.22543, -76.49462))
+            .add(new LatLng(44.22540, -76.49500))
+            .add(new LatLng(44.22532, -76.49554))
+            .add(new LatLng(44.22422, -76.49552))
             .add(new LatLng(44.22417, -76.49569))
             .add(new LatLng(44.22481, -76.49571))
-            .add(new LatLng(44.22493, -76.49597))
+            .add(new LatLng(44.22495, -76.49598))
             .add(new LatLng(44.22487, -76.49673))
             .add(new LatLng(44.22491, -76.49717))
             .add(new LatLng(44.22496, -76.49740))
@@ -56,31 +57,29 @@ public class GoogleGuidedTour extends FragmentActivity {
             .add(new LatLng(44.22488, -76.49854))
             .add(new LatLng(44.22478, -76.49885))
             .add(new LatLng(44.22455, -76.49932))
-            .add(new LatLng(44.22430, -76.49972))
-            .add(new LatLng(44.22421, -76.49972))
-            .add(new LatLng(44.22422, -76.49984))
-            .add(new LatLng(44.22426, -76.49990))
-            .add(new LatLng(44.22421, -76.50037))
+            .add(new LatLng(44.22423, -76.49954))
+            .add(new LatLng(44.22423, -76.49984))
+            .add(new LatLng(44.22423, -76.50038))
             .add(new LatLng(44.22434, -76.50038))
             .add(new LatLng(44.22451, -76.49966))
-            .add(new LatLng(44.22472, -76.49922))
+
             .add(new LatLng(44.22494, -76.49882))
             .add(new LatLng(44.22500, -76.49858))
-            .add(new LatLng(44.22508, -76.49822))
-            .add(new LatLng(44.22522, -76.49801))
-            .add(new LatLng(44.22533, -76.49774))
-            .add(new LatLng(44.22536, -76.49745))
+            .add(new LatLng(44.22508, -76.49818))
+            .add(new LatLng(44.22521, -76.49806))
+            .add(new LatLng(44.22533, -76.49777))
+            .add(new LatLng(44.22538, -76.49745))
             .add(new LatLng(44.22555, -76.49700))
-            .add(new LatLng(44.22576, -76.49698))
-            .add(new LatLng(44.22576, -76.49679))
-            .add(new LatLng(44.22564, -76.49678))
-            .add(new LatLng(44.22565, -76.49613))
-            .add(new LatLng(44.22565, -76.49571))
+            .add(new LatLng(44.22577, -76.49704))
+            .add(new LatLng(44.22577, -76.49676))
+            .add(new LatLng(44.22564, -76.49675))
+            .add(new LatLng(44.22564, -76.49612))
+            .add(new LatLng(44.22564, -76.49569))
             .add(new LatLng(44.22587, -76.49571))
             .add(new LatLng(44.22623, -76.49571))
-            .add(new LatLng(44.22782, -76.49572))
-            .add(new LatLng(44.22802, -76.49574))
-            .add(new LatLng(44.22800, -76.49547))
+            .add(new LatLng(44.22782, -76.49570))
+            .add(new LatLng(44.22801, -76.49571))
+            .add(new LatLng(44.22800, -76.49548))
             .add(new LatLng(44.22796, -76.49499))
             .add(new LatLng(44.22783, -76.49317))
             .add(new LatLng(44.22785, -76.49309))
@@ -89,9 +88,9 @@ public class GoogleGuidedTour extends FragmentActivity {
 
     //DO NOT DELETE!!!!!!
     //ENCODED POLYLINE
-    // {f}lGr_{qMD_BH{C^@IvEItC`@@tB?`EAFfBfA~A\@HdABdC~EBF^_CBWr@JvCGvAIl@Ev@?j@Bf@PvAR|@l@|Ap@nAP?AVGJH|AY@a@oCi@wAk@oAKo@OgA[i@Uu@Ey@e@yAi@C?e@VAAaC?sAk@?gA?}H@g@BBu@F_BXkJCOoCF
-    //ENCODED LEVELS
-    // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+    // }f}lGp_{qMDcD@wAd@DKtEIxCf@?tBAxE@JbANzAr@~@DjANjBzECH`@_CB[t@NtCGvAIl@Ev@?j@Bf@PvAR|@l@|A~@j@?z@?jBU?a@oCi@wAk@oAKo@OoAYWWy@I_Aa@yAk@F?w@XA?}B?uAm@BgA?}HAe@@@m@FaBXkJCOoCF
+    // ENCODED LEVELS
+    // BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
     // https://developers.google.com/maps/documentation/utilities/polylineutility
 
 
@@ -163,7 +162,7 @@ public class GoogleGuidedTour extends FragmentActivity {
         markerMap.put("nicol",mMap.addMarker(new MarkerOptions().position(new LatLng(44.227332, -76.493836)).title("Nicol Hall").snippet("Historical").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN))).getId());
         markerMap.put("miller", mMap.addMarker(new MarkerOptions().position(new LatLng(44.227351, -76.492838)).title("Miller Hall").snippet("Engineering").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
         markerMap.put("summerhill",  mMap.addMarker(new MarkerOptions().position(new LatLng(44.225960, -76.492500)).title("Summerhill").snippet("Historical").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN))).getId());
-        markerMap.put("ilc",mMap.addMarker(new MarkerOptions().position(new LatLng(44.228139, -76.492774)).title("Integrated Learning Centre").snippet("Engineering").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
+        markerMap.put("ilc",mMap.addMarker(new MarkerOptions().position(new LatLng(44.22804, -76.49279)).title("Integrated Learning Centre").snippet("Engineering").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
         markerMap.put("goodwin",  mMap.addMarker(new MarkerOptions().position(new LatLng(44.227950, -76.492399)).title("Goodwin Hall").snippet("Engineering").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_VIOLET))).getId());
         markerMap.put("clark",mMap.addMarker(new MarkerOptions().position(new LatLng(44.226693, -76.493850)).title("Clark Hall").snippet("Engineering")).getId());
         markerMap.put("douglas",mMap.addMarker(new MarkerOptions().position(new LatLng(44.227359, -76.495118)).title("Douglas Library").snippet("Non-Engineering")).getId());
@@ -171,6 +170,7 @@ public class GoogleGuidedTour extends FragmentActivity {
         markerMap.put("nixon", mMap.addMarker(new MarkerOptions().position(new LatLng(44.224907, -76.494683)).title("Nixon Field").snippet("Non-Engineering")).getId());
         markerMap.put("leonard",mMap.addMarker(new MarkerOptions().position(new LatLng(44.224292, -76.500763)).title("Leonard Hall").snippet("Cafeteria").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW))).getId());
         markerMap.put("anges",mMap.addMarker(new MarkerOptions().position(new LatLng(44.226081, -76.494213)).title("Anges Benidickson Field").snippet("Historical").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_CYAN))).getId());
+        markerMap.put("loco21",mMap.addMarker(new MarkerOptions().position(new LatLng(44.223617, -76.499405)).title("Location 21").snippet("Cafeteria").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW))).getId());
 
 
 
@@ -258,6 +258,9 @@ public class GoogleGuidedTour extends FragmentActivity {
                 }
                 else if (marker.getId().equals(markerMap.get("jeffery"))){
                     intent = new Intent(GoogleGuidedTour.this,JefferyHallBldg.class);
+                }
+                else if (marker.getId().equals(markerMap.get("loco21"))){
+                    intent = new Intent(GoogleGuidedTour.this,location21.class);
                 }
                 else{
                     intent = new Intent(GoogleGuidedTour.this,BenidicksonBldg.class);

@@ -16,7 +16,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Google Maps View"
+        android:text="Interactive View"
         android:id="@+id/buttonGoogleMapsView"
         android:background="@drawable/button_back"
         android:layout_marginBottom="@dimen/button_spacing"
@@ -26,7 +26,7 @@
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Picture View (Offline)"
+        android:text="Offline View"
         android:id="@+id/buttonPictureView"
         android:background="@drawable/button_back"
         android:layout_below="@id/buttonGoogleMapsView"

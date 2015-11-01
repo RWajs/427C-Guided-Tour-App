@@ -39,14 +39,7 @@ public class HistoricalBuildingsMenu extends ActionBarActivity {
                 startActivityForResult(intent,0);
             }
         });
-        Button button2 = (Button) findViewById(R.id.Nicol);
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(v.getContext(),NicolHallBldg.class);
-                startActivityForResult(intent,0);
-            }
-        });
+
         Button button3 = (Button) findViewById(R.id.Kingston);
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
