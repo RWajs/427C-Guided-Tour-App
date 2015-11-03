@@ -11,7 +11,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textSize="22sp"
-        android:text="While taking a tour, always rememeber to stay on designated paths and sidewalks. Make sure to look out for oncoming traffic while crossing streets."
+        android:text="While taking a tour, always remember to stay on designated paths and sidewalks. Make sure to look out for oncoming traffic while crossing streets."
        />
 
     <Button

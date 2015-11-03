@@ -124,10 +124,6 @@
             android:label="@string/title_activity_ilcbuilding" >
         </activity>
         <activity
-            android:name=".InnovationCommonsBuilding"
-            android:label="@string/title_activity_innovation_commons_building" >
-        </activity>
-        <activity
             android:name=".MclaughlinHallBuilding"
             android:label="@string/title_activity_mclaughlin_hall_building" >
         </activity>
