@@ -306,7 +306,7 @@
     <string name="TourInstructions">Once you are there, click the button below to start your tour. \n\n The black route is a suggested route of a tour around campus. Using your GPS position (the blue marker), follow the route, and click on the markers twice to get more information about each building.</string>
     <string name="title_activity_location21">location21</string>
     <string name="title_activity_about">About</string>
-    <string name="about">Queen\'s Tour developed by first-year Engineering students as part of a design course project. Queen’s Tour aims to provide a tour experience to prospective Engineering students and their parents without a tour guide. The tour provides the main uses and interesting facts about each building. In addition, it provides answers to frequently asked questions as well as relevant contact information.\n\nAll content and images of the Queen’s University campus have been sourced from the Queen’s website.\n\nThe integrated tour makes use of Google Maps\' API.</string>
+    <string name="about">Queen\'s Tour was developed by first-year Engineering students as part of a design course project. Queen’s Tour aims to provide a tour experience to prospective Engineering students and their parents without a tour guide. The tour describes the main uses and interesting facts about each building. In addition, it provides answers to frequently asked questions, as well as relevant contact information.\n\nAll content and images of the Queen’s University campus have been sourced from the Queen’s website.\n\nThe integrated tour makes use of Google Maps\' API.</string>
 
 
 </resources>
