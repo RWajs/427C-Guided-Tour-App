@@ -64,9 +64,9 @@
     <string name="Q11FAQPage">Q) I am worried about walking alone around campus at night. What services are available?</string>
     <string name="A11FAQPage">A) If you need to get somewhere on campus late at night, Queen’s has a safety service called Walkhome. This service allows any student to call and request a walk, in which a team of one male and one female student staff member will come to your location and safely accompany you as you walk to your destination. Walkhome is completely anonymous and non-judgemental, as staff members do not have a uniform or anything indicating that they work for the service.</string>
     <string name="Q12FAQPage">Q) Does it cost money to take the bus in Kingston as a Queen’s student?</string>
-    <string name="A12FAQPage">A) Kingston Transit via bus is actually free with your Queen’s student card. Simply show the driver your card when you get on, and you won’t have to pay any additional fee or bus fare. </string>
+    <string name="A12FAQPage">A) A small fee of your student fees goes to Kingston Transit. Simply show the driver your student card when you get on, and you won’t have to pay any additional fee or bus fare for the whole year. </string>
     <string name="Q13FAQPage">Q) What recreational facilities are available to students?</string>
-    <string name="A13FAQPage">A) Queen’s students receive free access to the workout facilities in the Athletics and Recreation Centre (ARC). Additionally, the gyms, fields, courts, and swimming pool can be reserved upon request.</string>
+    <string name="A13FAQPage">A) As part of your student fees, you are provided with access to the workout facilities in the Athletics and Recreation Centre (ARC). Additionally, the gyms, fields, courts, and swimming pool can be reserved upon request.</string>
     <string name="Q14FAQPage">Q) Where can I go if I am ever feeling sick?</string>
     <string name="A14FAQPage">A) If you ever feel sick, you can visit either the Kingston General Hospital (KGH) or the LaSalle Building, both of which are on campus. KGH is located at 76 Stuart Street and the LaSalle Building is located at 146 Stuart Street. It is important to note that you may not skip an exam or test unless you have proof of an illness, personal issue, or serious injury. Thus, if you believe you are too sick to write, you must have a doctor’s note. This is also the case for some labs as well.</string>
 
@@ -190,7 +190,7 @@
     <string name="LennyFactTitle">Interesting Facts</string>
     <string name="LennyFact">Leonard Cafeteria is the largest dining hall on Queen\’s campus with over 650 seats. Special lunches and dinners are scheduled regularly at different times throughout the week. For those with a meal plan (mainly first years), this is a great place to grab food. </string>
     <string name="L21Title">Location 21</string>
-    <string name="L21Location">Location: Ground floor of David C. Smith House (222 Stuart Street).</string>
+    <string name="L21Location">Location: Corner of Albert and Stuart Street (222 Stuart Street).</string>
     <string name="L21InfoTitle">Main Uses</string>
     <string name="L21Info">Location 21 is the newest retail location on campus. It has a "Build Your Own Salad Station", fresh cut deli meats and cheeses.</string>
     <string name="L21FactTitle">Interesting Facts</string>
@@ -306,6 +306,7 @@
     <string name="TourInstructions">Once you are there, click the button below to start your tour. \n\n The black route is a suggested route of a tour around campus. Using your GPS position (the blue marker), follow the route, and click on the markers twice to get more information about each building.</string>
     <string name="title_activity_location21">location21</string>
     <string name="title_activity_about">About</string>
+    <string name="about">Queen\'s Tour developed by first-year Engineering students as part of a design course project. Queen’s Tour aims to provide a tour experience to prospective Engineering students and their parents without a tour guide. The tour provides the main uses and interesting facts about each building. In addition, it provides answers to frequently asked questions as well as relevant contact information.\n\nAll content and images of the Queen’s University campus have been sourced from the Queen’s website.\n\nThe integrated tour makes use of Google Maps\' API.</string>
 
 
 </resources>

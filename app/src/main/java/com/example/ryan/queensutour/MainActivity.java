@@ -96,7 +96,9 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_about) {
+            Intent intent = new Intent(MainActivity.this,About.class);
+            startActivityForResult(intent,0);
             return true;
         }
 
