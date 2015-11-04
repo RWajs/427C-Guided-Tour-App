@@ -29,7 +29,7 @@
 
     <string name="VisandInfoCent">Visitor and Information Centre</string>
     <string name="C4">Email: jduc@queensu.ca </string>
-    <string name="Info4">Phone: 613-533-2794 \nHours of Operation: Mon - Fri (9 AM - 5 PM), Sat - Sun (10 AM - 4 PM)</string>
+    <string name="Info4">Phone: 613-533-2794 \nHours of Operation:\nMon - Fri (9:00 AM - 5:00 PM)\nSat - Sun (10:00 AM - 4:00 PM)</string>
 
     <string name="EngQandInfo">Engineering Questions and Information</string>
     <string name="C6">Email: engineering.first.year@queensu.ca</string>
@@ -37,7 +37,7 @@
     <string name="Useful">Useful Links</string>
     <string name="StuBlog"><a href="http://prospective.appsci.queensu.ca/Student-Bloggers.html">Student Bloggers (Life as an Engineer at Queens University)</a>\n \n<a href="http://issuu.com/queenseng/docs/parentguide?viewMode=presentation">Parents Guide to Queen\'s Engineering and Applied Science</a>\n\n<a href="http://www.queensu.ca/studentexperience/summer-orientation-soar">Summer Orientation to Academics and Resources (SOAR) 2015</a>\n\n<a href="http://www.queensu.ca/registrar/financials/tuition-fees">Information on Tuition and Fees</a></string>
     <string name="Social">Social Media</string>
-    <string name="Info11">Join the <a href="https://www.facebook.com/groups/441036839381217/">Queen’s Engineering Class of 2019</a> Facebook Page!\n\nJoin the <a href="https://www.facebook.com/groups/QueensU2019/">Queen’s University Class of 2019</a> Facebook Page!\n\nFollow <a href="https://twitter.com/queensu">@queensu</a> on Twitter to receive updates from Queen’s University!\n\nFollow <a href="https://twitter.com/QueensEngineer">@QueensEngineer</a> on Twitter to receive updates from the Faculty of Engineering and Applied Science!\n</string>
+    <string name="Info11">Join the <a href="https://www.facebook.com/groups/QueensU2020/">Queen’s University Class of 2020</a> Facebook Group!\n\nLike the <a href="https://www.facebook.com/QueensEngineer">Faculty of Engineering and Applied Science</a> Facebook Page!\n\nFollow <a href="https://twitter.com/queensu">@QueensU</a> on Twitter to receive updates from Queen’s University!\n\nFollow <a href="https://twitter.com/QueensEngineer">@QueensEngineer</a> on Twitter to receive updates from the Faculty of Engineering and Applied Science!\n</string>
     //FAQ Strings    <string name="TitleFAQPage">Frequently Asked Questions</string>
     <string name="EngFAQ">Engineering:</string>
     <string name="UniFAQ">University Life:</string>
@@ -303,8 +303,9 @@
     <string name="title_activity_jeffry_hall_bldg">JeffryHallBldg</string>
     <string name="title_activity_jeffery_hall_bldg">JefferyHallBldg</string>
     <string name="title_activity_splash">splash</string>
-    <string name="TourInstructions">Once you are there, click the button below to start your tour. \n\nThe black route is a suggested route for a tour around campus. Click on the markers twice to get more information about each building.</string>
+    <string name="TourInstructions">Once you are there, click the button below to start your tour. \n\n The black route is a suggested route of a tour around campus. Using your GPS position (the blue marker), follow the route, and click on the markers twice to get more information about each building.</string>
     <string name="title_activity_location21">location21</string>
+    <string name="title_activity_about">About</string>
 
 
 </resources>

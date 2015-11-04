@@ -61,7 +61,7 @@
             android:id="@+id/Chernoff"
             style="@style/Type2"
             android:background="@drawable/button_building"
-            android:textSize="@dimen/building_button_text_size"
+            android:textSize="16sp"
             android:layout_margin="5dp"
             />
 
@@ -166,7 +166,7 @@
             android:id="@+id/Mclaughlin"
             style="@style/Type2"
             android:background="@drawable/button_building"
-            android:textSize="@dimen/building_button_text_size"
+            android:textSize="14sp"
             android:layout_margin="5dp" />
 
         <Button

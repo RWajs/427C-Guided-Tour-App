@@ -1,5 +1,6 @@
 package com.example.ryan.queensutour;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
@@ -35,10 +36,11 @@ public class location21 extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_about) {
+            Intent intent = new Intent(location21.this,About.class);
+            startActivityForResult(intent,0);
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 }

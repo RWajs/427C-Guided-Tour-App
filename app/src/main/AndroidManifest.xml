@@ -223,6 +223,11 @@
             android:name=".location21"
             android:label="@string/title_activity_location21" >
         </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+
     </application>
 
 </manifest>

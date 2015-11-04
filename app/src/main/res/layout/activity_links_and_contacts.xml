@@ -147,6 +147,34 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Undergraduate Admissions Office"
+
+            style="@style/SubTitleContactsPage" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: admission@queensu.ca"
+            style="@style/PersonContactsPage" android:autoLink="email"
+            android:textColorLink="@android:color/holo_blue_light"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: 613-533-2218 \nHours of Operation:\nMon - Tues (8:30 AM - 4:30 PM)\nWed (10:00 AM - 4:30 PM)\nThurs - Fri (8:30 AM - 4:30 PM)"
+
+            style="@style/InformationContactsPage"
+            android:autoLink="phone"
+            android:textColorLink="@android:color/holo_blue_light"/>
+
+        <Space
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="@string/Useful"
             android:id="@+id/Useful"
             style="@style/SubTitleContactsPage" />
