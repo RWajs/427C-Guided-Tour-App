@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Queen\'s Tour</string>
+    <string name="app_name">QEng Tour</string>
     <string name="line1">Welcome to the Queen\'s University Tour! To get started, tap the \'Take the Tour\' button!</string>
     <string name="action_settings">Settings</string>
     <string name="button1">Take the Tour</string>
