@@ -22,7 +22,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:textSize="35sp"
-        android:gravity="center_horizontal" />
+        android:gravity="center_horizontal"
+        />
 
         <Space
             android:layout_width="fill_parent"
@@ -51,7 +52,8 @@
             android:id="@+id/Benidickson"
             android:layout_weight="1"
             android:textSize="@dimen/building_button_text_size"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="fill_parent"
@@ -62,7 +64,8 @@
             android:background="@drawable/button_building"
             android:layout_weight="1"
             android:textSize="@dimen/building_button_text_size"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:textAllCaps="false"/>
 
 
     </LinearLayout>
@@ -87,7 +90,8 @@
             android:background="@drawable/button_building"
             android:textSize="@dimen/building_button_text_size"
             android:layout_margin="5dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="fill_parent"
@@ -98,7 +102,8 @@
             android:background="@drawable/button_building"
             android:layout_weight="1"
             android:textSize="@dimen/building_button_text_size"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:textAllCaps="false"/>
 
 
     </LinearLayout>
@@ -124,7 +129,8 @@
             android:background="@drawable/button_building"
             android:layout_weight="1"
             android:textSize="@dimen/building_button_text_size"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:textAllCaps="false"/>
 
 
 

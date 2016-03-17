@@ -51,7 +51,8 @@
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:textSize="@dimen/building_button_text_size"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="fill_parent"
@@ -63,6 +64,7 @@
             android:background="@drawable/button_building"
             android:textSize="16sp"
             android:layout_margin="5dp"
+            android:textAllCaps="false"
             />
 
 
@@ -77,7 +79,8 @@
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:textSize="@dimen/building_button_text_size"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:textAllCaps="false"/>
 
     </LinearLayout>
 
@@ -100,7 +103,8 @@
             android:background="@drawable/button_building"
             android:id="@+id/Ellis"
             android:textSize="@dimen/building_button_text_size"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="fill_parent"
@@ -111,7 +115,8 @@
             android:background="@drawable/button_building"
             android:id="@+id/Goodwin"
             android:textSize="@dimen/building_button_text_size"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="fill_parent"
@@ -122,7 +127,8 @@
             android:background="@drawable/button_building"
             android:id="@+id/ILC"
             android:textSize="@dimen/building_button_text_size"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:textAllCaps="false"/>
 
 
     </LinearLayout>
@@ -146,7 +152,8 @@
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:textSize="@dimen/building_button_text_size"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="fill_parent"
@@ -157,7 +164,8 @@
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:textSize="14sp"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="fill_parent"
@@ -165,7 +173,7 @@
             android:layout_weight="1"
             android:text="Miller\nHall"
             style="@style/Type2"
-
+            android:textAllCaps="false"
             android:background="@drawable/button_building"
             android:id="@+id/Miller"
             android:textSize="@dimen/building_button_text_size"
@@ -194,7 +202,8 @@
             android:background="@drawable/button_building"
             android:layout_weight="1"
             android:textSize="@dimen/building_button_text_size"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:textAllCaps="false"/>
 
 
         <Button
@@ -206,7 +215,8 @@
             android:background="@drawable/button_building"
             android:id="@+id/Stirling"
             android:textSize="@dimen/building_button_text_size"
-            android:layout_margin="5dp" />
+            android:layout_margin="5dp"
+            android:textAllCaps="false"/>
 
         <Button
             android:layout_width="100dp"
@@ -217,7 +227,8 @@
             style="@style/Type2"
             android:background="@drawable/button_building"
             android:textSize="@dimen/building_button_text_size"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:textAllCaps="false"/>
 
 
 

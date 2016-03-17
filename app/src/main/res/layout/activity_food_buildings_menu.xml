@@ -48,7 +48,8 @@ android:layout_height="fill_parent"
         android:id="@+id/Ban"
         android:textSize="@dimen/building_button_text_size"
         android:layout_margin="5dp"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:textAllCaps="false"/>
 
 
 </LinearLayout>
@@ -71,7 +72,8 @@ android:layout_height="fill_parent"
         style="@style/Type2"
         android:background="@drawable/button_building"
         android:textSize="@dimen/building_button_text_size"
-        android:layout_margin="5dp" />
+        android:layout_margin="5dp"
+        android:textAllCaps="false"/>
 
 
 
@@ -98,7 +100,8 @@ android:layout_height="fill_parent"
         style="@style/Type2"
         android:background="@drawable/button_building"
         android:textSize="@dimen/building_button_text_size"
-        android:layout_margin="5dp" />
+        android:layout_margin="5dp"
+        android:textAllCaps="false"/>
 
 
 
@@ -123,7 +126,8 @@ android:layout_height="fill_parent"
                     android:background="@drawable/button_building"
                     android:layout_weight="1"
                     android:textSize="@dimen/building_button_text_size"
-                    android:layout_margin="5dp" />
+                    android:layout_margin="5dp"
+                    android:textAllCaps="false"/>
 
 
 
